@@ -1,0 +1,9 @@
+<stack>
+  <description brief="cob_environments">cob_environments</description>
+  <author>Maintained by Florian Weisshardt</author>
+  <license>LGPL</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/cob_environments</url>
+  <depend stack="ros" />
+
+</stack>
