@@ -5,5 +5,6 @@
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/cob_environments</url>
   <depend stack="ros" />
+  <depend stack="ros_comm" /> <!-- rostest -->
 
 </stack>
