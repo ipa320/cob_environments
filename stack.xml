@@ -1,10 +1,18 @@
 <stack>
-  <description brief="cob_environments">cob_environments</description>
+  <description brief="cob_environments">
+
+    This stack holds packages for IPA default environment configuration.
+
+  </description>
   <author>Maintained by Florian Weisshardt</author>
   <license>LGPL</license>  
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/cob_environments</url>
+  <depend stack="robot_model" /> <!-- convex_decomposition, ivcon -->
   <depend stack="ros" />
   <depend stack="ros_comm" /> <!-- rostest -->
+  <depend stack="simulator_gazebo" /> <!-- gazebo_tools, gazebo, gazebo_plugins -->
+  <depend stack="visualization_common" /> <!-- ogre_tools -->
+  <depend stack="xacro" /> <!-- xacro -->
 
 </stack>
