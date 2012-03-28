@@ -1,0 +1,4 @@
+buttons: [[regal_pre,move,regal_pre],
+  [regal,move,regal],
+  [spawn,move,spawn],
+  [workplace,move,workplace]]
