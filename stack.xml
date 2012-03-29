@@ -1,5 +1,9 @@
 <stack>
-  <description brief="cob_environments">cob_environments</description>
+  <description brief="cob_environments">
+
+    This stack holds packages for IPA default environment configuration.
+
+  </description>
   <author>Maintained by Florian Weisshardt</author>
   <license>LGPL</license>  
   <review status="unreviewed" notes=""/>
