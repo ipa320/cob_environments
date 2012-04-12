@@ -31,3 +31,4 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 # rostest
 rosbuild_add_roslaunch_check(upload_param.launch ROBOT_ENV=ipa-kitchen)
+rosbuild_add_roslaunch_check(upload_param.launch ROBOT_ENV=ipa-apartment)
