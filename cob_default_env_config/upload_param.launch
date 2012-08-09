@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 
-	<arg name="robot_env" default="$(env ROBOT_ENV)"/>
+	<arg name="robot_env" default="$(optenv ROBOT_ENV)"/>
 
 	<!-- send ROBOT_ENV parameters to parameter server -->
 	<rosparam command="load" ns="/script_server/base" file="$(find cob_default_env_config)/$(arg robot_env)/navigation_goals.yaml"/>
