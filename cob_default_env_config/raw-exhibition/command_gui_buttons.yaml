@@ -1,4 +1,5 @@
-buttons: [[regal_pre,move,regal_pre],
-  [regal,move,regal],
+buttons: [[home, move, home],
+  [pre_rack,move,pre_rack],
+  [rack,move,rack],
   [spawn,move,spawn],
   [workplace,move,workplace]]
