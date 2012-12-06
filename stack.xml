@@ -9,8 +9,6 @@
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/cob_environments</url>
   <depend stack="cob_common" /> <!-- cob_description -->
-  <depend stack="pr2_controllers" /> <!-- joint_trajectory_action -->
-  <depend stack="pr2_mechanism" /> <!-- pr2_controller_manager -->
   <depend stack="robot_model" /> <!-- convex_decomposition, ivcon, urdf, robot_state_publisher -->
   <depend stack="robot_model_visualization" /> <!-- joint_state_publisher -->
   <depend stack="ros" />
