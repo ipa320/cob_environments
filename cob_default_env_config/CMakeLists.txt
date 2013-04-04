@@ -30,7 +30,19 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 #target_link_libraries(example ${PROJECT_NAME})
 
 # rostest
+
+# ipa-kitchen
 rosbuild_add_roslaunch_check(upload_param.launch robot_env:=ipa-kitchen)
-rosbuild_add_roslaunch_check(upload_param.launch robot_env:=ipa-apartment)
 rosbuild_add_roslaunch_check(upload_param.launch ROBOT_ENV=ipa-kitchen)
+
+# ipa-apartment
+rosbuild_add_roslaunch_check(upload_param.launch robot_env:=ipa-apartment)
 rosbuild_add_roslaunch_check(upload_param.launch ROBOT_ENV=ipa-apartment)
+
+# ipa-factory
+rosbuild_add_roslaunch_check(upload_param.launch robot_env:=ipa-factory)
+rosbuild_add_roslaunch_check(upload_param.launch ROBOT_ENV=ipa-factory)
+
+# ipa-maze
+rosbuild_add_roslaunch_check(upload_param.launch robot_env:=ipa-maze)
+rosbuild_add_roslaunch_check(upload_param.launch ROBOT_ENV=ipa-maze)
