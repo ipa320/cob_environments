@@ -1,0 +1,5 @@
+buttons: [[home,move,home_pos],
+  [demo,move,demo_pos],
+  [mimro,move,mimro_pos],
+  [kitchen,move,kitchen_pos],
+  [office,move,office_pos]]
