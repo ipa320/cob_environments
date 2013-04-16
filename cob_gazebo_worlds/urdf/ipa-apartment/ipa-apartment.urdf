@@ -10,10 +10,10 @@
   <material name="Green">
     <color rgba="0.0 0.8 0.0 1.0"/>
   </material>
-  <material name="Grey">
+  <material name="IPA/Grey">
     <color rgba="0.7 0.7 0.7 1.0"/>
   </material>
-  <material name="Grey2">
+  <material name="IPA/Grey2">
     <color rgba="0.81 0.81 0.81 1.0"/>
   </material>
   <material name="Red">
@@ -85,7 +85,7 @@
       <geometry>
         <box size="0.04 1.8 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -113,7 +113,7 @@
       <geometry>
         <box size="1.8 0.04 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -141,7 +141,7 @@
       <geometry>
         <box size="0.04 7.4 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -169,7 +169,7 @@
       <geometry>
         <box size="0.06 6 0.92"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -221,7 +221,7 @@
       <geometry>
         <box size="0.06 4.16 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -249,7 +249,7 @@
       <geometry>
         <box size=" 8.2 0.15 0.92"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -277,7 +277,7 @@
       <geometry>
         <box size="0.06 4.7 0.92"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -305,7 +305,7 @@
       <geometry>
         <box size=" 0.15 1.6 0.92"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -333,7 +333,7 @@
       <geometry>
         <box size="0.15 1.55 0.92"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -361,7 +361,7 @@
       <geometry>
         <box size="0.06 4.7 0.92"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -389,7 +389,7 @@
       <geometry>
         <box size=" 8.2 0.15 0.92"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -417,7 +417,7 @@
       <geometry>
         <box size="0.06 4.7 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -445,7 +445,7 @@
       <geometry>
         <box size="0.06 1.9 0.92"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -553,7 +553,7 @@
       <geometry>
         <box size="2.1 0.04 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -581,7 +581,7 @@
       <geometry>
         <box size="0.04 1.73 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -609,7 +609,7 @@
       <geometry>
         <box size="0.04 1.73 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -637,7 +637,7 @@
       <geometry>
         <box size="2.34 0.04 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -665,7 +665,7 @@
       <geometry>
         <box size="2.34 0.04 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -693,7 +693,7 @@
       <geometry>
         <box size="0.04 2.1 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -721,7 +721,7 @@
       <geometry>
         <box size="1.73 0.04 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -749,7 +749,7 @@
       <geometry>
         <box size="1.73 0.04 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -777,7 +777,7 @@
       <geometry>
         <box size="0.04 2.34 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -805,7 +805,7 @@
       <geometry>
         <box size="0.04 2.34 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -833,7 +833,7 @@
       <geometry>
         <box size="0.04 6.6 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -861,7 +861,7 @@
       <geometry>
         <box size="0.04 6.6 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -913,7 +913,7 @@
       <geometry>
         <box size="4.65 0.06 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -941,7 +941,7 @@
       <geometry>
         <box size="4.65 0.06 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -969,7 +969,7 @@
       <geometry>
         <box size="0.06 8.2 1.4"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -997,7 +997,7 @@
       <geometry>
         <box size="0.06 8.2 1.4"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1025,7 +1025,7 @@
       <geometry>
         <box size="11.2 0.06 1.4"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1053,7 +1053,7 @@
       <geometry>
         <box size="0.06 4.51 1.4"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1081,7 +1081,7 @@
       <geometry>
         <box size="0.06 1.23 1.4"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1109,7 +1109,7 @@
       <geometry>
         <box size="0.06 4.01 1.4"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1137,7 +1137,7 @@
       <geometry>
         <box size="0.06 1.73 1.4"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1165,7 +1165,7 @@
       <geometry>
         <box size="4.5 0.06 1.4"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1193,7 +1193,7 @@
       <geometry>
         <box size="4.5 0.06 1.4"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1245,7 +1245,7 @@
       <geometry>
         <box size="0.04 0.87 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1283,7 +1283,7 @@
       <geometry>
         <box size="2.4 0.04 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1311,7 +1311,7 @@
       <geometry>
         <box size="2.4 0.04 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1339,7 +1339,7 @@
       <geometry>
         <box size="0.04 0.87 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1404,7 +1404,7 @@
       <geometry>
         <box size="2.4 0.04 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1432,7 +1432,7 @@
       <geometry>
         <box size="2.4 0.04 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1460,7 +1460,7 @@
       <geometry>
         <box size="0.04 0.87 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1577,7 +1577,7 @@
       <geometry>
         <box size="0.04 1.74 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1605,7 +1605,7 @@
       <geometry>
         <box size="0.04 1.74 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1633,7 +1633,7 @@
       <geometry>
         <box size="0.04 1.3 2"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
@@ -1851,7 +1851,7 @@
       <geometry>
         <box size="0.77 0.10 2.40"/>
       </geometry>
-      <material name="Grey"/>
+      <material name="IPA/Grey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0"/>

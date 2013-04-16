@@ -69,9 +69,9 @@
     <shadows>false</shadows>
   </rendering:ogre>
 
-<!-- ground plane -->
+  <!-- ground plane -->
   <model:physical name="gplane">
-    <xyz>-0.091 1.321 -1.01</xyz>
+    <xyz>-0.091 1.321 0.0</xyz>
     <rpy>0 0 0</rpy>
     <static>true</static>
 	
@@ -87,15 +87,55 @@
 
 	<!-- floor_kitchen -->
         <visual>
-	  <xyz>0 0 0</xyz>
-          <size>7 7 0.01</size>
+	  <xyz>2.069 -1.77 0.00</xyz>
+          <size>8.2 4.35 0.01</size>
           <material>floor_kitchen</material>
+          <mesh>unit_box</mesh>
+        </visual>
+
+	<!-- floor_carpet_studentArea -->
+	<visual>
+	  <xyz>2.7 -7.5 0.00</xyz>
+          <size>9.5 7.12 0.01</size>
+          <material>carpet_studentArea</material>
+          <mesh>unit_box</mesh>
+        </visual>
+
+	<!-- floor_carpet_allOtherRooms -->
+	<visual>
+	  <xyz>-12.7 1.00 0.00</xyz>
+          <size>21.3 25 0.01</size>
+          <material>carpet_allOtherRooms</material>
           <mesh>unit_box</mesh>
         </visual>
 	
       </geom:plane>
     </body:plane>
   </model:physical>
+
+
+  <!--model:physical name="gplane">
+    <xyz>-0.091 1.321 -0.01</xyz>
+    <rpy>0 0 0</rpy>
+    <static>true</static>
+
+    <body:plane name="plane">
+      <geom:plane name="plane">
+        <laserRetro>2000.0</laserRetro>
+        <kp>1000000.0</kp>
+        <kd>1.0</kd>
+        <normal>0 0 1</normal>
+        <size>50.0 50.0</size>
+        <material>IPA/Grey2</material>
+        <visual>
+          <size>30.0 30.0 0.01</size>
+          <material>IPA/Grey2</material>
+          <mesh>unit_box</mesh>
+        </visual>
+      </geom:plane>
+    </body:plane>
+  </model:physical-->
+
 
 <!-- boden_kueche 
  <model:physical name="gplane2">
@@ -204,5 +244,7 @@
       <range>1000</range>
     </light>
   </model:renderable>
-
+<gazebo>
+	<static>true</static>
+</gazebo>
 </gazebo:world>

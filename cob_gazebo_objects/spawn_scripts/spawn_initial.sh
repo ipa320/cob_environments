@@ -8,7 +8,7 @@ export ROBOT_ENV=ipa-apartment
 #rosservice call gazebo/pause_physics
 
 #! load object names and positions
-roslaunch cob_gazebo_objects upload_object_locations_initial.launch
+roslaunch cob_default_env_config upload_object_locations_initial.launch
 
 #! KITCHEN______________________________________________________________
 

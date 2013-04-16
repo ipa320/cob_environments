@@ -44,7 +44,7 @@
 			<geometry>
 				<box size="2.1 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -78,7 +78,7 @@
 			<geometry>
 				<box size="2.2 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -110,7 +110,7 @@
 			<geometry>
 				<box size="${wall_depth} 1.73 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -142,7 +142,7 @@
 			<geometry>
 				<box size="${wall_depth} 1.73 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -173,7 +173,7 @@
 			<geometry>
 				<box size="1.25 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -204,7 +204,7 @@
 			<geometry>
 				<box size="1.25 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -239,7 +239,7 @@
 			<geometry>
 				<box size="${wall_depth} 2.1 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -273,7 +273,7 @@
 			<geometry>
 				<box size="${wall_depth} 2.3 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -305,7 +305,7 @@
 			<geometry>
 				<box size="1.73 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -337,7 +337,7 @@
 			<geometry>
 				<box size="1.73 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -368,7 +368,7 @@
 			<geometry>
 				<box size="${wall_depth} 1.30 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -399,7 +399,7 @@
 			<geometry>
 				<box size="${wall_depth} 1.30 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -430,7 +430,7 @@
 			<geometry>
 				<box size="${wall_depth} 6.6 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -462,7 +462,7 @@
 			<geometry>
 				<box size="${wall_depth} 6.6 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -495,7 +495,7 @@
 			<geometry>
 				<box size="${wall_depth} 6.6 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -528,7 +528,7 @@
 			<geometry>
 				<box size="${wall_depth} 1.8 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -561,7 +561,7 @@
 			<geometry>
 				<box size="1.8 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -592,7 +592,7 @@
 			<geometry>
 				<box size="${wall_depth} 6.75 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -624,7 +624,7 @@
 			<geometry>
 				<box size="0.06 6.00 ${size_z_wall2}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -655,7 +655,7 @@
 			<geometry>
 				<box size="1.2 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -686,7 +686,7 @@
 			<geometry>
 				<box size="1.99 0.06 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -718,7 +718,7 @@
 			<geometry>
 				<box size="${wall_depth} 1.1 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -750,7 +750,7 @@
 			<geometry>
 				<box size="${wall_depth} 0.23 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -782,7 +782,7 @@
 			<geometry>
 				<box size="0.35 0.35 ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />

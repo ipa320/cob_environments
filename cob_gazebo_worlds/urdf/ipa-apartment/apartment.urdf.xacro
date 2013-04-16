@@ -18,7 +18,7 @@
 			<geometry>
 				<box size="${wall_depth} ${size_d+0.18+0.35} ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -50,7 +50,7 @@
 			<geometry>
 				<box size=" ${size_b} 0.001 0.90" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -82,7 +82,7 @@
 			<geometry>
 				<box size=" ${size_b} 0.35 0.90" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -114,7 +114,7 @@
 			<geometry>
 				<box size="0.02 0.35 2.70" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -147,7 +147,7 @@
 			<geometry>
 				<box size=" ${size_b} ${window_depth} 1.80" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -180,7 +180,7 @@
 			<geometry>
 				<box size="${wall_depth} ${size_a+0.35} ${size_z_wall2}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -212,7 +212,7 @@
 			<geometry>
 				<box size=" ${window_depth} 1.4 ${size_z_wall2}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -244,7 +244,7 @@
 			<geometry>
 				<box size="${window_depth} 1.6 ${size_z_wall2}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -276,7 +276,7 @@
 			<geometry>
 				<box size="${wall_depth} ${size_a} ${size_z_wall2}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -310,7 +310,7 @@
 			<geometry>
 				<box size=" ${size_b} ${window_depth} ${size_z_wall2}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -342,7 +342,7 @@
 			<geometry>
 				<box size="${wall_depth} ${size_a} ${size_z_wall1}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -375,7 +375,7 @@
 			<geometry>
 				<box size="${wall_depth} 1.9 ${size_z_wall2}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -408,7 +408,7 @@
 			<geometry>
 				<box size=" ${size_b-0.1} 0.02 ${size_z_wall2}" />
 			</geometry>
-			<material name="Grey"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -428,8 +428,8 @@
 		<child link="wall_09" />
 	</joint>
 
-	<!-- glas_00 -->
-	<link name="glas_00">
+	<!-- glass_00 -->
+	<link name="glass_00">
 		<inertial>
 			<origin xyz="0 0 0" />
 			<mass value="5.0" />
@@ -440,7 +440,7 @@
 			<geometry>
 				<box size="0.02 0.62 ${size_z_wall1}" />
 			</geometry>
-			<material name="Transparent"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -450,18 +450,18 @@
 		</collision>
 	</link>
 
-	<gazebo reference="glas_00">
+	<gazebo reference="glass_00">
 		<material>IPA/Wall2</material>
 	</gazebo>
 
-	<joint name="joint_glas_00" type="fixed">
+	<joint name="joint_glass_00" type="fixed">
 		<origin xyz="${-size_total_x/2+dist_axis_x-wall_depth} ${1.23-dist_axis_y-0.09} ${size_z_wall1/2}" rpy="0 0 0" />
 		<parent link="dummy_link" />
-		<child link="glas_00" />
+		<child link="glass_00" />
 	</joint>
 
-<!-- glas_00_aluminium_part -->
-	<link name="glas_00_aluminium_part">
+<!-- glass_00_aluminium_part -->
+	<link name="glass_00_aluminium_part">
 		<inertial>
 			<origin xyz="0 0 0" />
 			<mass value="5.0" />
@@ -472,7 +472,7 @@
 			<geometry>
 				<box size="0.03 0.62 0.10" />
 			</geometry>
-			<material name="Transparent"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -482,18 +482,18 @@
 		</collision>
 	</link>
 
-	<gazebo reference="glas_00_aluminium_part">
+	<gazebo reference="glass_00_aluminium_part">
 		<material>aluminium</material>
 	</gazebo>
 
-	<joint name="joint_glas_00_aluminium_part" type="fixed">
+	<joint name="joint_glass_00_aluminium_part" type="fixed">
 		<origin xyz="${-size_total_x/2+dist_axis_x-wall_depth} ${1.23-dist_axis_y-0.09} 0.05" rpy="0 0 0" />
 		<parent link="dummy_link" />
-		<child link="glas_00_aluminium_part" />
+		<child link="glass_00_aluminium_part" />
 	</joint>
 
-	<!-- glas_01 -->
-	<link name="glas_01">
+	<!-- glass_01 -->
+	<link name="glass_01">
 		<inertial>
 			<origin xyz="0 0 0" />
 			<mass value="5.0" />
@@ -504,7 +504,7 @@
 			<geometry>
 				<box size="0.02 0.92 ${size_z_wall1}" />
 			</geometry>
-			<material name="Transparent"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -513,18 +513,18 @@
 			</geometry>
 		</collision>
 	</link>
-	<gazebo reference="glas_01">
+	<gazebo reference="glass_01">
 		<material>IPA/Wall2</material>
 	</gazebo>
 
-	<joint name="joint_glas_01" type="fixed">
+	<joint name="joint_glass_01" type="fixed">
 		<origin xyz="${-size_total_x/2+dist_axis_x-wall_depth} ${-0.68-dist_axis_y} ${size_z_wall1/2}" rpy="0 0 0" />
 		<parent link="dummy_link" />
-		<child link="glas_01" />
+		<child link="glass_01" />
 	</joint>
 
-<!-- glas_01_aluminium_part -->
-	<link name="glas_01_aluminium_part">
+<!-- glass_01_aluminium_part -->
+	<link name="glass_01_aluminium_part">
 		<inertial>
 			<origin xyz="0 0 0" />
 			<mass value="5.0" />
@@ -535,7 +535,7 @@
 			<geometry>
 				<box size="0.03 0.92 0.10" />
 			</geometry>
-			<material name="Transparent"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -544,18 +544,18 @@
 			</geometry>
 		</collision>
 	</link>
-	<gazebo reference="glas_01_aluminium_part">
+	<gazebo reference="glass_01_aluminium_part">
 		<material>aluminium</material>
 	</gazebo>
 
-	<joint name="joint_glas_01_aluminium_part" type="fixed">
+	<joint name="joint_glass_01_aluminium_part" type="fixed">
 		<origin xyz="${-size_total_x/2+dist_axis_x-wall_depth} ${-0.68-dist_axis_y} 0.05" rpy="0 0 0" />
 		<parent link="dummy_link" />
-		<child link="glas_01_aluminium_part" />
+		<child link="glass_01_aluminium_part" />
 	</joint>
 
-	<!-- glasdoor -->
-	<link name="glasdoor">
+	<!-- glassdoor -->
+	<link name="glassdoor">
 		<inertial>
 			<origin xyz="0 0 0" />
 			<mass value="5.0" />
@@ -566,7 +566,7 @@
 			<geometry>
 				<box size="1.00 0.02 ${size_z_wall1}" />
 			</geometry>
-			<material name="Transparent"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -575,18 +575,18 @@
 			</geometry>
 		</collision>
 	</link>
-	<gazebo reference="glasdoor">
+	<gazebo reference="glassdoor">
 		<material>IPA/Wall2</material>
 	</gazebo>
 
-	<joint name="glasdoor" type="fixed">
+	<joint name="glassdoor" type="fixed">
 		<origin xyz="-2.63 -4.27 ${size_z_wall1/2}" rpy="0 0 0" />
 		<parent link="dummy_link" />
-		<child link="glasdoor" />
+		<child link="glassdoor" />
 	</joint>
 
-	<!-- glasdoor_aluminum_part -->
-	<link name="glasdoor_aluminum_part">
+	<!-- glassdoor_aluminum_part -->
+	<link name="glassdoor_aluminum_part">
 		<inertial>
 			<origin xyz="0 0 0" />
 			<mass value="5.0" />
@@ -597,7 +597,7 @@
 			<geometry>
 				<box size="1.00 0.03 0.10" />
 			</geometry>
-			<material name="Transparent"/>
+			<material name="IPA/Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -606,14 +606,14 @@
 			</geometry>
 		</collision>
 	</link>
-	<gazebo reference="glasdoor_aluminum_part">
+	<gazebo reference="glassdoor_aluminum_part">
 		<material>aluminium</material>
 	</gazebo>
 
-	<joint name="glasdoor_aluminum_part" type="fixed">
+	<joint name="glassdoor_aluminum_part" type="fixed">
 		<origin xyz="-2.63 -4.27 0.05" rpy="0 0 0" />
 		<parent link="dummy_link" />
-		<child link="glasdoor_aluminum_part" />
+		<child link="glassdoor_aluminum_part" />
 	</joint>
 
         </xacro:macro>
