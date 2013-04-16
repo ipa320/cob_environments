@@ -19,7 +19,7 @@
 			<geometry>
 				<box size="1.15 0.55 2.40" />
 			</geometry>
-			<material name="IPA/LightBlue"/>
+			<material name="LightBlue"/>
 		</visual>
 
 		<collision>
@@ -31,7 +31,7 @@
 	</link>
 
 	<gazebo reference="cabinet1">
-		<material>IPA/CabinetBlue</material>
+		<material>cabinet_blue</material>
 	</gazebo>
 
 	<joint name="joint_cabinet1" type="fixed">
@@ -52,7 +52,7 @@
 			<geometry>
 				<box size="1.15 0.55 2.40" />
 			</geometry>
-			<material name="IPA/LightBlue"/>
+			<material name="LightBlue"/>
 		</visual>
 
 		<collision>
@@ -64,7 +64,7 @@
 	</link>
 
 	<gazebo reference="cabinet2">
-		<material>IPA/CabinetBlue</material>
+		<material>cabinet_blue</material>
 	</gazebo>
 
 	<joint name="joint_cabinet2" type="fixed">
@@ -84,7 +84,7 @@
 			<geometry>
 				<box size="1.15 0.55 2.40" />
 			</geometry>
-			<material name="IPA/LightBlue"/>
+			<material name="LightBlue"/>
 		</visual>
 
 		<collision>
@@ -96,7 +96,7 @@
 	</link>
 
 	<gazebo reference="cabinet3">
-		<material>IPA/CabinetBlue</material>
+		<material>cabinet_blue</material>
 	</gazebo>
 
 	<joint name="joint_cabinet3" type="fixed">
@@ -116,7 +116,7 @@
 			<geometry>
 				<box size="0.36 0.36 ${size_z_wall1}" />
 			</geometry>
-			<material name="IPA/LightBlue"/>
+			<material name="LightBlue"/>
 		</visual>
 
 		<collision>
@@ -128,7 +128,7 @@
 	</link>
 
 	<gazebo reference="column">
-		<material>IPA/WallApartment</material>
+		<material>wall_floor_12</material>
 	</gazebo>
 
 	<joint name="joint_column" type="fixed">
@@ -139,5 +139,7 @@
 
 
         </xacro:macro>
-
+<gazebo>
+	<static>true</static>
+</gazebo>
 </robot>

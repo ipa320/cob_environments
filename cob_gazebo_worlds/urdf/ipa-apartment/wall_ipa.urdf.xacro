@@ -17,7 +17,7 @@
 			<geometry>
 				<box size="0.77 0.10 2.40" />
 			</geometry>
-			<material name="IPA/Grey"/>
+			<material name="Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -41,5 +41,7 @@
 
 
         </xacro:macro>
-
+<gazebo>
+	<static>true</static>
+</gazebo>
 </robot>

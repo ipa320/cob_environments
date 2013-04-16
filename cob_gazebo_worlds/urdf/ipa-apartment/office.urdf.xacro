@@ -43,24 +43,24 @@
 		<visual>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="4.65 ${wall_depth} ${size_z_wall1}" />
+				<box size="2.8 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
-			<material name="IPA/Grey"/>
+			<material name="Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="4.65 ${wall_depth} ${size_z_wall1}" />
+				<box size="2.8 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
 		</collision>
 	</link>
 
 	<gazebo reference="wall_office_00">
-		<material>IPA/WallApartment</material>
+		<material>livingroom_wall_lights</material>
 	</gazebo>
 
 	<joint name="joint_wall_office_00" type="fixed">
-		<origin xyz="3.25 -4.15 ${size_z_wall1/2}" rpy="0 0 0" />
+		<origin xyz="4.25 -4.15 ${size_z_wall1/2}" rpy="0 0 0" />
 		<parent link="origin_office" />
 		<child link="wall_office_00" />
 	</joint>
@@ -75,30 +75,30 @@
 		<visual>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="4.65 ${wall_depth} ${size_z_wall1}" />
+				<box size="4.4 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
-			<material name="IPA/Grey"/>
+			<material name="Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="4.65 ${wall_depth} ${size_z_wall1}" />
+				<box size="4.4 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
 		</collision>
 	</link>
 
 	<gazebo reference="wall_office_01">
-		<material>IPA/WallApartment</material>
+		<material>wall_floor_11</material>
 	</gazebo>
 
 	<joint name="joint_wall_office_01" type="fixed">
-		<origin xyz="-3.25 -4.15 ${size_z_wall1/2}" rpy="0 0 0" />
+		<origin xyz="-3.25 -4.22 ${size_z_wall1/2}" rpy="0 0 0" />
 		<parent link="origin_office" />
 		<child link="wall_office_01" />
 	</joint>
 
 
-	<!-- wall_office_02 -->
+	<!-- wall_office_02 
 	<link name="wall_office_02">
 		<inertial>
 			<origin xyz="0 0 0" />
@@ -108,14 +108,14 @@
 		<visual>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="${wall_depth} 8.2 ${size_z_wall2}" />
+				<box size="0.26 5.3 ${size_z_wall2}" />
 			</geometry>
-			<material name="IPA/Grey"/>
+			<material name="Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="${wall_depth} 8.2 ${size_z_wall2}" />
+				<box size="0.26 5.3 ${size_z_wall2}" />
 			</geometry>
 		</collision>
 	</link>
@@ -125,13 +125,13 @@
 	</gazebo>
 
 	<joint name="joint_wall_office_02" type="fixed">
-		<origin xyz="5.6 0 ${size_z_wall2/2}" rpy="0 0 0" />
+		<origin xyz="5.6 -1.35 ${size_z_wall2/2}" rpy="0 0 0" />
 		<parent link="origin_office" />
 		<child link="wall_office_02" />
 	</joint>
+-->
 
-
-	<!-- wall_office_03-->
+	<!-- wall_office_03
 	<link name="wall_office_03">
 		<inertial>
 			<origin xyz="0 0 0" />
@@ -143,7 +143,7 @@
 			<geometry>
 				<box size="${wall_depth} 8.2 ${size_z_wall2}" />
 			</geometry>
-			<material name="IPA/Grey"/>
+			<material name="Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -162,8 +162,8 @@
 		<parent link="origin_office" />
 		<child link="wall_office_03" />
 	</joint>
-
-	<!-- wall_04 -->
+-->
+	<!-- wall_04 
 	<link name="wall_office_04">
 		<inertial>
 			<origin xyz="0 0 0" />
@@ -173,28 +173,28 @@
 		<visual>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="11.2 ${wall_depth} ${size_z_wall2}" />
+				<box size="2.2 ${wall_depth} ${size_z_wall2}" />
 			</geometry>
-			<material name="IPA/Grey"/>
+			<material name="Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="11.2 ${wall_depth} ${size_z_wall2}" />
+				<box size="2.2 ${wall_depth} ${size_z_wall2}" />
 			</geometry>
 		</collision>
 	</link>
 
 	<gazebo reference="wall_office_04">
-		<material>IPA/WallApartment</material>
+		<material>wall_white</material>
 	</gazebo>
 
 	<joint name="joint_wall_office_04" type="fixed">
-		<origin xyz="0 4 ${size_z_wall2/2}" rpy="0 0 0" />
+		<origin xyz="-4 4 ${size_z_wall2/2}" rpy="0 0 0" />
 		<parent link="origin_office" />
 		<child link="wall_office_04" />
 	</joint>
-
+-->
 
 	<!-- wall_05 -->
 	<link name="wall_office_05">
@@ -206,24 +206,24 @@
 		<visual>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="${wall_depth} 4.51 ${size_z_wall1}" />
+				<box size="${wall_depth} 4.21 ${size_z_wall1}" />
 			</geometry>
-			<material name="IPA/Grey"/>
+			<material name="Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="${wall_depth} 4.51 ${size_z_wall1}" />
+				<box size="${wall_depth} 4.21 ${size_z_wall1}" />
 			</geometry>
 		</collision>
 	</link>
 
 	<gazebo reference="wall_office_05">
-		<material>IPA/WallApartment</material>
+		<material>wall_floor_05</material>
 	</gazebo>
 
 	<joint name="joint_wall_office_05" type="fixed">
-		<origin xyz="1.09 -0.615 ${size_z_wall1/2}" rpy="0 0 0" />
+		<origin xyz="0.95 -0.52 ${size_z_wall1/2}" rpy="0 0 0" />
 		<parent link="origin_office" />
 		<child link="wall_office_05" />
 	</joint>
@@ -238,24 +238,24 @@
 		<visual>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="${wall_depth} 1.23 ${size_z_wall1}" />
+				<box size="${wall_depth} 1.40 ${size_z_wall1}" />
 			</geometry>
-			<material name="IPA/Grey"/>
+			<material name="Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="${wall_depth} 1.23 ${size_z_wall1}" />
+				<box size="${wall_depth} 1.40 ${size_z_wall1}" />
 			</geometry>
 		</collision>
 	</link>
 
 	<gazebo reference="wall_office_06">
-		<material>IPA/WallApartment</material>
+		<material>wall_floor_06</material>
 	</gazebo>
 
 	<joint name="joint_wall_office_06" type="fixed">
-		<origin xyz="1.09 3.385 ${size_z_wall1/2}" rpy="0 0 0" />
+		<origin xyz="0.95 3.28 ${size_z_wall1/2}" rpy="0 0 0" />
 		<parent link="origin_office" />
 		<child link="wall_office_06" />
 	</joint>
@@ -271,24 +271,24 @@
 		<visual>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="${wall_depth} 4.01 ${size_z_wall1}" />
+				<box size="${wall_depth} 2.0 ${size_z_wall1}" />
 			</geometry>
-			<material name="IPA/Grey"/>
+			<material name="Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="${wall_depth} 4.01 ${size_z_wall1}" />
+				<box size="${wall_depth} 2.00 ${size_z_wall1}" />
 			</geometry>
 		</collision>
 	</link>
 
 	<gazebo reference="wall_office_07">
-		<material>IPA/WallApartment</material>
+		<material>wall_floor_07</material>
 	</gazebo>
 
 	<joint name="joint_wall_office_07" type="fixed">
-		<origin xyz="-1.09 2 ${size_z_wall1/2}" rpy="0 0 0" />
+		<origin xyz="-1.05 -1.85 ${size_z_wall1/2}" rpy="0 0 0" />
 		<parent link="origin_office" />
 		<child link="wall_office_07" />
 	</joint>
@@ -303,24 +303,24 @@
 		<visual>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="${wall_depth} 1.73 ${size_z_wall1}" />
+				<box size="${wall_depth} 0.3 ${size_z_wall1}" />
 			</geometry>
-			<material name="IPA/Grey"/>
+			<material name="Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="${wall_depth} 1.73 ${size_z_wall1}" />
+				<box size="${wall_depth} 0.3 ${size_z_wall1}" />
 			</geometry>
 		</collision>
 	</link>
 
 	<gazebo reference="wall_office_08">
-		<material>IPA/WallApartment</material>
+		<material>wall_floor_08</material>
 	</gazebo>
 
 	<joint name="joint_wall_office_08" type="fixed">
-		<origin xyz="-1.09 -2 ${size_z_wall1/2}" rpy="0 0 0" />
+		<origin xyz="-1.05 -4.115 ${size_z_wall1/2}" rpy="0 0 0" />
 		<parent link="origin_office" />
 		<child link="wall_office_08" />
 	</joint>
@@ -335,29 +335,29 @@
 		<visual>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="4.5 ${wall_depth} ${size_z_wall1}" />
+				<box size="4.53 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
-			<material name="IPA/Grey"/>
+			<material name="Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
 			<geometry>
-				<box size="4.5 ${wall_depth} ${size_z_wall1}" />
+				<box size="4.53 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
 		</collision>
 	</link>
 
 	<gazebo reference="wall_office_09">
-		<material>IPA/WallApartment</material>
+		<material>wall_bedroom1</material>
 	</gazebo>
 
 	<joint name="joint_wall_office_09" type="fixed">
-		<origin xyz="3.35 1.64 ${size_z_wall1/2}" rpy="0 0 0" />
+		<origin xyz="3.26 1.32 ${size_z_wall1/2}" rpy="0 0 0" />
 		<parent link="origin_office" />
 		<child link="wall_office_09" />
 	</joint>
     
-			<!-- wall_10 -->
+			<!-- wall_10 
 	<link name="wall_office_10">
 		<inertial>
 			<origin xyz="0 0 0" />
@@ -369,7 +369,7 @@
 			<geometry>
 				<box size="4.5 ${wall_depth} ${size_z_wall1}" />
 			</geometry>
-			<material name="IPA/Grey"/>
+			<material name="Grey"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -388,7 +388,430 @@
 		<parent link="origin_office" />
 		<child link="wall_office_10" />
 	</joint>
+-->
+
+<!-- wall_11 -->
+	<link name="wall_office_11">
+		<inertial>
+			<origin xyz="0 0 0" />
+			<mass value="5.0" />
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="${wall_depth} 3.80 ${size_z_wall1}" />
+			</geometry>
+			<material name="Grey"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="${wall_depth} 3.80 ${size_z_wall1}" />
+			</geometry>
+		</collision>
+	</link>
+
+	<gazebo reference="wall_office_11">
+		<material>wall_floor_11</material>
+	</gazebo>
+
+	<joint name="joint_wall_office_11" type="fixed">
+		<origin xyz="-1.05 2.11 ${size_z_wall1/2}" rpy="0 0 0" />
+		<parent link="origin_office" />
+		<child link="wall_office_11" />
+	</joint>
+
+<!-- wall_12 -->
+	<link name="wall_office_12">
+		<inertial>
+			<origin xyz="0 0 0" />
+			<mass value="5.0" />
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="${wall_depth} 0.52 ${size_z_wall1}" />
+			</geometry>
+			<material name="Grey"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="${wall_depth} 0.52 ${size_z_wall1}" />
+			</geometry>
+		</collision>
+	</link>
+
+	<gazebo reference="wall_office_12">
+		<material>wall_floor_12</material>
+	</gazebo>
+
+	<joint name="joint_wall_office_12" type="fixed">
+		<origin xyz="0.95 -3.94 ${size_z_wall1/2}" rpy="0 0 0" />
+		<parent link="origin_office" />
+		<child link="wall_office_12" />
+	</joint>
+
+<!-- wall_office_13 -->
+	<link name="wall_office_13">
+		<inertial>
+			<origin xyz="0 0 0" />
+			<mass value="5.0" />
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="0.001 2.6 0.90" />
+			</geometry>
+			<material name="Grey"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="0.001 2.6 0.90" />
+			</geometry>
+		</collision>
+	</link>
+
+	<gazebo reference="wall_office_13">
+		<material>bedroom_wall_with_heating</material>
+	</gazebo>
+
+	<joint name="joint_wall_office_13" type="fixed">
+		<origin xyz="5.52 2.65 0.45" rpy="0 0 0" />
+		<parent link="origin_office" />
+		<child link="wall_office_13" />
+	</joint>
+
+<!-- wall_office_13_part2 -->
+	<link name="wall_office_13_part2">
+		<inertial>
+			<origin xyz="0 0 0" />
+			<mass value="5.0" />
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="0.35 2.6 0.90" />
+			</geometry>
+			<material name="Grey"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="0.35 2.6 0.90" />
+			</geometry>
+		</collision>
+	</link>
+
+	<gazebo reference="wall_office_13_part2">
+		<material>bedroom_window_board</material>
+	</gazebo>
+
+	<joint name="joint_wall_office_13_part2" type="fixed">
+		<origin xyz="5.695 2.65 0.45" rpy="0 0 0" />
+		<parent link="origin_office" />
+		<child link="wall_office_13_part2" />
+	</joint>
+
+<!-- wall_office_13_part3 -->
+	<link name="wall_office_13_part3">
+		<inertial>
+			<origin xyz="0 0 0" />
+			<mass value="5.0" />
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="${window_depth} 2.6 1.80" />
+			</geometry>
+			<material name="Grey"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="${window_depth} 2.6 1.80" />
+			</geometry>
+		</collision>
+	</link>
+
+	<gazebo reference="wall_office_13_part3">
+		<material>bedroom_wall_with_windows</material>
+	</gazebo>
+
+	<joint name="joint_wall_office_13_part3" type="fixed">
+		<origin xyz="5.945 2.65 1.80" rpy="0 0 0" />
+		<parent link="origin_office" />
+		<child link="wall_office_13_part3" />
+	</joint>
+
+<!-- wall_office_13_part4 (little glas)-->
+	<link name="wall_office_13_part4">
+		<inertial>
+			<origin xyz="0 0 0" />
+			<mass value="5.0" />
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="0.35 0.02 1.80" />
+			</geometry>
+			<material name="Grey"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="0.35 0.02 1.80" />
+			</geometry>
+		</collision>
+	</link>
+
+	<gazebo reference="wall_office_13_part4">
+		<material>black</material>
+	</gazebo>
+
+	<joint name="joint_wall_office_13_part4" type="fixed">
+		<origin xyz="5.695 1.35 1.80" rpy="0 0 0" />
+		<parent link="origin_office" />
+		<child link="wall_office_13_part4" />
+	</joint>
+
+
+<!-- wall_office_14 -->
+	<link name="wall_office_14">
+		<inertial>
+			<origin xyz="0 0 0" />
+			<mass value="5.0" />
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="1.9 ${wall_depth} ${size_z_wall2}" />
+			</geometry>
+			<material name="Grey"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="1.9 ${wall_depth} ${size_z_wall2}" />
+			</geometry>
+		</collision>
+	</link>
+
+	<gazebo reference="wall_office_14">
+		<material>floor_window</material>
+	</gazebo>
+
+	<joint name="joint_wall_office_14" type="fixed">
+		<origin xyz="-0.05 4 ${size_z_wall2/2}" rpy="0 0 0" />
+		<parent link="origin_office" />
+		<child link="wall_office_14" />
+	</joint>
+
+<!-- wall_office_15 -->
+	<link name="wall_office_15">
+		<inertial>
+			<origin xyz="0 0 0" />
+			<mass value="5.0" />
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="5.0 ${wall_depth} ${size_z_wall2}" />
+			</geometry>
+			<material name="Grey"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="5.0 ${wall_depth} ${size_z_wall2}" />
+			</geometry>
+		</collision>
+	</link>
+
+	<gazebo reference="wall_office_15">
+		<material>wall_floor_15</material>
+	</gazebo>
+
+	<joint name="joint_wall_office_15" type="fixed">
+		<origin xyz="3.6 4 ${size_z_wall2/2}" rpy="0 0 0" />
+		<parent link="origin_office" />
+		<child link="wall_office_15" />
+	</joint>
+
+<!-- wall_office_16 -->
+	<link name="wall_office_16">
+		<inertial>
+			<origin xyz="0 0 0" />
+			<mass value="5.0" />
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="1.6 ${wall_depth} ${size_z_wall1}" />
+			</geometry>
+			<material name="Grey"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="1.6 ${wall_depth} ${size_z_wall1}" />
+			</geometry>
+		</collision>
+	</link>
+
+	<gazebo reference="wall_office_16">
+		<material>wall_floor_07</material>
+	</gazebo>
+
+	<joint name="joint_wall_office_16" type="fixed">
+		<origin xyz="2.00 -4.15 ${size_z_wall1/2}" rpy="0 0 0" />
+		<parent link="origin_office" />
+		<child link="wall_office_16" />
+	</joint>
+
+
+<!-- pillar_01 -->
+	<link name="pillar_01">
+		<inertial>
+			<origin xyz="0 0 0" />
+			<mass value="5.0" />
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="0.26 0.26 ${size_z_wall1}" />
+			</geometry>
+			<material name="Grey"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="0.26 0.26 ${size_z_wall1}" />
+			</geometry>
+		</collision>
+	</link>
+
+	<gazebo reference="pillar_01">
+		<material>wall_floor_08</material>
+	</gazebo>
+
+	<joint name="joint_pillar_01" type="fixed">
+		<origin xyz="1.10 3.85 ${size_z_wall1/2}" rpy="0 0 0" />
+		<parent link="origin_office" />
+		<child link="pillar_01" />
+	</joint>
+
+<!-- door_office_01 -->
+	<link name="door_office_01">
+		<inertial>
+			<origin xyz="0 0 0" />
+			<mass value="5.0" />
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="${wall_depth} 1.15 ${size_z_wall1}" />
+			</geometry>
+			<material name="Grey"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="${wall_depth} 1.15 ${size_z_wall1}" />
+			</geometry>
+		</collision>
+	</link>
+
+	<gazebo reference="door_office_01">
+		<material>door_floor</material>
+	</gazebo>
+
+	<joint name="joint_door_office_01" type="fixed">
+		<origin xyz="-1.08 -3.41 ${size_z_wall1/2}" rpy="0 0 0" />
+		<parent link="origin_office" />
+		<child link="door_office_01" />
+	</joint>
+
+<!-- door_office_02 -->
+	<link name="door_office_02">
+		<inertial>
+			<origin xyz="0 0 0" />
+			<mass value="5.0" />
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="${wall_depth} 1.08 ${size_z_wall1}" />
+			</geometry>
+			<material name="Grey"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="${wall_depth} 1.08 ${size_z_wall1}" />
+			</geometry>
+		</collision>
+	</link>
+
+	<gazebo reference="door_office_02">
+		<material>door_floor</material>
+	</gazebo>
+
+	<joint name="joint_door_office_02" type="fixed">
+		<origin xyz="-1.08 -0.32 ${size_z_wall1/2}" rpy="0 0 0" />
+		<parent link="origin_office" />
+		<child link="door_office_02" />
+	</joint>
+
+
+<!-- door_office_03 -->
+	<link name="door_office_03">
+		<inertial>
+			<origin xyz="0 0 0" />
+			<mass value="5.0" />
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="${wall_depth} 1.10 ${size_z_wall1}" />
+			</geometry>
+			<material name="Grey"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<box size="${wall_depth} 1.10 ${size_z_wall1}" />
+			</geometry>
+		</collision>
+	</link>
+
+	<gazebo reference="door_office_03">
+		<material>door_floor</material>
+	</gazebo>
+
+	<joint name="joint_door_office_03" type="fixed">
+		<origin xyz="0.98 -3.15 ${size_z_wall1/2}" rpy="0 0 0" />
+		<parent link="origin_office" />
+		<child link="door_office_03" />
+	</joint>
+
     
     </xacro:macro>
-
+<gazebo>
+	<static>true</static>
+</gazebo>
 </robot>
