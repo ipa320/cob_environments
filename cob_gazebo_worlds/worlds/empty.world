@@ -28,11 +28,15 @@
     <gravity>0 0 -9.8</gravity>
     <cfm>0.0000000001</cfm>
     <erp>0.2</erp>
-    <quickStep>true</quickStep>
+    <!--quickStep>true</quickStep-->
     <quickStepIters>10</quickStepIters>
     <quickStepW>1.3</quickStepW>
     <contactMaxCorrectingVel>100.0</contactMaxCorrectingVel>
     <contactSurfaceLayer>0.001</contactSurfaceLayer>
+    <!--StepIters>10</StepIters>
+    <StepW>1.3</StepW-->
+    <stepType>parallel_quick</stepType>
+    <updateRate>-1</updateRate>
   </physics:ode>
 
   <geo:origin>
@@ -56,20 +60,21 @@
 
   <rendering:ogre>
     <ambient>1.0 1.0 1.0 1.0</ambient>
-    <sky>
+    <!--<sky>
       <material>Gazebo/CloudySky</material>
-    </sky>
+    </sky>-->
     <grid>false</grid>
     <maxUpdateRate>10</maxUpdateRate>
-    <!--shadowTechnique>none</shadowTechnique-->
-    <!--shadows>false</shadows-->
+    <shadowTechnique>none</shadowTechnique>
+    <shadows>false</shadows>
   </rendering:ogre>
 
-  <!-- ground plane -->
+<!-- ground plane -->
   <model:physical name="gplane">
-    <xyz>-0.091 1.321 -0.01</xyz>
+    <xyz>-0.091 1.321 -1.01</xyz>
     <rpy>0 0 0</rpy>
     <static>true</static>
+	
 
     <body:plane name="plane">
       <geom:plane name="plane">
@@ -78,15 +83,56 @@
         <kd>1.0</kd>
         <normal>0 0 1</normal>
         <size>50.0 50.0</size>
-        <material>IPA/Grey2</material>
+        <material>transparent</material>
+
+	<!-- floor_kitchen -->
         <visual>
-          <size>30.0 30.0 0.01</size>
-          <material>IPA/Grey2</material>
+	  <xyz>0 0 0</xyz>
+          <size>7 7 0.01</size>
+          <material>floor_kitchen</material>
           <mesh>unit_box</mesh>
         </visual>
+	
       </geom:plane>
     </body:plane>
   </model:physical>
+
+<!-- boden_kueche 
+ <model:physical name="gplane2">
+    <xyz>1.969 -0.5 0.00</xyz>
+    <rpy>0 0 0</rpy>
+    <static>true</static>
+
+    <body:plane name="plane2">
+      <geom:plane name="plane2">
+        <laserRetro>2000.0</laserRetro>
+        <kp>1000000.0</kp>
+        <kd>1.0</kd>
+        <normal>0 0 1</normal>
+        <size>8.3 4.24</size>
+        <material>boden_kueche</material>
+      </geom:plane>
+    </body:plane>
+  </model:physical>
+-->
+<!-- floor_carpet 
+ <model:physical name="gplane3">
+    <xyz>1.969 -5.5 0.00</xyz>
+    <rpy>0 0 0</rpy>
+    <static>true</static>
+
+    <body:plane name="plane3">
+      <geom:plane name="plane3">
+        <laserRetro>2000.0</laserRetro>
+        <kp>1000000.0</kp>
+        <kd>1.0</kd>
+        <normal>0 0 1</normal>
+        <size>8.3 4.24</size>
+        <material>boden</material>
+      </geom:plane>
+    </body:plane>
+  </model:physical>
+-->
 
   <!-- White Directional light -->
 
@@ -103,30 +149,60 @@
       <xyz>0.0 0.0 10.0</xyz>
     </model:LightSource-->
 
-  <model:renderable name="directional_white">
-     <xyz>2.091 1.021 5</xyz>
+<!-- LightSource "north" -->
+  <model:renderable name="directional_north">
+     <xyz>-15.00 2.021 60</xyz>
      <enableGravity>false</enableGravity>   
      <light>
       <type>point</type>
-      <direction>0.6 -0.5 -0.5</direction>
-      <diffuseColor>0.4 0.4 0.4</diffuseColor>
+      <direction>0 0 0</direction>
+      <diffuseColor>100.0 100.0 100.0</diffuseColor>
       <specularColor>0.1 0.1 0.1</specularColor>
       <attenuation>1 0.0 1.0 0.4</attenuation>
-      <range>10</range>
+      <range>1000</range>
     </light>
   </model:renderable>
-<!--
-  <model:renderable name="directional_white2">
-     <xyz>-1.909 1.321 5</xyz>
+
+<!-- LightSource "east" -->
+  <model:renderable name="directional_east">
+     <xyz>2.091 15.00 60</xyz>
      <enableGravity>false</enableGravity>   
      <light>
       <type>point</type>
-      <direction>0.6 -0.5 -0.5</direction>
-      <diffuseColor>0.4 0.4 0.4</diffuseColor>
+      <direction>0 0 0</direction>
+      <diffuseColor>100.0 100.0 100.0</diffuseColor>
       <specularColor>0.1 0.1 0.1</specularColor>
       <attenuation>1 0.0 1.0 0.4</attenuation>
-      <range>10</range>
+      <range>1000</range>
     </light>
   </model:renderable>
--->
+
+<!-- LightSource "south" -->
+  <model:renderable name="directional_south">
+     <xyz>11.091 2.021 60</xyz>
+     <enableGravity>false</enableGravity>   
+     <light>
+      <type>point</type>
+      <direction>0 0 0</direction>
+      <diffuseColor>100.0 100.0 100.0</diffuseColor>
+      <specularColor>0.1 0.1 0.1</specularColor>
+      <attenuation>1 0.0 1.0 0.4</attenuation>
+      <range>1000</range>
+    </light>
+  </model:renderable>
+
+<!-- LightSource "west" -->
+  <model:renderable name="directional_west">
+     <xyz>2.091 -11.021 60</xyz>
+     <enableGravity>false</enableGravity>   
+     <light>
+      <type>point</type>
+      <direction>0 0 0</direction>
+      <diffuseColor>100.0 100.0 100.0</diffuseColor>
+      <specularColor>0.1 0.1 0.1</specularColor>
+      <attenuation>1 0.0 1.0 0.4</attenuation>
+      <range>1000</range>
+    </light>
+  </model:renderable>
+
 </gazebo:world>
