@@ -1,4 +1,5 @@
 # LIVING ROOM DUST MOP PUSH_____________________________________________
+# SPAWN FILE for task execution; all objects in living room, doors closed
 
 #! set evironment
 export ROBOT_ENV=ipa-apartment

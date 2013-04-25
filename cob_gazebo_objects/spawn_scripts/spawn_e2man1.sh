@@ -1,4 +1,4 @@
-# KITCHEN VASE IN DOOR__________________________________________________
+# SPAWN FILE for task execution; only objects within robot's field of view on task man1 plus the ones in the kitchen on the floor for better localization
 
 #! set evironment
 export ROBOT_ENV=ipa-apartment

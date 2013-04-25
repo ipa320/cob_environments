@@ -1,4 +1,4 @@
-# BEDROOM SIDE PUSH CARTON IN CORRIDOR__________________________________
+# SPAWN FILE for task execution; only objects within robot's field of view on task man2 plus the ones in the bedroom on the floor for better localization
 
 #! set evironment
 export ROBOT_ENV=ipa-apartment
