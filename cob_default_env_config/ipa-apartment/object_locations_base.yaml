@@ -1,6 +1,24 @@
 
 # KITCHEN__________________________________________________
 
+kitekat:
+  model: kitekat
+  model_type: urdf
+  position: [-1.85, -0.3, 0.99]
+  orientation: [0, 0, 3.141592654]
+
+corn_flakes_package:
+  model: corn_flakes_package
+  model_type: urdf
+  position: [-1.55, -0.51, 1.03]
+  orientation: [0, 0, 0.4]
+
+spaghetti:
+  model: spaghetti
+  model_type: urdf
+  position: [-1.75, 0.48, 1.475]
+  orientation: [0, 0, 0]
+
 # LIVING ROOM__________________________________________________
 
 # BEDROOM______________________________________________________________
