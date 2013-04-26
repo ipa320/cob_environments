@@ -19,6 +19,18 @@ spaghetti:
   position: [-1.75, 0.48, 1.475]
   orientation: [0, 0, 0]
 
+plastic_wrap:
+  model: plastic_wrap
+  model_type: urdf
+  position: [-1.59, -1.52, 1.46]
+  orientation: [0, 0, 0]
+
+flower_in_pot1:
+  model: flower_in_pot1
+  model_type: urdf
+  position: [-1.85, -0.77, 1.44]
+  orientation: [0, 0, 0]
+
 # LIVING ROOM__________________________________________________
 
 # BEDROOM______________________________________________________________
