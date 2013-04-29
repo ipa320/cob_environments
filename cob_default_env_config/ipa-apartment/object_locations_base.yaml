@@ -205,12 +205,6 @@ Stuhl_borje2:
   position: [2.79, -1.05, 0.00]
   orientation: [0, 0, 3.141592654]
 
-apple_juice_box:
-  model: apple_juice_box
-  model_type: urdf
-  position: [2.53, -0.325, 0.86]
-  orientation: [0, 0.50, 1.3]
-
 orange_juice:
   model: orange_juice
   model_type: urdf
@@ -246,6 +240,12 @@ zwieback_alternative:
   model_type: urdf
   position: [2.795, -0.205, 0.8]
   orientation: [0, 0, 0.78539816]
+
+apple_juice_box:
+  model: apple_juice_box
+  model_type: urdf
+  position: [2.53, -0.325, 0.86]
+  orientation: [0, 0.50, 1.3]
 
 
 # LIVING ROOM__________________________________________________

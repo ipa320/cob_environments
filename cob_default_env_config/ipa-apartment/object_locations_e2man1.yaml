@@ -7,10 +7,46 @@ kitchen_plank:
   position: [-1.85, -0.536, 1.40]
   orientation: [0, 0, 0]
 
+kitekat:
+  model: kitekat
+  model_type: urdf
+  position: [-1.85, -0.3, 0.99]
+  orientation: [0, 0, 3.141592654]
+
+corn_flakes_package:
+  model: corn_flakes_package
+  model_type: urdf
+  position: [-1.55, -0.51, 1.03]
+  orientation: [0, 0, 0.4]
+
+spaghetti:
+  model: spaghetti
+  model_type: urdf
+  position: [-1.75, 0.48, 1.475]
+  orientation: [0, 0, -0.296705973]
+
+plastic_wrap:
+  model: plastic_wrap
+  model_type: urdf
+  position: [-1.59, -1.52, 1.46]
+  orientation: [0, 0, 0.296705973]
+
+flower_in_pot1:
+  model: flower_in_pot1
+  model_type: urdf
+  position: [-1.85, -0.77, 1.44]
+  orientation: [0, 0, 0]
+
 kitchen_big_cabinet:
   model: kitchen_big_cabinet
   model_type: urdf
   position: [1.38, 1.46, 0.00]
+  orientation: [0, 0, 0]
+
+white_vase_with_red_plant:
+  model: white_vase_with_red_plant
+  model_type: urdf
+  position: [1.7, 1.45, 0.98]
   orientation: [0, 0, 0]
 
 schrank_diamondback:
@@ -18,6 +54,198 @@ schrank_diamondback:
   model_type: urdf
   position: [-0.66, 1.53, 0.00]
   orientation: [0, 0, -1.570796327]
+
+flower_in_pot2:
+  model: flower_in_pot2
+  model_type: urdf
+  position: [1.23, 1.85, 0.9]
+  orientation: [0, 0, 0]
+
+carton_small:
+  model: carton_small
+  model_type: urdf
+  position: [-0.38, 0.88, 0]
+  orientation: [0, 0, -0.34906585]
+
+carton_small2:
+  model: carton_small2
+  model_type: urdf
+  position: [-0.38, 0.88, 0.4]
+  orientation: [0, 0, -0.34906585]
+
+carton_small3:
+  model: carton_small3
+  model_type: urdf
+  position: [-0.38, 0.88, 0.8]
+  orientation: [0, 0, -0.34906585]
+
+carton_small4:
+  model: carton_small4
+  model_type: urdf
+  position: [0.065, -1.575, 0]
+  orientation: [0, 0, 1.570796327]
+
+carton_small5:
+  model: carton_small5
+  model_type: urdf
+  position: [0.065, -1.575, 0.4]
+  orientation: [0, 0, 1.570796327]
+
+carton_small6:
+  model: carton_small6
+  model_type: urdf
+  position: [0.065, -1.575, 0.8]
+  orientation: [0, 0, 1.570796327]
+
+Kommode_Malm_hoch:
+  model: Kommode_Malm_hoch
+  model_type: urdf
+  position: [0.17, -2.16, 0]
+  orientation: [0, 0, 1.570796327]
+
+SRS_divider1:
+  model: SRS_divider1
+  model_type: urdf
+  position: [-0.52, -2.58, 0.00]
+  orientation: [0, 0, 1.570796327]
+
+SRS_divider2:
+  model: SRS_divider2
+  model_type: urdf
+  position: [2.49, -2.59, 0.00]
+  orientation: [0, 0, 1.570796327]
+
+SRS_divider3:
+  model: SRS_divider3
+  model_type: urdf
+  position: [3.46, -0.44, 0.00]
+  orientation: [0, 0, 1.570796327]
+
+SRS_divider4:
+  model: SRS_divider4
+  model_type: urdf
+  position: [-2.03, -2.308, 0.00]
+  orientation: [0, 0, 0]
+
+SRS_divider5:
+  model: SRS_divider5
+  model_type: urdf
+  position: [3.95, -2.59, 0.00]
+  orientation: [0, 0, 1.570796327]
+
+SRS_divider6:
+  model: SRS_divider6
+  model_type: urdf
+  position: [5.01, -2.59, 0.00]
+  orientation: [0, 0, 1.570796327]
+
+SRS_divider7:
+  model: SRS_divider7
+  model_type: urdf
+  position: [5.76, -2.54, 0.00]
+  orientation: [0, 0, 1.570796327]
+
+SRS_divider8:
+  model: SRS_divider8
+  model_type: urdf
+  position: [1.44, -3.655, 0.00]
+  orientation: [0, 0, 0]
+
+expedit_white_ikea_shelf:
+  model: expedit_white_ikea_shelf
+  model_type: urdf
+  position: [1.68, -2.04, 0.00]
+  orientation: [0, 0, 3.141592654]
+
+crate_small:
+  model: crate_small
+  model_type: urdf
+  position: [1.66, -1.535, 0]
+  orientation: [0, 0, 0]
+
+crate_small2:
+  model: crate_small2
+  model_type: urdf
+  position: [1.66, -1.535, 0.35]
+  orientation: [0, 0, 0]
+
+crate_large:
+  model: crate_large
+  model_type: urdf
+  position: [2, -1.38, 0.00]
+  orientation: [0, 0, 1.570796327]
+
+crate_large2:
+  model: crate_large2
+  model_type: urdf
+  position: [2, -1.38, 0.35]
+  orientation: [0, 0, 1.570796327]
+
+crate_large3:
+  model: crate_large3
+  model_type: urdf
+  position: [2, -1.38, 0.70]
+  orientation: [0, 0, 1.570796327]
+
+table_ikea:
+  model: table_ikea
+  model_type: urdf.xacro
+  position: [2.8,-0.31, 0]
+  orientation: [0, 0, 1.570796327]
+
+Stuhl_borje:
+  model: Stuhl_borje
+  model_type: urdf
+  position: [2.73, 0.58, 0.00]
+  orientation: [0, 0, -0.785398164]
+
+Stuhl_borje2:
+  model: Stuhl_borje2
+  model_type: urdf
+  position: [2.79, -1.05, 0.00]
+  orientation: [0, 0, 3.141592654]
+
+orange_juice:
+  model: orange_juice
+  model_type: urdf
+  position: [2.57, -0.18, 0.8]
+  orientation: [0, 1.570796, 0]
+
+orange_juice2:
+  model: orange_juice2
+  model_type: urdf
+  position: [2.58, -0.18, 0.9]
+  orientation: [0, 1.570796, -0.383972435]
+
+green_tea:
+  model: green_tea
+  model_type: urdf
+  position: [2.85, -0.43, 0.76]
+  orientation: [0, 1.570796, 0.8]
+
+green_tea2:
+  model: green_tea2
+  model_type: urdf
+  position: [2.78, -0.335, 0.8]
+  orientation: [0, 1.15, -0.6981317]
+
+basmati_rice:
+  model: basmati_rice
+  model_type: urdf
+  position: [3.105, -0.575, 0.76]
+  orientation: [0, -1.570796, -2.70526034]
+
+zwieback_alternative:
+  model: zwieback_alternative
+  model_type: urdf
+  position: [2.795, -0.205, 0.8]
+  orientation: [0, 0, 0.78539816]
+
+apple_juice_box:
+  model: apple_juice_box
+  model_type: urdf
+  position: [2.53, -0.325, 0.86]
+  orientation: [0, 0.50, 1.3]
 
 
 
