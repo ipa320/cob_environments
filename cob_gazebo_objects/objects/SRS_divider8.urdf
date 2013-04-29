@@ -1,30 +1,28 @@
-<!-- 	"table_ikea" is just used as a bounding box
-	"table_ikea_bjursta" loads the mesh for visual table and adds bounding boxes for the "white tapes"-->
-
 <?xml version="1.0" ?> 
 <robot name="my_object" static="true">
   <link name="base_link">
   <inertial>
-    <mass value="20.0" />
+    <mass value="1.0" />
     <origin xyz="0 0 0.0" />
     <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
   </inertial>
   <visual>
    <origin xyz="0 0 0.0" rpy="0 0 0" />
    <geometry>
-     <mesh filename="package://cob_gazebo_objects/Media/models/table_ikea_bjursta.dae"/>
+     <mesh filename="package://cob_gazebo_objects/Media/models/SRS_divider2.dae"/>
    </geometry>
   </visual>
   <collision>
    <origin xyz="0 0 0.0" rpy="0 0 0" />
    <geometry>
-     <!-- <mesh filename="package://cob_gazebo_objects/Media/models/table_ikea_bjursta_boundings.dae"/> -->
-   </geometry> 
+     <mesh filename="package://cob_gazebo_objects/Media/models/SRS_divider2.dae" />
+   </geometry>
   </collision>     
   </link>
 
 <gazebo>
-	<static>false</static>
-</gazebo> 
+	<static>true</static>
+</gazebo>
+
 </robot>
 

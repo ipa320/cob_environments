@@ -56,6 +56,20 @@ material IPA/Comic
   }
 }
 
+material IPA/Comic2
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture comic.jpg
+      }
+    }
+  }
+}
+
 material IPA/Brics
 {
   technique
@@ -106,7 +120,7 @@ material IPA/Wall
     {
       texture_unit
       {
-        texture wall.jpg
+        texture comic.jpg
       }
     }
   }

@@ -577,3 +577,17 @@ material door_women_toilet
   }
 }
 
+material kitchen_white
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture kitchen_white.jpg
+      }
+    }
+  }
+}
+

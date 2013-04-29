@@ -2,8 +2,8 @@
 <robot name="my_object" static="true">
   <link name="base_link">
   <inertial>
-    <mass value="1.036" />
-    <origin xyz="0 0 0.0" />
+    <mass value="0.475" />
+    <origin xyz="0 0 0" />
     <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
   </inertial>
   <visual>
@@ -13,9 +13,9 @@
    </geometry>
   </visual>
   <collision>
-   <origin xyz="0 0 0" rpy="0 0 0" />
+   <origin xyz="0 0 0.0055" rpy="0 0 0" />
    <geometry>
-     <box size="0.06 0.07 0.24" />
+     <box size="0.062 0.07 0.251" />
    </geometry>
   </collision>     
   </link>

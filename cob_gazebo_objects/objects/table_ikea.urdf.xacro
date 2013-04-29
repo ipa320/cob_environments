@@ -33,12 +33,12 @@
                iyy="0" iyz="0"
                izz="0" />
     </inertial> 
-    <visual>
+<visual>
       <origin xyz="0.0 0.0 ${table_z+table_height-table_top_thickness/2}" />
       <geometry>
         <box size="${table_width} ${table_depth} ${table_top_thickness}" />
       </geometry>
-    </visual> 
+</visual> 
     <collision>
       <origin xyz="0.0 0.0 ${table_z+table_height-table_top_thickness/2}" />
       <geometry>
@@ -47,7 +47,7 @@
     </collision>
   </link>
   <gazebo reference="table_top_link">
-    <material>Gazebo/White</material>
+    <material>kitchen_white</material>
     <mu1>50.0</mu1>
     <mu2>50.0</mu2>
     <kp>1000000.0</kp>
@@ -81,8 +81,8 @@
             </collision>
         </link>
 	 
-	<gazebo reference="legs">
-		<material>Gazebo/White</material>
+	<gazebo reference="leg_${suffix}_link">
+		<material>kitchen_white</material>
 		<turnGravityOff>false</turnGravityOff>
 	</gazebo>
       <joint name="leg_${suffix}_joint" type="fixed" >
@@ -125,8 +125,8 @@
             </collision>
         </link>
 	 
-	<gazebo reference="structure_lath">
-		<material>Gazebo/White</material>
+	<gazebo reference="lath_${suffix}_link">
+		<material>kitchen_white</material>
 		<turnGravityOff>false</turnGravityOff>
 	</gazebo>
       <joint name="lath_${suffix}_joint" type="fixed" >
