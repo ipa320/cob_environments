@@ -64,6 +64,35 @@ rosrun cob_bringup_sim spawn_object.py livingroom_clocks
 
 #! BEDROOM______________________________________________________________
 
+rosrun cob_bringup_sim spawn_object.py bedroom_rail
+rosrun cob_bringup_sim spawn_object.py steckdosenleiste_schlafzimmer
+rosrun cob_bringup_sim spawn_object.py door_white_bedroom
+rosrun cob_bringup_sim spawn_object.py white_shelf2
+rosrun cob_bringup_sim spawn_object.py self_made_shelf
+rosrun cob_bringup_sim spawn_object.py self_made_shelf_boundings_bottomPlate
+rosrun cob_bringup_sim spawn_object.py self_made_shelf_boundings_leftPlate
+rosrun cob_bringup_sim spawn_object.py self_made_shelf_boundings_rightPlate
+rosrun cob_bringup_sim spawn_object.py self_made_shelf_boundings_topPlate
+rosrun cob_bringup_sim spawn_object.py self_made_shelf_boundings_backPlate
+rosrun cob_bringup_sim spawn_object.py bedroom_picture
+rosrun cob_bringup_sim spawn_object.py artificial_plant
+rosrun cob_bringup_sim spawn_object.py Bett_Fjellse_middlePillow
+rosrun cob_bringup_sim spawn_object.py Nachttisch_Malm
+rosrun cob_bringup_sim spawn_object.py Kommode_Malm
+rosrun cob_bringup_sim spawn_object.py korbstuhl
+rosrun cob_bringup_sim spawn_object.py book_death
+rosrun cob_bringup_sim spawn_object.py book_romantiker
+rosrun cob_bringup_sim spawn_object.py book_gardening
+rosrun cob_bringup_sim spawn_object.py book_heilkrauter
+rosrun cob_bringup_sim spawn_object.py book_pferdewitze
+rosrun cob_bringup_sim spawn_object.py picture_frame
+rosrun cob_bringup_sim spawn_object.py brown_basket
+rosrun cob_bringup_sim spawn_object.py blanket_colored
+rosrun cob_bringup_sim spawn_object.py wooden_box
+rosrun cob_bringup_sim spawn_object.py swedish_pills
+rosrun cob_bringup_sim spawn_object.py black_vase_with_white_flower
+rosrun cob_bringup_sim spawn_object.py Lampe_Arstid
+
 #! FLOOR______________________________________________________________
 
 #! turn physics on

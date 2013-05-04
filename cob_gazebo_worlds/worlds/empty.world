@@ -205,7 +205,7 @@
 
 <!-- LightSource "east" -->
   <model:renderable name="directional_east">
-     <xyz>2.091 15.00 60</xyz>
+     <xyz>2.091 25.00 60</xyz>
      <enableGravity>false</enableGravity>   
      <light>
       <type>point</type>
