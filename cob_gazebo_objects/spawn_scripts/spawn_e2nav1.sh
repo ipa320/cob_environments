@@ -33,6 +33,7 @@ rosrun cob_bringup_sim spawn_object.py stool_wood
 rosrun cob_bringup_sim spawn_object.py glass_candleholder
 rosrun cob_bringup_sim spawn_object.py thick_candle
 rosrun cob_bringup_sim spawn_object.py dust_mop
+rosrun cob_bringup_sim spawn_object.py sliding_door
 
 
 #! BEDROOM______________________________________________________________

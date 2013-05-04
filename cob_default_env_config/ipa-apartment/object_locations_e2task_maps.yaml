@@ -247,7 +247,179 @@ apple_juice_box:
   position: [2.53, -0.325, 0.86]
   orientation: [0, 0.50, 1.3]
 
+
 # LIVING ROOM__________________________________________________
+
+door_sill:
+  model: door_sill
+  model_type: urdf
+  position: [-4.145, -0.385, 0]
+  orientation: [0, 0, -0.785398164]
+
+white_shelf:
+  model: white_shelf
+  model_type: urdf
+  position: [-5.71, 0.47, 0]
+  orientation: [0, 0, 0.785398164]
+
+block_of_4_books_from_library:
+  model: block_of_4_books_from_library
+  model_type: urdf
+  position: [-5.66, 0.20, 0.975]
+  orientation: [0, 0, -2.35619449]
+
+glass_candleholder:
+  model: glass_candleholder
+  model_type: urdf
+  position: [-5.77, 0.27, 0.87]
+  orientation: [0, 0, 0.785398164]
+
+thick_candle:
+  model: thick_candle
+  model_type: urdf
+  position: [-5.77, 0.27, 1.075]
+  orientation: [0, 0, 0.785398164]
+
+beer_hofbraeu:
+  model: beer_hofbraeu
+  model_type: urdf
+  position: [-5.43, 0.37, 0.87]
+  orientation: [0, 0, 0]
+
+pizza_box:
+  model: pizza_box
+  model_type: urdf
+  position: [-5.83, 0.74, 0.88]
+  orientation: [0, 0, -0.872664626]
+
+couch:
+  model: couch
+  model_type: urdf.xacro
+  position: [-4.65, 3.15, 0]
+  orientation: [0, 0, -0.785398164]
+
+wohnzimmertisch:
+  model: wohnzimmertisch
+  model_type: urdf
+  position: [-5.41, 2.54, 0.00]
+  orientation: [0, 0, -2.35619449]
+
+dust_mop:
+  model: dust_mop
+  model_type: urdf
+  position: [-5.56, 2.86, 0.60]
+  orientation: [0, 0, -1.308996939]
+
+beer_rothaus:
+  model: beer_rothaus
+  model_type: urdf
+  position: [-5.21, 2.65, 0.541]
+  orientation: [0, 0, -1.570796327]
+
+pizza_box2:
+  model: pizza_box2
+  model_type: urdf
+  position: [-5.27, 2.05, 0.541]
+  orientation: [0, 0, -0.4188790205]
+
+TV-Bank_Hemnes:
+  model: TV-Bank_Hemnes
+  model_type: urdf
+  position: [-6.695, 1.445, 0.00]
+  orientation: [0, 0, -0.785398164]
+
+Tv_Samsung:
+  model: Tv_Samsung
+  model_type: urdf
+  position: [-6.775, 1.365, 0.57]
+  orientation: [0, 0, 2.35619449]
+
+blue_white_tray:
+  model: blue_white_tray
+  model_type: urdf
+  position: [-6.905, 1.915, 0.578]
+  orientation: [0, 0, -0.785398164]
+
+livingroom_closet:
+  model: livingroom_closet
+  model_type: urdf
+  position: [-7.56, 5.47, 0.00]
+  orientation: [0, 0, 0]
+
+metal_candleholder:
+  model: metal_candleholder
+  model_type: urdf
+  position: [-7.9725, 5.45, 0.82]
+  orientation: [0, 0, 3.141592654]
+
+book_emancipation:
+  model: book_emancipation
+  model_type: urdf
+  position: [-7.15, 5.4, 0.84]
+  orientation: [4.2, -1.570796, 0]
+
+large_plant_big:
+  model: large_plant_big
+  model_type: urdf
+  position: [-6.28, 5.04, 0.0]
+  orientation: [0, 0, 0]
+
+large_plant_small:
+  model: large_plant_small
+  model_type: urdf
+  position: [-5.87, 3.81, 0.0]
+  orientation: [0, 0, 0]
+
+stool_wood:
+  model: stool_wood
+  model_type: urdf
+  position: [-7.41, 3.13, 0.00]
+  orientation: [0, 0, 0.785398164]
+
+styroprene:
+  model: styroprene
+  model_type: urdf
+  position: [-7.41, 3.13, 0.453]
+  orientation: [0, 0, 0.785398164]
+
+large_carton_empty:
+  model: large_carton_empty
+  model_type: urdf
+  position: [-7.355, 3.185, 0.553]
+  orientation: [0, 0, -0.785398164]
+
+green_tea3:
+  model: styroprene
+  model_type: urdf
+  position: [-7.41, 3.13, 0.7]
+  orientation: [0, 0, 0.785398164]
+
+door_white_livingroom1:
+#closed position
+  model: door_white_livingroom1
+  model_type: urdf
+  position: [-3.85, -1.25, 0.785398164]
+  orientation: [0, 0, 0]
+
+door_white_livingroom2:
+#closed position
+  model: door_white_livingroom2
+  model_type: urdf
+  position: [-9.13, 4.14, 0]
+  orientation: [0, 0, 3.141592654]
+
+meter_stick_2m:
+  model: meter_stick_2m
+  model_type: urdf
+  position: [-5.62, 2.44, 0.60]
+  orientation: [0, 0, -2.35619449]
+
+meter_stick:
+  model: meter_stick
+  model_type: urdf
+  position: [0, 0, 0]
+  orientation: [0, 0, 0]
+
 
 # BEDROOM______________________________________________________________
 

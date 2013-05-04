@@ -46,6 +46,22 @@ rosrun cob_bringup_sim spawn_object.py crate_large3
 
 #! LIVING ROOM______________________________________________________________
 
+rosrun cob_bringup_sim spawn_object.py door_sill
+rosrun cob_bringup_sim spawn_object.py white_shelf
+rosrun cob_bringup_sim spawn_object.py couch
+rosrun cob_bringup_sim spawn_object.py wohnzimmertisch
+rosrun cob_bringup_sim spawn_object.py TV-Bank_Hemnes
+rosrun cob_bringup_sim spawn_object.py Tv_Samsung
+rosrun cob_bringup_sim spawn_object.py livingroom_closet
+rosrun cob_bringup_sim spawn_object.py metal_candleholder
+rosrun cob_bringup_sim spawn_object.py book_emancipation
+rosrun cob_bringup_sim spawn_object.py large_plant_big
+rosrun cob_bringup_sim spawn_object.py large_plant_small
+rosrun cob_bringup_sim spawn_object.py door_white_livingroom1
+rosrun cob_bringup_sim spawn_object.py door_white_livingroom2
+rosrun cob_bringup_sim spawn_object.py livingroom_clocks
+
+
 #! BEDROOM______________________________________________________________
 
 #! FLOOR______________________________________________________________

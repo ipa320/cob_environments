@@ -2,27 +2,29 @@
 <robot name="my_object" static="true">
   <link name="base_link">
   <inertial>
-    <mass value="1.0" />
+    <mass value="0.500" />
     <origin xyz="0 0 0.0" />
     <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
   </inertial>
   <visual>
    <origin xyz="0 0 0.0" rpy="0 0 0" />
    <geometry>
-     <mesh filename="package://cob_gazebo_objects/Media/models/Tv_Samsung.dae"/>
+     <mesh filename="package://cob_gazebo_objects/Media/models/large_carton_empty.dae"/>
    </geometry>
   </visual>
   <collision>
-   <origin xyz="0 0 0.335" rpy="0 0 0" />
+   <origin xyz="-0.015 -0.008 0.255" rpy="0 0 0" />
    <geometry>
-     <!-- <box size="0.99 0.10 0.67" /> -->
-<box size="0 0 0" />
+	<mesh filename="package://cob_gazebo_objects/Media/models/large_carton_empty_boundings.dae"/>
    </geometry>
   </collision>     
   </link>
 
-<gazebo>
-	<static>true</static>
+<gazebo reference="base_link">
+  <mu1>1.0</mu1>
+  <mu2>1.0</mu2>
+  <kp>1000000.0</kp>
+  <kd>1.0</kd>
 </gazebo>
 </robot>
 

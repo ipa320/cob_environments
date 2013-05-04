@@ -213,4 +213,7 @@
 		<child link="right_couch_middle" />
 	</joint>
 
+<gazebo>
+	<static>true</static>
+</gazebo>
 </robot>
