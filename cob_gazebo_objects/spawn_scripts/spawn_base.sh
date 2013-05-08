@@ -95,6 +95,12 @@ rosrun cob_bringup_sim spawn_object.py Lampe_Arstid
 
 #! FLOOR______________________________________________________________
 
+rosrun cob_bringup_sim spawn_object.py blaueTuere01
+rosrun cob_bringup_sim spawn_object.py blaueTuere02
+rosrun cob_bringup_sim spawn_object.py boards_before_bedroom
+rosrun cob_bringup_sim spawn_object.py locker_sliding_door1
+rosrun cob_bringup_sim spawn_object.py locker_sliding_door2
+
 #! turn physics on
 #rosservice call gazebo/unpause_physics
 

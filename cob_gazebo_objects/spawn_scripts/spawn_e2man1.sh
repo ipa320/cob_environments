@@ -49,6 +49,7 @@ rosrun cob_bringup_sim spawn_object.py apple_juice_box
 
 #! FLOOR______________________________________________________________
 
+rosrun cob_bringup_sim spawn_object.py locker_sliding_door2
 
 #! turn physics on
 #rosservice call gazebo/unpause_physics
