@@ -389,7 +389,7 @@ large_carton_empty:
   orientation: [0, 0, -0.785398164]
 
 green_tea3:
-  model: styroprene
+  model: green_tea3
   model_type: urdf
   position: [-7.41, 3.13, 0.7]
   orientation: [0, 0, 0.785398164]
@@ -604,7 +604,7 @@ Lampe_Arstid:
   orientation: [0, 0, 0]
 
 corn_flakes_package2:
-  model: Lampe_Arstid
+  model: corn_flakes_package2
   model_type: urdf
   position: [-6.902, 12.565, 0.682]
   orientation: [0, 0, 3.66519142]
