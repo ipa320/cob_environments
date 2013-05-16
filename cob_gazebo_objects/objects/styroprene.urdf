@@ -28,7 +28,7 @@
 </gazebo>
 
 <gazebo>
-	<static>false</static>
+	<static>true</static>
 </gazebo>
 </robot>
 
