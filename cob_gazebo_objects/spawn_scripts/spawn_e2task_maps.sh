@@ -41,7 +41,7 @@ rosrun cob_bringup_sim spawn_object.py crate_small
 rosrun cob_bringup_sim spawn_object.py crate_small2
 rosrun cob_bringup_sim spawn_object.py crate_large
 rosrun cob_bringup_sim spawn_object.py crate_large2
-rosrun cob_bringup_sim spawn_object.py crate_large3
+
 
 rosrun cob_bringup_sim spawn_object.py table_ikea
 rosrun cob_bringup_sim spawn_object.py Stuhl_borje

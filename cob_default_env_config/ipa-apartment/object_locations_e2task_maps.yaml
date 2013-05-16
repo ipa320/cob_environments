@@ -166,7 +166,7 @@ crate_small:
 crate_small2:
   model: crate_small2
   model_type: urdf
-  position: [1.66, -1.535, 0.35]
+  position: [2, -1.35, 0.70]
   orientation: [0, 0, 0]
 
 crate_large:
