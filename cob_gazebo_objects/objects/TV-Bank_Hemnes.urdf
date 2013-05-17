@@ -21,7 +21,7 @@
   </link>
 
 <gazebo>
-	<static>true</static>
+	<static>false</static>
 </gazebo>
 </robot>
 
