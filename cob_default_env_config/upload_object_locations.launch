@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+	<arg name="robot_env" default="$(optenv ROBOT_ENV !!NO_ROBOT_ENV_SET!!)"/>
+
+	<!-- send objects locations to parameter server -->
+	<rosparam command="delete" param="/objects"/>
+	<rosparam command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/object_locations.yaml"/>
+
+
+</launch>
