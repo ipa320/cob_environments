@@ -49,8 +49,3 @@ rosbuild_add_roslaunch_check(upload_navigation_goals.launch ROBOT_ENV=ipa-factor
 rosbuild_add_roslaunch_check(upload_object_locations.launch robot_env:=ipa-factory)
 rosbuild_add_roslaunch_check(upload_object_locations.launch ROBOT_ENV=ipa-factory)
 
-# ipa-maze
-rosbuild_add_roslaunch_check(upload_navigation_goals.launch robot_env:=ipa-maze)
-rosbuild_add_roslaunch_check(upload_navigation_goals.launch ROBOT_ENV=ipa-maze)
-rosbuild_add_roslaunch_check(upload_object_locations.launch robot_env:=ipa-maze)
-rosbuild_add_roslaunch_check(upload_object_locations.launch ROBOT_ENV=ipa-maze)
