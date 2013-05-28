@@ -29,7 +29,7 @@
   <visual>
    <origin xyz="-0.005 0.090 0.005" rpy="1.570796 0 0" />
    <geometry>
-     <cylinder length="1.355" radius="0.013" />
+     <cylinder length="0" radius="0" />
    </geometry>
   </visual>
   <collision>
