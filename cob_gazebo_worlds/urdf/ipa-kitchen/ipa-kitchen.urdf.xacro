@@ -1075,5 +1075,9 @@
 
 <xacro:ipa-kitchen name="ipa-kitchen" />
 
+<gazebo>
+	<static>true</static>
+</gazebo>
+
 </robot>
 

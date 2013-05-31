@@ -20,6 +20,14 @@
   </collision>     
   </link>
 
+
+  <gazebo reference="base_link">
+    <mu1>50.0</mu1>
+    <mu2>50.0</mu2>
+    <kp>1000000.0</kp>
+    <kd>1.0</kd>
+  </gazebo>
+
 <gazebo>
 	<static>true</static>
 </gazebo>
