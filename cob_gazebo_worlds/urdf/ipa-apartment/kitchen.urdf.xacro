@@ -34,7 +34,7 @@
 	</gazebo>
 
 	<joint name="joint_kitchen_left" type="fixed">
-		<origin xyz="${-size_total_x/2+dist_axis_x+wall_depth+0.28} ${size_total_y/4-0.455-dist_axis_y} 0.720" rpy="0 0 0" />
+		<origin xyz="${-size_total_x/2+dist_axis_x+wall_depth+0.23} ${size_total_y/4-0.455-dist_axis_y+0.1} 0.720" rpy="0 0 0" />
 		<parent link="dummy_link" />
 		<child link="kitchen_left" />
 	</joint>
@@ -64,7 +64,7 @@
 	</gazebo>
 
 	<joint name="joint_kitchen_middle" type="fixed">
-		<origin xyz="${-size_total_x/2+dist_axis_x+wall_depth+0.28} ${size_total_y/4+0.755-dist_axis_y} 0.450" rpy="0 0 0" />
+		<origin xyz="${-size_total_x/2+dist_axis_x+wall_depth+0.23} ${size_total_y/4+0.755-dist_axis_y+0.1} 0.450" rpy="0 0 0" />
 		<parent link="dummy_link" />
 		<child link="kitchen_middle" />
 	</joint>
@@ -94,7 +94,7 @@
 	</gazebo>
 
 	<joint name="joint_kitchen_right" type="fixed">
-		<origin xyz="${-size_total_x/2+dist_axis_x+wall_depth+0.28} ${size_total_y/4+1.965-dist_axis_y} 0.720" rpy="0 0 0" />
+		<origin xyz="${-size_total_x/2+dist_axis_x+wall_depth+0.23} ${size_total_y/4+1.965-dist_axis_y+0.1} 0.720" rpy="0 0 0" />
 		<parent link="dummy_link" />
 		<child link="kitchen_right" />
 	</joint>
@@ -105,5 +105,7 @@
 
 
         </xacro:macro>
-
+<gazebo>
+	<static>true</static>
+</gazebo>
 </robot>

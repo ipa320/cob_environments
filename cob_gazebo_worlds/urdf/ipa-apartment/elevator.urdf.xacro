@@ -44,7 +44,7 @@
 			<geometry>
 				<box size="0.04 0.87 ${size_z_wall1}" />
 			</geometry>
-			<material name="IPA/LightBlue"/>
+			<material name="LightBlue"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -185,7 +185,7 @@
 			<geometry>
 				<box size="0.04 0.87 ${size_z_wall1}" />
 			</geometry>
-			<material name="IPA/LightBlue"/>
+			<material name="LightBlue"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -326,7 +326,7 @@
 			<geometry>
 				<box size="0.01 0.05 0.05" />
 			</geometry>
-			<material name="IPA/Red"/>
+			<material name="Red"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -377,7 +377,7 @@
 			<geometry>
 				<box size="0.01 0.05 0.05" />
 			</geometry>
-			<material name="IPA/Red"/>
+			<material name="Red"/>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0" />
@@ -513,5 +513,7 @@
 		<child link="wall_ext20" />
 	</joint> 
         </xacro:macro>
-
+<gazebo>
+	<static>true</static>
+</gazebo>
 </robot>

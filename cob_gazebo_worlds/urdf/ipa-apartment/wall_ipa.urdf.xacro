@@ -41,5 +41,7 @@
 
 
         </xacro:macro>
-
+<gazebo>
+	<static>true</static>
+</gazebo>
 </robot>

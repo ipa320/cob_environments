@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+
+<gazebo:world 
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:gazebo="http://playerstage.sourceforge.net/gazebo/xmlschema/#gz" 
+  xmlns:model="http://playerstage.sourceforge.net/gazebo/xmlschema/#model" 
+  xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor" 
+  xmlns:window="http://playerstage.sourceforge.net/gazebo/xmlschema/#window" 
+  xmlns:param="http://playerstage.sourceforge.net/gazebo/xmlschema/#param" 
+  xmlns:body="http://playerstage.sourceforge.net/gazebo/xmlschema/#body" 
+  xmlns:geo="http://willowgarage.com/xmlschema/#geo" 
+  xmlns:geom="http://playerstage.sourceforge.net/gazebo/xmlschema/#geom" 
+  xmlns:joint="http://playerstage.sourceforge.net/gazebo/xmlschema/#joint" 
+  xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface" 
+  xmlns:ui="http://playerstage.sourceforge.net/gazebo/xmlschema/#ui"
+  xmlns:rendering="http://playerstage.sourceforge.net/gazebo/xmlschema/#rendering" 
+  xmlns:renderable="http://playerstage.sourceforge.net/gazebo/xmlschema/#renderable" 
+  xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
+  xmlns:physics="http://playerstage.sourceforge.net/gazebo/xmlschema/#physics" >
+  <thread>4</thread>
+  <verbosity>5</verbosity>
+
+  <!-- cfm is 1e-5 for single precision -->
+  <!-- erp is typically .1-.8 -->
+  <!-- here's the global contact cfm/erp -->
+  <physics:ode>
+    <stepTime>0.001</stepTime>
+    <gravity>0 0 -9.8</gravity>
+    <cfm>0.0000000001</cfm>
+    <erp>0.2</erp>
+    <!--quickStep>true</quickStep-->
+    <quickStepIters>10</quickStepIters>
+    <quickStepW>1.3</quickStepW>
+    <contactMaxCorrectingVel>100.0</contactMaxCorrectingVel>
+    <contactSurfaceLayer>0.001</contactSurfaceLayer>
+    <!--StepIters>10</StepIters>
+    <StepW>1.3</StepW-->
+    <stepType>parallel_quick</stepType>
+    <updateRate>-1</updateRate>
+  </physics:ode>
+
+  <geo:origin>
+    <lat>37.4270909558</lat><lon>-122.077919338</lon>
+  </geo:origin>
+
+  <rendering:gui>
+    <type>fltk</type>
+    <size>480 320</size>
+    <pos>0 0</pos>
+    <frames>
+      <row height="100%">
+        <camera width="100%">
+          <xyz>4 -2 4</xyz>
+          <rpy>0 30 140</rpy>
+        </camera>
+      </row>
+    </frames>
+  </rendering:gui>
+
+
+  <rendering:ogre>
+    <ambient>1.0 1.0 1.0 1.0</ambient>
+    <!--<sky>
+      <material>Gazebo/CloudySky</material>
+    </sky>-->
+    <grid>false</grid>
+    <maxUpdateRate>10</maxUpdateRate>
+    <shadowTechnique>none</shadowTechnique>
+    <shadows>false</shadows>
+  </rendering:ogre>
+
+<!-- ground plane -->
+  <model:physical name="gplane">
+    <xyz>-0.091 1.321 -1.01</xyz>
+    <rpy>0 0 0</rpy>
+    <static>true</static>
+	
+
+    <body:plane name="plane">
+      <geom:plane name="plane">
+        <laserRetro>2000.0</laserRetro>
+        <kp>1000000.0</kp>
+        <kd>1.0</kd>
+        <normal>0 0 1</normal>
+        <size>50.0 50.0</size>
+        <material>transparent</material>
+
+	<!-- floor_kitchen -->
+        <visual>
+	  <xyz>0 0 0</xyz>
+          <size>7 7 0.01</size>
+          <material>floor_kitchen</material>
+          <mesh>unit_box</mesh>
+        </visual>
+	
+      </geom:plane>
+    </body:plane>
+  </model:physical>
+
+<!-- boden_kueche 
+ <model:physical name="gplane2">
+    <xyz>1.969 -0.5 0.00</xyz>
+    <rpy>0 0 0</rpy>
+    <static>true</static>
+
+    <body:plane name="plane2">
+      <geom:plane name="plane2">
+        <laserRetro>2000.0</laserRetro>
+        <kp>1000000.0</kp>
+        <kd>1.0</kd>
+        <normal>0 0 1</normal>
+        <size>8.3 4.24</size>
+        <material>boden_kueche</material>
+      </geom:plane>
+    </body:plane>
+  </model:physical>
+-->
+<!-- floor_carpet 
+ <model:physical name="gplane3">
+    <xyz>1.969 -5.5 0.00</xyz>
+    <rpy>0 0 0</rpy>
+    <static>true</static>
+
+    <body:plane name="plane3">
+      <geom:plane name="plane3">
+        <laserRetro>2000.0</laserRetro>
+        <kp>1000000.0</kp>
+        <kd>1.0</kd>
+        <normal>0 0 1</normal>
+        <size>8.3 4.24</size>
+        <material>boden</material>
+      </geom:plane>
+    </body:plane>
+  </model:physical>
+-->
+
+  <!-- White Directional light -->
+
+    <!--light type="directional" name="my_light" cast_shadows="false">
+      <origin pose="0 0 30 0 0 0"/>
+      <diffuse rgba=".9 .9 .9 1"/>
+      <specular rgba=".1 .1 .1 1"/>
+      <attenuation range="20"/>
+      <direction xyz="0 0 -1"/>
+    </light-->
+
+    <!--model:LightSource>
+      <id>light0</id>
+      <xyz>0.0 0.0 10.0</xyz>
+    </model:LightSource-->
+
+<!-- LightSource "north" -->
+  <model:renderable name="directional_north">
+     <xyz>-15.00 2.021 60</xyz>
+     <enableGravity>false</enableGravity>   
+     <light>
+      <type>point</type>
+      <direction>0 0 0</direction>
+      <diffuseColor>100.0 100.0 100.0</diffuseColor>
+      <specularColor>0.1 0.1 0.1</specularColor>
+      <attenuation>1 0.0 1.0 0.4</attenuation>
+      <range>1000</range>
+    </light>
+  </model:renderable>
+
+<!-- LightSource "east" -->
+  <model:renderable name="directional_east">
+     <xyz>2.091 15.00 60</xyz>
+     <enableGravity>false</enableGravity>   
+     <light>
+      <type>point</type>
+      <direction>0 0 0</direction>
+      <diffuseColor>100.0 100.0 100.0</diffuseColor>
+      <specularColor>0.1 0.1 0.1</specularColor>
+      <attenuation>1 0.0 1.0 0.4</attenuation>
+      <range>1000</range>
+    </light>
+  </model:renderable>
+
+<!-- LightSource "south" -->
+  <model:renderable name="directional_south">
+     <xyz>11.091 2.021 60</xyz>
+     <enableGravity>false</enableGravity>   
+     <light>
+      <type>point</type>
+      <direction>0 0 0</direction>
+      <diffuseColor>100.0 100.0 100.0</diffuseColor>
+      <specularColor>0.1 0.1 0.1</specularColor>
+      <attenuation>1 0.0 1.0 0.4</attenuation>
+      <range>1000</range>
+    </light>
+  </model:renderable>
+
+<!-- LightSource "west" -->
+  <model:renderable name="directional_west">
+     <xyz>2.091 -11.021 60</xyz>
+     <enableGravity>false</enableGravity>   
+     <light>
+      <type>point</type>
+      <direction>0 0 0</direction>
+      <diffuseColor>100.0 100.0 100.0</diffuseColor>
+      <specularColor>0.1 0.1 0.1</specularColor>
+      <attenuation>1 0.0 1.0 0.4</attenuation>
+      <range>1000</range>
+    </light>
+  </model:renderable>
+
+</gazebo:world>
