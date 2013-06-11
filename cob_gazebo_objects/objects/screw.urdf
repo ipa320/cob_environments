@@ -21,7 +21,7 @@
     </inertial>    
     <visual>
       <geometry>
-        <cylinder length="0.02" radius="0.005"/>
+        <cylinder length="0.035" radius="0.004"/>
       </geometry>
       <origin xyz="0 0 0"/>
     <material name="red">
@@ -30,7 +30,7 @@
     </visual>
     <collision>
       <geometry>
-        <cylinder length="0.02" radius="0.005"/>
+        <cylinder length="0.035" radius="0.004"/>
       </geometry>
     </collision>
     
@@ -39,18 +39,18 @@
   <link name="head">
     <inertial>
       <mass value=".0125"/>
-      <origin xyz="0 0 0.0125" rpy="0 0 0"/>
+      <origin xyz="0 0 0.01875" rpy="0 0 0"/>
       <inertia ixx=".0125" ixy="0.0" ixz="0.0" iyy=".0125" iyz="0.0" izz=".0125"/>
     </inertial>  
     <visual>
       <geometry>
-        <cylinder length="0.005" radius="0.01"/>
+        <cylinder length="0.0025" radius="0.01"/>
       </geometry>
-      <origin xyz="0 0 0.0125" rpy="0 0 0"/>
+      <origin xyz="0 0 0.01875" rpy="0 0 0"/>
     </visual>
     <collision>
       <geometry>
-        <cylinder length="0.005" radius="0.01"/>
+        <cylinder length="0.0025" radius="0.01"/>
       </geometry>
     </collision>
     <material name="red">
