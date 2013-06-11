@@ -4,18 +4,35 @@ table_ikea:
   position: [1.5,-1.5, 0]
   orientation: [0, 0, 0]
 
-screw:
-  model: screw
+screw_box:
+  model: simple_screwbox
   model_type: urdf
-  position: [1.5, -1.5, 1.5]
+  position: [1.5, -1.5, 0.78]
   orientation: [0, 0, 0]
 
-#screw_box:
-#  model: simple_screwbox
-#  model_type: urdf
-#  position: [1.5, -1.5, 1.5]
-#  orientation: [0, 0, 0]
+screw1:
+  model: screw
+  model_type: urdf
+  position: [1.5125, -1.5125, .84]
+  orientation: [0, 0, 0]
 
+screw2:
+  model: screw
+  model_type: urdf
+  position: [1.5125, -1.4875, .84]
+  orientation: [0, 0, 0]
+
+screw3:
+  model: screw
+  model_type: urdf
+  position: [1.4875, -1.5125, .84]
+  orientation: [0, 0, 0]
+
+screw4:
+  model: screw
+  model_type: urdf
+  position: [1.4875, -1.4875, .84]
+  orientation: [0, 0, 0]
 
 #milk1:
 #  model: milk

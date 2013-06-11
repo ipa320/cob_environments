@@ -2,13 +2,13 @@
   <link name="base">      
     <inertial>
       <mass value="1.0"/>
-      <origin xyz="0 0 .05"/>
+      <origin xyz="0 0 0"/>
       <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
     </inertial>  
     <visual>
-      <origin xyz="0 0 .05" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size=".30 .30 .10"/>
+        <box size=".10 .10 .050"/>
       </geometry>
       <material name="gray">
         <color rgba=".2 .2 .2 1"/>
@@ -16,7 +16,7 @@
     </visual>
     <collision>
       <geometry>
-        <box size =".30 .30 .10"/>
+        <box size =".10 .10 .050"/>
       </geometry>
     </collision>
   </link>
@@ -24,13 +24,13 @@
   <link name="retainer_vc">
     <inertial>
       <mass value=".0125"/>
-      <origin xyz="0 0 0.1105" rpy="0 0 0"/>
+      <origin xyz="0 0 0.0355" rpy="0 0 0"/>
       <inertia ixx=".0125" ixy="0.0" ixz="0.0" iyy=".0125" iyz="0.0" izz=".0125"/>
     </inertial>  
     <visual>
-      <origin xyz="0 0 0.1105" rpy="0 0 0"/>
+      <origin xyz="0 0 0.0355" rpy="0 0 0"/>
       <geometry>
-        <box size="0.015 0.045 0.02"/>
+        <box size="0.01 0.04 0.02"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -38,7 +38,7 @@
     </visual>
     <collision>
       <geometry>
-        <box size="0.015 0.045 0.02"/>
+        <box size="0.01 0.04 0.02"/>
       </geometry>
     </collision>
   </link>
@@ -46,13 +46,13 @@
   <link name="retainer_hc">
     <inertial>
       <mass value=".0125"/>
-      <origin xyz="0 0 0.1105" rpy="0 0 0"/>
+      <origin xyz="0 0 0.0355" rpy="0 0 0"/>
       <inertia ixx=".0125" ixy="0.0" ixz="0.0" iyy=".0125" iyz="0.0" izz=".0125"/>
     </inertial>  
     <visual>
-      <origin xyz="0 0 0.1105" rpy="0 0 0"/>
+      <origin xyz="0 0 0.0355" rpy="0 0 0"/>
       <geometry>
-        <box size="0.045 0.015 0.02"/>
+        <box size="0.04 0.01 0.02"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -60,7 +60,7 @@
     </visual>
     <collision>
       <geometry>
-        <box size="0.045 0.015 0.02"/>
+        <box size="0.04 0.01 0.02"/>
       </geometry>
     </collision>
   </link>
@@ -68,13 +68,13 @@
   <link name="retainer_nw">
     <inertial>
       <mass value=".0125"/>
-      <origin xyz="0 0.025 0.1105" rpy="0 0 0"/>
+      <origin xyz="0 0.0225 0.0355" rpy="0 0 0"/>
       <inertia ixx=".0125" ixy="0.0" ixz="0.0" iyy=".0125" iyz="0.0" izz=".0125"/>
     </inertial>  
     <visual>
-      <origin xyz="0 0.025 0.1105" rpy="0 0 0"/>
+      <origin xyz="0 0.0225 0.0355" rpy="0 0 0"/>
       <geometry>
-        <box size="0.055 0.005 0.02"/>
+        <box size="0.05 0.005 0.02"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -82,7 +82,7 @@
     </visual>
     <collision>
       <geometry>
-        <box size="0.055 0.005 0.02"/>
+        <box size="0.05 0.005 0.02"/>
       </geometry>
     </collision>
   </link>
@@ -90,13 +90,13 @@
   <link name="retainer_sw">
     <inertial>
       <mass value=".0125"/>
-      <origin xyz="0 -0.025 0.1105" rpy="0 0 0"/>
+      <origin xyz="0 -0.0225 0.0355" rpy="0 0 0"/>
       <inertia ixx=".0125" ixy="0.0" ixz="0.0" iyy=".0125" iyz="0.0" izz=".0125"/>
     </inertial>  
     <visual>
-      <origin xyz="0 -0.025 0.1105" rpy="0 0 0"/>
+      <origin xyz="0 -0.0225 0.0355" rpy="0 0 0"/>
       <geometry>
-        <box size="0.055 0.005 0.02"/>
+        <box size="0.05 0.005 0.02"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -104,7 +104,7 @@
     </visual>
     <collision>
       <geometry>
-        <box size="0.055 0.005 0.02"/>
+        <box size="0.05 0.005 0.02"/>
       </geometry>
     </collision>
   </link>
@@ -112,13 +112,13 @@
   <link name="retainer_ew">
     <inertial>
       <mass value=".0125"/>
-      <origin xyz="0.025 0 0.1105" rpy="0 0 0"/>
+      <origin xyz="0.0225 0 0.0355" rpy="0 0 0"/>
       <inertia ixx=".0125" ixy="0.0" ixz="0.0" iyy=".0125" iyz="0.0" izz=".0125"/>
     </inertial>  
     <visual>
-      <origin xyz="0.025 0 0.1105" rpy="0 0 0"/>
+      <origin xyz="0.0225 0 0.0355" rpy="0 0 0"/>
       <geometry>
-        <box size="0.005 0.045 0.02"/>
+        <box size="0.005 0.04 0.02"/>
       </geometry>
       <material name="red">
         <color rgba="1s 0 0 1"/>
@@ -126,7 +126,7 @@
     </visual>
     <collision>
       <geometry>
-        <box size="0.005 0.045 0.02"/>
+        <box size="0.005 0.04 0.02"/>
       </geometry>
     </collision>
   </link>
@@ -134,13 +134,13 @@
   <link name="retainer_ww">
     <inertial>
       <mass value=".0125"/>
-      <origin xyz="-.025 0 0.1105" rpy="0 0 0"/>
+      <origin xyz="-.0225 0 0.0355" rpy="0 0 0"/>
       <inertia ixx=".0125" ixy="0.0" ixz="0.0" iyy=".0125" iyz="0.0" izz=".0125"/>
     </inertial>  
     <visual>
-      <origin xyz="-.025 0 0.1105" rpy="0 0 0"/>
+      <origin xyz="-.0225 0 0.0355" rpy="0 0 0"/>
       <geometry>
-        <box size="0.005 0.045 0.02"/>
+        <box size="0.005 0.04 0.02"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1"/>
@@ -148,7 +148,7 @@
     </visual>
     <collision>
       <geometry>
-        <box size="0.005 0.045 0.02"/>
+        <box size="0.005 0.04 0.02"/>
       </geometry>
     </collision>
   </link>
