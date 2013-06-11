@@ -1,0 +1,206 @@
+<robot name="simple_screwbox">
+  <link name="base">      
+    <inertial>
+      <mass value="1.0"/>
+      <origin xyz="0 0 .05"/>
+      <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+    </inertial>  
+    <visual>
+      <origin xyz="0 0 .05" rpy="0 0 0"/>
+      <geometry>
+        <box size=".30 .30 .10"/>
+      </geometry>
+      <material name="gray">
+        <color rgba=".2 .2 .2 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size =".30 .30 .10"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="retainer_vc">
+    <inertial>
+      <mass value=".0125"/>
+      <origin xyz="0 0 0.1105" rpy="0 0 0"/>
+      <inertia ixx=".0125" ixy="0.0" ixz="0.0" iyy=".0125" iyz="0.0" izz=".0125"/>
+    </inertial>  
+    <visual>
+      <origin xyz="0 0 0.1105" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.015 0.045 0.02"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.015 0.045 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="retainer_hc">
+    <inertial>
+      <mass value=".0125"/>
+      <origin xyz="0 0 0.1105" rpy="0 0 0"/>
+      <inertia ixx=".0125" ixy="0.0" ixz="0.0" iyy=".0125" iyz="0.0" izz=".0125"/>
+    </inertial>  
+    <visual>
+      <origin xyz="0 0 0.1105" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.045 0.015 0.02"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.045 0.015 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="retainer_nw">
+    <inertial>
+      <mass value=".0125"/>
+      <origin xyz="0 0.025 0.1105" rpy="0 0 0"/>
+      <inertia ixx=".0125" ixy="0.0" ixz="0.0" iyy=".0125" iyz="0.0" izz=".0125"/>
+    </inertial>  
+    <visual>
+      <origin xyz="0 0.025 0.1105" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.055 0.005 0.02"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.055 0.005 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="retainer_sw">
+    <inertial>
+      <mass value=".0125"/>
+      <origin xyz="0 -0.025 0.1105" rpy="0 0 0"/>
+      <inertia ixx=".0125" ixy="0.0" ixz="0.0" iyy=".0125" iyz="0.0" izz=".0125"/>
+    </inertial>  
+    <visual>
+      <origin xyz="0 -0.025 0.1105" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.055 0.005 0.02"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.055 0.005 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="retainer_ew">
+    <inertial>
+      <mass value=".0125"/>
+      <origin xyz="0.025 0 0.1105" rpy="0 0 0"/>
+      <inertia ixx=".0125" ixy="0.0" ixz="0.0" iyy=".0125" iyz="0.0" izz=".0125"/>
+    </inertial>  
+    <visual>
+      <origin xyz="0.025 0 0.1105" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.005 0.045 0.02"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1s 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.005 0.045 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="retainer_ww">
+    <inertial>
+      <mass value=".0125"/>
+      <origin xyz="-.025 0 0.1105" rpy="0 0 0"/>
+      <inertia ixx=".0125" ixy="0.0" ixz="0.0" iyy=".0125" iyz="0.0" izz=".0125"/>
+    </inertial>  
+    <visual>
+      <origin xyz="-.025 0 0.1105" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.005 0.045 0.02"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.005 0.045 0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="base_to_retainer_vc" type="fixed">  
+    <parent link="base"/>
+    <child link="retainer_vc"/> 
+  </joint>
+
+  <joint name="base_to_retainer_hc" type="fixed">  
+    <parent link="base"/>
+    <child link="retainer_hc"/> 
+  </joint>
+
+  <joint name="base_to_retainer_nw" type="fixed">  
+    <parent link="base"/>
+    <child link="retainer_nw"/> 
+  </joint>
+
+  <joint name="base_to_retainer_sw" type="fixed">  
+    <parent link="base"/>
+    <child link="retainer_sw"/> 
+  </joint>
+
+  <joint name="base_to_retainer_ew" type="fixed">  
+    <parent link="base"/>
+    <child link="retainer_ew"/> 
+  </joint>
+
+ <joint name="base_to_retainer_ww" type="fixed">  
+    <parent link="base"/>
+    <child link="retainer_ww"/> 
+  </joint>
+
+ <joint name="retainer_hc_to_nw" type="fixed">  
+    <parent link="retainer_hc"/>
+    <child link="retainer_nw"/> 
+  </joint>
+
+ <joint name="retainer_hc_to_sw" type="fixed">  
+    <parent link="retainer_hc"/>
+    <child link="retainer_sw"/> 
+  </joint>
+
+ <joint name="retainer_vc_to_ew" type="fixed">  
+    <parent link="retainer_vc"/>
+    <child link="retainer_ew"/> 
+  </joint>
+
+ <joint name="retainer_vc_to_ww" type="fixed">  
+    <parent link="retainer_vc"/>
+    <child link="retainer_ww"/> 
+  </joint>
+
+</robot>
