@@ -24,9 +24,9 @@
         <cylinder length="0.035" radius="0.004"/>
       </geometry>
       <origin xyz="0 0 0"/>
-    <material name="red">
-      <color rgba="1.0 0 0 0.1"/>
-    </material>				
+    <material name="IPA/Grey">
+		<color rgba="0.7 0.7 0.7 1.0"/>
+	</material>
     </visual>
     <collision>
       <geometry>
@@ -53,9 +53,9 @@
         <cylinder length="0.0025" radius="0.01"/>
       </geometry>
     </collision>
-    <material name="red">
-      <color rgba="1.0 0 0 0.1"/>
-    </material>			
+    <material name="IPA/Grey">
+		<color rgba="0.7 0.7 0.7 1.0"/>
+	</material>
   </link>
 
   <joint name="body_to_head" type="fixed">
