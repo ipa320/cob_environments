@@ -27,11 +27,11 @@
 
   <link name="table_top_link">
     <inertial>
-      <mass value="5.0" />
+      <mass value="10.0" />
       <origin xyz="0.0 0.0 0.0" />
-      <inertia ixx="0" ixy="0"  ixz="0"
-               iyy="0" iyz="0"
-               izz="0" />
+      <inertia ixx="100.0" ixy="0"  ixz="0"
+               iyy="100.0" iyz="0"
+               izz="100.0" />
     </inertial> 
     <visual>
       <origin xyz="0.0 0.0 ${table_z+table_height-table_top_thickness/2}" />
@@ -47,7 +47,7 @@
     </collision>
   </link>
   <gazebo reference="table_top_link">
-    <material>Gazebo/White</material>
+    <material>IPA/Cabinet_Wood</material>
     <mu1>50.0</mu1>
     <mu2>50.0</mu2>
     <kp>1000000.0</kp>
@@ -61,9 +61,9 @@
             <inertial>
 		<origin xyz="0 0 0" />
                 <mass value="3" />
-                <inertia  ixx="0" ixy="0" ixz="0"
-                          iyy="0" iyz="0"
-                          izz="0" />
+                <inertia  ixx="100.0" ixy="0" ixz="0"
+                          iyy="100.0" iyz="0"
+                          izz="100.0" />
             </inertial>
             
             <visual>
@@ -82,7 +82,7 @@
         </link>
 	 
 	<gazebo reference="legs">
-		<material>Gazebo/White</material>
+		<material>IPA/Cabinet_Wood</material>
 		<turnGravityOff>false</turnGravityOff>
 	</gazebo>
       <joint name="leg_${suffix}_joint" type="fixed" >
@@ -105,9 +105,9 @@
             <inertial>
 		<origin xyz="0 0 0" />
                 <mass value="1" />
-                <inertia  ixx="0" ixy="0" ixz="0"
-                          iyy="0" iyz="0"
-                          izz="0" />
+                <inertia  ixx="10.0" ixy="0" ixz="0"
+                          iyy="10.0" iyz="0"
+                          izz="10.0" />
             </inertial>
             
             <visual>
@@ -126,7 +126,7 @@
         </link>
 	 
 	<gazebo reference="structure_lath">
-		<material>Gazebo/White</material>
+		<material>IPA/Cabinet_Wood</material>
 		<turnGravityOff>false</turnGravityOff>
 	</gazebo>
       <joint name="lath_${suffix}_joint" type="fixed" >
