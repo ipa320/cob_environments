@@ -12,6 +12,7 @@
        xmlns:renderable="http://playerstage.sourceforge.net/gazebo/xmlschema/#renderable"
        xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
        xmlns:physics="http://playerstage.sourceforge.net/gazebo/xmlschema/#physics">
+  
   <link name="body">
     <inertial>
       <mass value=".0005"/>
