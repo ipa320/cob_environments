@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<robot name="screw"
+       xmlns:xi="http://www.w3.org/2001/XInclude"
+       xmlns:gazebo="http://playerstage.sourceforge.net/gazebo/xmlschema/#gz"
+       xmlns:model="http://playerstage.sourceforge.net/gazebo/xmlschema/#model"
+       xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
+       xmlns:body="http://playerstage.sourceforge.net/gazebo/xmlschema/#body"
+       xmlns:geom="http://playerstage.sourceforge.net/gazebo/xmlschema/#geom"
+       xmlns:joint="http://playerstage.sourceforge.net/gazebo/xmlschema/#joint"
+       xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
+       xmlns:rendering="http://playerstage.sourceforge.net/gazebo/xmlschema/#rendering"
+       xmlns:renderable="http://playerstage.sourceforge.net/gazebo/xmlschema/#renderable"
+       xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
+       xmlns:physics="http://playerstage.sourceforge.net/gazebo/xmlschema/#physics">
+  
+  <link name="body">
+    <inertial>
+      <mass value=".0005"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="100" ixy="0" ixz="0" 
+               iyy="100" iyz="0" 
+               izz="100"/>
+    </inertial>    
+    <visual>
+      <geometry>
+        <cylinder length="0.035" radius="0.004"/>
+      </geometry>
+      <origin xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.035" radius="0.004"/>
+      </geometry>
+    </collision>    
+  </link>
+  <gazebo reference="body">
+    <material>
+	IPA/Grey
+    </material>
+  </gazebo>
+
+  <link name="head">
+    <inertial>
+      <mass value=".0005"/>
+      <origin xyz="0 0 0.01875" rpy="0 0 0"/>
+      <inertia ixx="100" ixy="0" ixz="0" 
+               iyy="100" iyz="0" 
+               izz="100"/>
+    </inertial>  
+    <visual>
+      <geometry>
+        <cylinder length="0.0025" radius="0.01"/>
+      </geometry>
+      <origin xyz="0 0 0.01875" rpy="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.0025" radius="0.01"/>
+      </geometry>
+    </collision>
+  </link>
+  <gazebo reference="head">
+    <material>
+	IPA/Grey
+    </material>
+  </gazebo>
+
+  <joint name="body_to_head" type="fixed">
+    <parent link="body"/>
+    <child link="head"/>  
+  </joint>
+</robot>
