@@ -37,3 +37,22 @@ catkin_package(
     INCLUDE_DIRS # TODO include
     LIBRARIES # TODO
 )
+
+SET(envlist
+    ipa-kitchen
+    ipa-apartment
+)
+
+
+## Mark other files for installation (e.g. launch and bag files, etc.)
+install(FILES
+  upload_navigation_goals.launch
+  upload_object_locations.launch
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+
+
+FOREACH(environ ${envlist})
+    install(DIRECTORY ${environ}/
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${environ})
+ENDFOREACH(environ)
