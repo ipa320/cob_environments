@@ -10,12 +10,6 @@ milk2:
   position: [-1.5, -1.8, 1.5 ]
   orientation: [0, 0, 1.570796]
 
-milk3:
-  model: milk
-  model_type: urdf
-  position: [3.9, -1.8, 1.5 ]
-  orientation: [0, 0, 1.570796]
-
 salt:
   model: salt
   model_type: urdf
