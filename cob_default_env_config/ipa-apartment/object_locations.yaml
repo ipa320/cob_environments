@@ -326,8 +326,8 @@ medicine_panodil:
   position: [-8.44, 13.45, 0.78]
   orientation: [0, 0, -1.570796327]
 
-medication_prospan:
-  model: medication_prospan
+medicine_prospan:
+  model: medicine_prospan
   model_type: urdf
   position: [-6.91, 12.66, 0.61]
   orientation: [0, 0, 0]
