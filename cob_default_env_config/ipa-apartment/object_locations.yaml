@@ -46,11 +46,11 @@ tomato_sauce:
 #  position: [-0.7, -0.1, 1]
 #  orientation: [1.56, 0, 1.56]
 
-#cb_9x6:
-#  model: cb_9x6
-#  model_type: model
-#  position: [-0.7, -0.1, 1]
-#  orientation: [1.56, 0, 1.56]
+cb_9x6:
+ model: cb_9x6
+ model_type: urdf
+ position: [-0.7, -0.1, 1]
+ orientation: [1.56, 0, 1.56]
 
 table_ikea:
   model: table_ikea
