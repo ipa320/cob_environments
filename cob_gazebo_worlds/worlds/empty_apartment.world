@@ -40,7 +40,7 @@
     <model name="floor_student_area">
       <static>true</static>
       <link name="link">
-      <pose>2 -6.25 0.05 0 0 0</pose>
+      <pose>2 -6.25 -0.005 0 0 0</pose>
         <visual name="visual">
           <cast_shadows>false</cast_shadows>
           <geometry>
@@ -60,7 +60,7 @@
     <model name="floor_kitchen">
       <static>true</static>
       <link name="link">
-      <pose>1.969 -0.5 0.02 0 0 0</pose>
+      <pose>1.969 -0.5 -0.0001 0 0 0</pose>
         <visual name="visual">
           <cast_shadows>false</cast_shadows>
           <geometry>
@@ -81,7 +81,7 @@
     <model name="floor_office">
       <static>true</static>
       <link name="link">
-      <pose>-11.931 9.93 0 0 0 0</pose>
+      <pose>-11.931 9.93 -0.005 0 0 0</pose>
         <visual name="visual">
           <cast_shadows>false</cast_shadows>
           <geometry>
@@ -101,7 +101,7 @@
     <model name="floor">
       <static>true</static>
       <link name="link">
-      <pose>-10 -1.969 0 0 0 0</pose>
+      <pose>-10 -1.969 -0.005 0 0 0</pose>
         <visual name="visual">
           <cast_shadows>false</cast_shadows>
           <geometry>
