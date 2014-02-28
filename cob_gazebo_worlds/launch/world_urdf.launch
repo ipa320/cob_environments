@@ -5,8 +5,7 @@
 	<arg name="use_sim_time" default="true"/>
 	<arg name="gui" default="true"/>
 	<arg name="throttled" default="false"/>
-
-	<arg name="robot_env"/>
+	<arg name="robot_env" default="empty"/>
 
 	<!-- start gazebo with empty world -->
 	<include file="$(find cob_gazebo_worlds)/launch/empty.launch">
