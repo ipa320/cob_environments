@@ -78,7 +78,9 @@
       <direction>0.000000 0.000000 -1.000000</direction>
       <cast_shadows>0</cast_shadows>
     </light>
-    <plugin name='joint_trajectory_plugin' filename='libgazebo_ros_joint_trajectory.so'/>
+    <plugin name='joint_trajectory_plugin' filename='libgazebo_ros_joint_trajectory.so'>
+      <updateRate>0.0</updateRate>  <!-- as fast as possible -->
+    </plugin>
     <state world_name='default'>
       <sim_time>0 0</sim_time>
       <real_time>0 0</real_time>
