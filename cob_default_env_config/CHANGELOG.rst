@@ -2,8 +2,8 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.1 (2014-03-20)
+------------------
 * avoid error message
 * enable paused mode again
 * enable paused mode again

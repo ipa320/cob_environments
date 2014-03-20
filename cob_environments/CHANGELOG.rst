@@ -2,8 +2,8 @@
 Changelog for package cob_environments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.5.1 (2014-03-20)
+------------------
 * moved gazebo simulation environments to cob_simulation to cleanup dependencies. Discussed with fmw
 * metapackage for cob_environments
 * metapackage for cob_environments
