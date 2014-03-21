@@ -32,10 +32,6 @@ find_package(catkin REQUIRED COMPONENTS roslaunch)
 ## INCLUDE_DIRS: 
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 catkin_package(
-    DEPENDS rostest
-    CATKIN_DEPENDS # TODO
-    INCLUDE_DIRS # TODO include
-    LIBRARIES # TODO
 )
 
 SET(envlist
