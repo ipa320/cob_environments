@@ -41,6 +41,8 @@ catkin_package(
 SET(envlist
     ipa-kitchen
     ipa-apartment
+    ipa-factory
+    empty
 )
 
 
