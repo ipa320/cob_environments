@@ -1,6 +1,6 @@
 source_id: "rfid"
 features:
-  - id: 0x08
+  - id: 0x8
     position: [-5.3008, -5.6357, 0.0]
     description: rfid_tag_east_first
   - id: 0x1
