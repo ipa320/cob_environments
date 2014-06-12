@@ -1,6 +1,6 @@
 <package>
   <name>cob_environments</name>
-  <version>0.5.0</version>
+  <version>0.5.1</version>
   <description>This stack holds packages for IPA default environment configuration.</description>
 
   <license>LGPL</license>
@@ -9,6 +9,7 @@
   <!-- <url type="bugtracker"></url> -->
 
   <maintainer email="fmw@ipa.fhg.de">Florian Weisshardt</maintainer>
+  <maintainer email="nhg@ipa.fhg.de">Nadia Hammoudeh Garcia</maintainer>
   <author email="fmw@ipa.fhg.de">Florian Weisshardt</author>
 
   <buildtool_depend>catkin</buildtool_depend>
