@@ -1,0 +1,20 @@
+source_id: "lasermarker"
+features:
+  - id: 1
+    position: [0.9725, -0.5844, 0.0]
+    description: left_foot_table1
+  - id: 2
+    position: [0.98012, 0.5531, 0.0]
+    description: right_foot_table1
+  - id: 3
+    position: [1.7243, -0.5926, 0.0]
+    description: left_foot_table2
+  - id: 4
+    position: [1.7132, 0.6088, 0.0]
+    description: right_foot_table2
+  - id: 5
+    position: [-0.6467, 1.6380, 0.0]
+    description: left_foot_table3
+  - id: 6
+    position: [0.5733, 1.6318, 0.0]
+    description: right_foot_table3
