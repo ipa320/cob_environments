@@ -1,7 +1,7 @@
 source_id: "laserscan"
 features:
   - id: 1
-    source: [1.94, -3.02, 0.0]
+    source: [-1.94, -3.02, 0.0]
     target: [5.31, -3.09, 0.0]
     description: Side_Wall_Right_With_Doors
   - id: 2 
