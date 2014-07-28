@@ -1,4 +1,4 @@
-source_id: "lasercorners"
+source_id: "lasercorner"
 features:
   - id: 1
     pose: [6.067, 1.370, -2.297]
