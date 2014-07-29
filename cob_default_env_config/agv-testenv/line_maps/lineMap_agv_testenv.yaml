@@ -1,0 +1,27 @@
+source_id: "laserscan"
+features:
+  - id: 1
+    source: [-1.94, -3.02, 0.0]
+    target: [5.31, -3.09, 0.0]
+    description: Side_Wall_Right_With_Doors
+  - id: 2 
+    source: [5.45, -1.10, 0.0]
+    target: [5.46, 0.84, 0.0]
+    description: Front_Wall_Right_Door
+  - id: 3
+    source: [5.65, -2.07, 0.0]
+    target: [5.66, -1.21, 0.0]
+    description: Fron_Wall_Between_Doors_1
+  - id: 4
+    source: [5.46, 0.84, 0.0]
+    target: [5.50, 1.81, 0.0]
+    description: Front_Wall_Between_Doors2
+  - id: 5
+    source: [5.50, 2.85, 0.0]
+    target: [5.62, 6.53, 0.0]
+    description: Front_Wall_Stairs
+  - id: 6
+    source: [5.62, 6.53, 0.0]
+    target: [4.19, 6.56, 0.0]
+    description: Stairs
+
