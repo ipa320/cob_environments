@@ -3,10 +3,10 @@ features:
   - id: 2
     position: [-1.1442, -0.085611, 0]
     description: cubical_front
-  - id: 3
+  - id: 1
     position: [-2.218, -0.59774, 0]
     description: cubical_side
-  - id: 1
+  - id: 3
     position: [-2.7494, -0.097607, 0]
     description: cubical_rear
   - id: 4
