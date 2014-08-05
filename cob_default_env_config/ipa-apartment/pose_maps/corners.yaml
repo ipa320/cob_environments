@@ -1,9 +1,0 @@
-source_id: "lasercorner"
-features:
-  - id: 1
-    pose: [6.067, 1.370, -2.297]
-    description: boundary
-  - id: 2
-    pose: [6.850, -4.473, 3.141]
-    description: boundary
-
