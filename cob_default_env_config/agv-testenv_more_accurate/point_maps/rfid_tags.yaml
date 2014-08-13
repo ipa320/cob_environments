@@ -27,39 +27,39 @@ features:
   - id: 9
     position: [-0.8, 5.44, 0]
     description: station_2_right
-  - id: 10
+  - id: 16
     position: [-1.7, 5.0, 0]
     description: station_2_front
-  - id: 11
+  - id: 17
     position: [-0.8, 4.56, 0]
     description: station_2_left
-  - id: 12
+  - id: 18
     position: [0.1, 5.0, 0]
     description: station_2_rear
-  - id: 13
+  - id: 19
     position: [-1.8, 3.9, 0]
     description: station_3_front
-  - id: 14
+  - id: 20
     position: [-2.24, 3.0, 0]
     description: station_3_left
-  - id: 15
+  - id: 21
     position: [-1.8, 2.1, 0]
     description: station_3_rear
-  - id: 16
+  - id: 22
     position: [-1.36, 3.0, 0]
     description: station_3_right
-  - id: 17
+  - id: 23
     position: [-1.8, 0.0, 0]
     description: entrance
-  - id: 18
+  - id: 24
     position: [-0.9, 0.0, 0]
     description: station_1_rear
-  - id: 19
+  - id: 25
     position: [0.0, 0.44, 0]
     description: station_1_left
-  - id: 20
+  - id: 32
     position: [0.9, 0.0, 0]
     description: station_3_front
-  - id: 21
+  - id: 33
     position: [0.0, -0.44, 0]
     description: station_3_right
