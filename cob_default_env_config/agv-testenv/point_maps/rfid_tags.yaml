@@ -1,29 +1,65 @@
 source_id: "rfid"
 features:
-  - id: 2
-    position: [-1.1442, -0.085611, 0]
-    description: cubical_front
   - id: 1
-    position: [-2.218, -0.59774, 0]
-    description: cubical_side
+    position: [-4.74, 3.0, 0]
+    description: station_4_right
+  - id: 2
+    position: [-4.3, 3.9, 0]
+    description: station_4_rear
   - id: 3
-    position: [-2.7494, -0.097607, 0]
-    description: cubical_rear
+    position: [-3.8, 3.0, 0]
+    description: station_4_left
   - id: 4
-    position: [3.0643, 2.6814, 0]
-    description: entrance_front
+    position: [-4.3, 2.1, 0]
+    description: station_4_front
   - id: 5
-    position: [3.5584, 1.5992, 0]
-    description: entrance_side
+    position: [-2.7, 6.0, 0]
+    description: station_3_front
   - id: 6
-    position: [3.0495, 1.0763, 0]
-    description: entrance_rear
+    position: [-1.8, 5.56, 0]
+    description: station_3_left
   - id: 7
-    position: [-0.97714, 4.4668, 0]
-    description: middle_front
+    position: [-0.9, 6.0, 0]
+    description: station_3_rear
   - id: 8
-    position: [0.08499, 5.0027, 0]
-    description: middlee_side
+    position: [-1.8, 6.44, 0]
+    description: station_3_right
   - id: 9
-    position: [0.62733, 4.5145, 0]
-    description: middle_rear
+    position: [-0.8, 5.44, 0]
+    description: station_2_right
+  - id: 16
+    position: [-1.7, 5.0, 0]
+    description: station_2_front
+  - id: 17
+    position: [-0.8, 4.56, 0]
+    description: station_2_left
+  - id: 18
+    position: [0.1, 5.0, 0]
+    description: station_2_rear
+  - id: 19
+    position: [-1.8, 3.9, 0]
+    description: station_3_front
+  - id: 20
+    position: [-2.24, 3.0, 0]
+    description: station_3_left
+  - id: 21
+    position: [-1.8, 2.1, 0]
+    description: station_3_rear
+  - id: 22
+    position: [-1.36, 3.0, 0]
+    description: station_3_right
+  - id: 23
+    position: [-1.8, 0.0, 0]
+    description: entrance
+  - id: 24
+    position: [-0.9, 0.0, 0]
+    description: station_1_rear
+  - id: 25
+    position: [0.0, 0.44, 0]
+    description: station_1_left
+  - id: 32
+    position: [0.9, 0.0, 0]
+    description: station_3_front
+  - id: 33
+    position: [0.0, -0.44, 0]
+    description: station_3_right
