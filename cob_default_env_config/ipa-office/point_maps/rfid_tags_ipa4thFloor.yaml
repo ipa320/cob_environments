@@ -1,33 +1,44 @@
 source_id: "rfid"
 features:
-  - id: 0x8
+  - id: 8
     position: [-5.3008, -5.6357, 0.0]
     description: rfid_tag_east_first
-  - id: 0x1
+  - id: 1
     position: [-6.0820, -6.4138, 0.0]
     description: rfid_tag_east_second
-  - id: 0x2
+  - id: 2
     position: [-6.6903, -6.5843, 0.0]
     description: rfid_tag_east_right
-  - id: 0x9
+  - id: 9
     position: [-6.2548, -7.0215, 0.0]
     description: rfid_tag_east_left
-  - id: 0x3
+  - id: 3
     position: [-6.8631, -7.1920, 0.0]
     description: rfid_tag_east_third
-  - id: 0x4
+  - id: 4
     position: [11.598, 11.048, 0.0]
     description: rfid_tag_west_first
-  - id: 0x5
+  - id: 5
     position: [12.382, 11.823, 0.0]
     description: rfid_tag_west_second
-  - id: 0x6
+  - id: 6
     position: [12.991, 11.991, 0.0]
     description: rfid_tag_west_right
-  - id: 0x10
+  - id: 16
     position: [12.558, 12.429, 0.0]
     description: rfid_tag_west_left
-  - id: 0x7
+  - id: 7
     position: [13.167, 12.597, 0.0]
     description: rfid_tag_west_third
-
+  - id: 624485
+    position: [-1.5874, -1.52, 0.0]
+    description: rfid_tag_east_new_station_right
+  - id: 23
+    position: [-1.7579, -2.1283, 0.0]
+    description: rfid_tag_east_new_station_front
+  - id: 74565
+    position: [-0.97974, -1.34715, 0.0]
+    description: rfid_tag_east_new_station_rear
+  - id: 703710
+    position: [-1.1503, -1.9554, 0.0]
+    description: rfid_tag_east_new_station_left
