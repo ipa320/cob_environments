@@ -2,6 +2,12 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.2 (2014-08-25)
+------------------
+* cleaning up
+* New maintainer
+* Contributors: ipa-fxm, ipa-nhg
+
 0.5.1 (2014-03-20)
 ------------------
 * avoid error message
