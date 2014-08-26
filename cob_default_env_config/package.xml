@@ -12,6 +12,9 @@
   <author email="fmw@ipa.fhg.de">Florian Weisshardt</author>
 
   <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>rostest</build_depend>
+
   <!-- <test_depend>rostest</test_depend> -->
 
   <export>
