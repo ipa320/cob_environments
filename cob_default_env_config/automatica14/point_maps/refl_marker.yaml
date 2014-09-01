@@ -1,0 +1,14 @@
+source_id: "lasermarker"
+features:
+  - id: 1
+    position: [-1.407092, 0.797360, 0.0]
+    description: screw_table1
+  - id: 2
+    position: [-0.66598, 0.737812, 0.0]
+    description: screw_table2
+  - id: 3
+    position: [-1.4386, -0.349312, 0.0]
+    description: screw_table3
+  - id: 4
+    position: [-0.7209, -0.391, 0.0]
+    description: screw_table4	
