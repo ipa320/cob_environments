@@ -2,8 +2,8 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.0 (2014-09-17)
+------------------
 * catkin_lint'ing
 * merge with ipa320
 * catkin_lint'ing

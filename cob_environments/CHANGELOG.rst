@@ -2,8 +2,8 @@
 Changelog for package cob_environments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.0 (2014-09-17)
+------------------
 * 0.5.3
 * update changelog
 * Contributors: Florian Weisshardt
