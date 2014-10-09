@@ -1,0 +1,64 @@
+source_id: laserscan
+for all images:
+occupied_pixel_value: 0
+unexplored_pixel_value: 205
+free_pixel_value: 255
+resolution: 0.025
+features:
+  - id: 0
+    image: local_map_0.pgm
+    origin: [-2.0509, -9.6229, 0]
+  - id: 1
+    image: local_map_1.pgm
+    origin: [-6.3509, -8.0729, 0]
+  - id: 2
+    image: local_map_2.pgm
+    origin: [-11.7259, -6.8979, 0]
+  - id: 3
+    image: local_map_3.pgm
+    origin: [-8.3759, -6.7229, 0]
+  - id: 4
+    image: local_map_4.pgm
+    origin: [-5.9259, -3.2479, 0]
+  - id: 5
+    image: local_map_5.pgm
+    origin: [9.5241, -2.0479, 0]
+  - id: 6
+    image: local_map_6.pgm
+    origin: [-4.1759, -1.6729, 0]
+  - id: 7
+    image: local_map_7.pgm
+    origin: [5.0991, -1.3979, 0]
+  - id: 8
+    image: local_map_8.pgm
+    origin: [-4.9509, -1.0479, 0]
+  - id: 9
+    image: local_map_9.pgm
+    origin: [3.1991, -0.4229, 0]
+  - id: 10
+    image: local_map_10.pgm
+    origin: [1.2741, -0.0978998, 0]
+  - id: 11
+    image: local_map_11.pgm
+    origin: [-7.0759, 0.3021, 0]
+  - id: 12
+    image: local_map_12.pgm
+    origin: [3.3991, 1.5271, 0]
+  - id: 13
+    image: local_map_13.pgm
+    origin: [-6.3509, 2.0271, 0]
+  - id: 14
+    image: local_map_14.pgm
+    origin: [9.0741, 6.6021, 0]
+  - id: 15
+    image: local_map_15.pgm
+    origin: [12.9241, 6.6271, 0]
+  - id: 16
+    image: local_map_16.pgm
+    origin: [-5.9009, 7.3771, 0]
+  - id: 17
+    image: local_map_17.pgm
+    origin: [12.8241, 10.9271, 0]
+  - id: 18
+    image: local_map_18.pgm
+    origin: [-7.1509, 14.7021, 0]
