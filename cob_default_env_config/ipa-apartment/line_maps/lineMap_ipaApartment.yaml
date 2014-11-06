@@ -1,0 +1,274 @@
+source_id: "laserscan"
+features:
+  - id: 1
+    source: [-1.78184, 1.88566, 0.0]
+    target: [6.16962, 1.31688, 0.0]
+    description: line_1
+  - id: 2
+    source: [6.14823, 1.31192, 0.0]
+    target: [5.85953, -3.34356, 0.0]
+    description: line_2
+  - id: 3
+    source: [5.83959, -3.35494, 0.0]
+    target: [6.88986, -4.50074, 0.0]
+    description: line_3
+  - id: 4
+    source: [6.86069, -4.51252, 0.0]
+    target: [5.69432, -5.52776, 0.0]
+    description: line_4
+  - id: 5
+    source: [5.6968, -5.57291, 0.0]
+    target: [5.43305, -10.1011, 0.0]
+    description: line_5
+  - id: 6
+    source: [5.44694, -10.0595, 0.0]
+    target: [-2.66639, -9.59287, 0.0]
+    description: line_6
+  - id: 7
+    source: [-2.67592, -9.59376, 0.0]
+    target: [-2.34502, -4.28907, 0.0]
+    description: line_7
+  - id: 8
+    source: [-2.06954, -4.81221, 0.0]
+    target: [-0.930011, -4.89813, 0.0]
+    description: line_8
+  - id: 9
+    source: [-0.95769, -4.88614, 0.0]
+    target: [-0.96694, -5.45428, 0.0]
+    description: line_9
+  - id: 10
+    source: [-0.953471, -5.45354, 0.0]
+    target: [-2.1192, -5.38257, 0.0]
+    description: line_10
+  - id: 11
+    source: [-2.09077, -5.40803, 0.0]
+    target: [-2.02839, -4.82346, 0.0]
+    description: line_11
+  - id: 12
+    source: [0.240401, -4.99935, 0.0]
+    target: [1.38495, -5.04799, 0.0]
+    description: line_12
+  - id: 13
+    source: [1.37687, -5.05702, 0.0]
+    target: [1.35521, -5.59932, 0.0]
+    description: line_13
+  - id: 14
+    source: [1.35521, -5.59932, 0.0]
+    target: [0.22636, -5.52405, 0.0]
+    description: line_14
+  - id: 15
+    source: [0.227775, -5.54974, 0.0]
+    target: [0.24896, -4.99888, 0.0]
+    description: line_15
+  - id: 16
+    source: [1.5396, -5.07798, 0.0]
+    target: [1.89195, -5.10698, 0.0]
+    description: line_16
+  - id: 17
+    source: [1.88309, -5.10878, 0.0]
+    target: [1.87061, -5.43671, 0.0]
+    description: line_17
+  - id: 18
+    source: [1.85685, -5.42438, 0.0]
+    target: [1.52953, -5.42058, 0.0]
+    description: line_18
+  - id: 19
+    source: [1.5322, -5.38989, 0.0]
+    target: [1.54755, -5.11416, 0.0]
+    description: line_19
+  - id: 20
+    source: [1.9878, -5.43528, 0.0]
+    target: [2.64784, -5.49282, 0.0]
+    description: line_20
+  - id: 21
+    source: [3.95758, -5.21503, 0.0]
+    target: [5.10127, -5.28846, 0.0]
+    description: line_21
+  - id: 22
+    source: [5.091, -5.29252, 0.0]
+    target: [5.08261, -5.83855, 0.0]
+    description: line_22
+  - id: 23
+    source: [5.0712, -5.82169, 0.0]
+    target: [3.96099, -5.78489, 0.0]
+    description: line_23
+  - id: 24
+    source: [3.95344, -5.77482, 0.0]
+    target: [3.97616, -5.23499, 0.0]
+    description: line_24
+  - id: 25
+    source: [-2.28175, -2.97074, 0.0]
+    target: [-1.82995, 1.87472, 0.0]
+    description: line_25
+  - id: 26
+    source: [-2.17202, -1.85435, 0.0]
+    target: [-1.38554, -1.93144, 0.0]
+    description: line_26
+  - id: 27
+    source: [-1.38521, -1.93744, 0.0]
+    target: [-1.09383, 1.07638, 0.0]
+    description: line_27
+  - id: 28
+    source: [-1.11182, 1.07539, 0.0]
+    target: [-1.8993, 1.17048, 0.0]
+    description: line_28
+  - id: 29
+    source: [-2.41408, -5.42392, 0.0]
+    target: [-4.59664, -5.24727, 0.0]
+    description: line_29
+  - id: 30
+    source: [-4.58842, -5.23809, 0.0]
+    target: [-4.54071, -4.51963, 0.0]
+    description: line_30
+  - id: 31
+    source: [-4.54071, -4.51963, 0.0]
+    target: [-6.71408, -4.3512, 0.0]
+    description: line_31
+  - id: 32
+    source: [-6.68537, -4.35108, 0.0]
+    target: [-8.06257, -5.50801, 0.0]
+    description: line_32
+  - id: 33
+    source: [-8.03705, -5.51499, 0.0]
+    target: [-6.49655, -7.3242, 0.0]
+    description: line_33
+  - id: 34
+    source: [-6.49609, -7.33256, 0.0]
+    target: [-7.19511, -7.87388, 0.0]
+    description: line_34
+  - id: 35
+    source: [-7.19511, -7.87388, 0.0]
+    target: [-8.69478, -6.04566, 0.0]
+    description: line_35
+  - id: 36
+    source: [-8.6913, -6.01858, 0.0]
+    target: [-11.5925, -8.4581, 0.0]
+    description: line_36
+  - id: 37
+    source: [-11.5779, -8.46653, 0.0]
+    target: [-13.4023, -8.3417, 0.0]
+    description: line_37
+  - id: 38
+    source: [-13.3954, -8.3275, 0.0]
+    target: [-17.4658, -3.52484, 0.0]
+    description: line_38
+  - id: 39
+    source: [-17.4648, -3.56379, 0.0]
+    target: [-17.3635, -1.78283, 0.0]
+    description: line_39
+  - id: 40
+    source: [-17.3419, -1.77122, 0.0]
+    target: [-12.3274, 2.42645, 0.0]
+    description: line_40
+  - id: 41
+    source: [-10.6895, 2.32469, 0.0]
+    target: [-6.55465, -2.73256, 0.0]
+    description: line_41
+  - id: 42
+    source: [-6.52363, -2.72028, 0.0]
+    target: [-4.41119, -2.89994, 0.0]
+    description: line_42
+  - id: 43
+    source: [-4.37901, -2.90873, 0.0]
+    target: [-4.2575, -0.893783, 0.0]
+    description: line_43
+  - id: 44
+    source: [-2.11492, -1.16866, 0.0]
+    target: [-3.20629, -1.05814, 0.0]
+    description: line_44
+  - id: 45
+    source: [-1.88402, 1.63573, 0.0]
+    target: [-3.37117, 0.39873, 0.0]
+    description: line_45
+  - id: 46
+    source: [-4.25032, -0.93355, 0.0]
+    target: [-8.53752, 4.23017, 0.0]
+    description: line_46
+  - id: 47
+    source: [-1.89093, 1.7822, 0.0]
+    target: [-5.59767, 6.23447, 0.0]
+    description: line_47
+  - id: 48
+    source: [-5.58737, 6.21813, 0.0]
+    target: [-10.2279, 6.67391, 0.0]
+    description: line_48
+  - id: 49
+    source: [-8.41693, 6.49504, 0.0]
+    target: [-8.48768, 5.41238, 0.0]
+    description: line_49
+  - id: 50
+    source: [-10.2342, 6.6795, 0.0]
+    target: [-10.2734, 6.31577, 0.0]
+    description: line_50
+  - id: 51
+    source: [-10.2563, 6.32857, 0.0]
+    target: [-9.97182, 6.32645, 0.0]
+    description: line_51
+  - id: 52
+    source: [-9.98201, 6.29625, 0.0]
+    target: [-9.91818, 6.64355, 0.0]
+    description: line_52
+  - id: 53
+    source: [-10.7052, 2.28356, 0.0]
+    target: [-10.5125, 4.51669, 0.0]
+    description: line_53
+  - id: 54
+    source: [-10.505, 4.38091, 0.0]
+    target: [-8.54149, 4.23518, 0.0]
+    description: line_54
+  - id: 55
+    source: [-8.56034, 4.24034, 0.0]
+    target: [-8.54381, 4.38983, 0.0]
+    description: line_55
+  - id: 56
+    source: [-12.3298, 2.41969, 0.0]
+    target: [-12.1626, 4.63952, 0.0]
+    description: line_56
+  - id: 57
+    source: [-12.1752, 4.535, 0.0]
+    target: [-13.8663, 4.62929, 0.0]
+    description: line_57
+  - id: 58
+    source: [-13.8585, 4.62972, 0.0]
+    target: [-13.6953, 6.91083, 0.0]
+    description: line_58
+  - id: 59
+    source: [-12.1705, 6.7446, 0.0]
+    target: [-16.6446, 7.17252, 0.0]
+    description: line_59
+  - id: 60
+    source: [-16.6525, 7.16124, 0.0]
+    target: [-15.8792, 15.295, 0.0]
+    description: line_60
+  - id: 61
+    source: [-15.8829, 15.2926, 0.0]
+    target: [-4.95732, 14.3651, 0.0]
+    description: line_61
+  - id: 62
+    source: [-4.9565, 14.3498, 0.0]
+    target: [-5.59573, 6.25909, 0.0]
+    description: line_62
+  - id: 63
+    source: [-11.4042, 14.8915, 0.0]
+    target: [-11.7931, 10.9195, 0.0]
+    description: line_63
+  - id: 64
+    source: [-16.3361, 10.2486, 0.0]
+    target: [-11.9069, 9.80284, 0.0]
+    description: line_64
+  - id: 65
+    source: [-11.8836, 9.80412, 0.0]
+    target: [-12.0591, 8.11137, 0.0]
+    description: line_65
+  - id: 66
+    source: [-9.50183, 14.7157, 0.0]
+    target: [-9.62158, 13.2831, 0.0]
+    description: line_66
+  - id: 67
+    source: [-9.67444, 12.3335, 0.0]
+    target: [-10.0615, 8.11615, 0.0]
+    description: line_67
+  - id: 68
+    source: [-9.67978, 12.0059, 0.0]
+    target: [-5.16381, 11.6818, 0.0]
+    description: line_68
