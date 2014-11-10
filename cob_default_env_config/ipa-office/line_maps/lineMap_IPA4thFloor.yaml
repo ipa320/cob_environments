@@ -11,7 +11,7 @@ features:
   - id: 3
     source: [-4.1714567986952, -3.3232428585307, 0.0]
     target: [-7.0462292723954, -6.1703439219379, 0.0]
-    description: Floor_East_SouthWall  
+    description: Floor_East_SouthWall
   - id: 4
     source: [-7.703835389614, -6.8244101799728, 0.0]
     target: [-8.0441613870763, -7.1629042204688, 0.0]
@@ -23,7 +23,7 @@ features:
   - id: 6
     source: [-1.3765497183535, -3.0268779453658, 0.0]
     target: [-5.8005290375991, -7.4208552176862, 0.0]
-    description: Floor_East_NorthWall  
+    description: Floor_East_NorthWall
   - id: 7
     source: [-6.4614429868716, -8.0746380368448, 0.0]
     target: [-6.8026902439787, -8.4122033038923, 0.0]
@@ -31,7 +31,7 @@ features:
   - id: 8
     source: [0.2299569822898, 1.0493845329517, 0.0]
     target: [0.2471393860352, 7.2664516973402, 0.0]
-    description: Stairwell_South_East_Wall 
+    description: Stairwell_South_East_Wall
   - id: 9
     source: [1.5182674726611, 8.5012865387816, 0.0]
     target: [7.7365871917351, 8.5027553825111, 0.0]
@@ -55,7 +55,7 @@ features:
   - id: 14
     source: [12.1316226157456, 12.8606383832137, 0.0]
     target: [14.9901835119279, 15.7049534974081, 0.0]
-    description: Floor_West_SouthWall  
+    description: Floor_West_SouthWall
   - id: 15
     source: [11.0888722531884, 9.3339075103201, 0.0]
     target: [8.9803188254128, 7.2396524362813, 0.0]
@@ -67,7 +67,7 @@ features:
   - id: 17
     source: [13.3682441110615, 11.6088980618268, 0.0]
     target: [16.2312184362137, 14.4475884989746, 0.0]
-    description: Floor_West_NorthWall  
+    description: Floor_West_NorthWall
   - id: 18
     source: [-8.0441613870763, -7.1629042204688, 0.0]
     target: [-6.8026902439787, -8.4122033038923, 0.0]
