@@ -2,6 +2,18 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.0 (2014-09-17)
+------------------
+* catkin_lint'ing
+* merge with ipa320
+* catkin_lint'ing
+* Merge pull request `#70 <https://github.com/ipa320/cob_environments/issues/70>`_ from ipa320/hydro_dev
+  add dependency to roslaunch
+* 0.5.3
+* update changelog
+* add dependency to roslaunch
+* Contributors: Florian Weisshardt, ipa-fxm
+
 0.5.3 (2014-08-26)
 ------------------
 * Merge pull request `#70 <https://github.com/ipa320/cob_environments/issues/70>`_ from ipa320/hydro_dev
