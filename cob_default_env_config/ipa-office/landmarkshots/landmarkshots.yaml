@@ -1,0 +1,212 @@
+features:
+  - id: 0
+    landmarkshot: Escalator_left_view.lms
+    position:
+      - 6.741811657552364
+      - 1.165761169428242
+      - 0.9869999999999999
+    image: Escalator_left_view.png
+  - id: 1
+    position:
+      - 2.323298429498808
+      - 1.650070667655624
+      - 0
+    landmarkshot: Escalator_right_view.lms
+    image: Escalator_right_view.png
+  - position:
+      - 7.382715482415499
+      - 2.086936956983932
+      - 0.9869999999999999
+    id: 2
+    image: fire_extinguisher.png
+    landmarkshot: fire_extinguisher.lms
+  - image: Floorplan.png
+    landmarkshot: Floorplan.lms
+    position:
+      - 1.687043115220075
+      - 3.812169354844377
+      - 0
+    id: 3
+  - landmarkshot: Plakat_3D_info.lms
+    image: Plakat_3D_info.png
+    id: 4
+    position:
+      - 2.179048017889254
+      - 4.064704967168242
+      - 0.9869999999999997
+  - position:
+      - 7.475750275669368
+      - 6.353012728862944
+      - 0
+    image: Plakat_effirob_l.png
+    id: 5
+    landmarkshot: Plakat_effirob_l.lms
+  - position:
+      - 7.620283805779048
+      - 1.954159561525898
+      - 0
+    landmarkshot: Plakat_effirob_r.lms
+    image: Plakat_effirob_r.png
+    id: 6
+  - image: Plakat_robot_osaft.png
+    position:
+      - 2.677858972235206
+      - 7.562730873113836
+      - 0.9870000000000007
+    id: 7
+    landmarkshot: Plakat_robot_osaft.lms
+  - landmarkshot: test1.lms
+    image: test1.png
+    position:
+      - -3.715320394834893
+      - -4.300708604793287
+      - 0
+    id: 8
+  - id: 9
+    landmarkshot: test2.lms
+    position:
+      - -2.320085422066005
+      - -2.921919706065678
+      - 0
+    image: test2.png
+  - id: 10
+    landmarkshot: test3.lms
+    image: test3.png
+    position:
+      - -0.6785543656238051
+      - -1.310422711956133
+      - 0
+  - id: 11
+    landmarkshot: test4.lms
+    position:
+      - 0.5387055967220693
+      - 0.02512842301649343
+      - 0
+    image: test4.png
+  - id: 12
+    position:
+      - 1.195622189350316
+      - 1.408573507958153
+      - 0
+    image: test5.png
+    landmarkshot: test5.lms
+  - image: test6.png
+    landmarkshot: test6.lms
+    position:
+      - 1.823687190440402
+      - 5.274481002750491
+      - 0
+    id: 13
+  - landmarkshot: test7.lms
+    image: test7.png
+    id: 14
+    position:
+      - 2.091547519586182
+      - 6.424921025116905
+      - 0
+  - position:
+      - 3.393437932704924
+      - 7.59549088262991
+      - 0
+    image: test8.png
+    landmarkshot: test8.lms
+    id: 15
+  - id: 16
+    image: test9.png
+    landmarkshot: test9.lms
+    position:
+      - 5.144884327965627
+      - 7.790678971204496
+      - 0
+  - id: 17
+    image: test10.png
+    landmarkshot: test10.lms
+    position:
+      - 6.633207951934256
+      - 7.402032760414231
+      - 0
+  - id: 18
+    image: test11.png
+    position:
+      - 7.696123184764419
+      - 6.29030399897975
+      - 0
+    landmarkshot: test11.lms
+  - position:
+      - 8.076226629707744
+      - 5.10024464917305
+      - 0
+    image: test12.png
+    id: 19
+    landmarkshot: test12.lms
+  - position:
+      - 8.092942052636701
+      - 4.022748116973046
+      - 0
+    image: test13.png
+    landmarkshot: test13.lms
+    id: 20
+  - landmarkshot: test14.lms
+    position:
+      - 7.904764733399612
+      - 2.333516082102678
+      - 0
+    id: 21
+    image: test14.png
+  - image: test15.png
+    landmarkshot: test15.lms
+    id: 22
+    position:
+      - 7.267253645186663
+      - 1.429861413000836
+      - 0
+  - image: test16.png
+    id: 23
+    landmarkshot: test16.lms
+    position:
+      - 6.393886433964198
+      - 1.007687201885744
+      - 0
+  - id: 24
+    landmarkshot: test17.lms
+    position:
+      - 5.236003287911608
+      - 0.8143672992182882
+      - 0
+    image: test17.png
+  - landmarkshot: test18.lms
+    id: 25
+    image: test18.png
+    position:
+      - 4.102293575538927
+      - 0.8595124702890953
+      - 0
+  - position:
+      - 2.531150615293268
+      - 0.8902669298836425
+      - 0
+    landmarkshot: test19.lms
+    id: 26
+    image: test19.png
+  - id: 27
+    landmarkshot: test20.lms
+    image: test20.png
+    position:
+      - 1.060101455107549
+      - 0.4690429039119461
+      - 0
+  - image: test21.png
+    position:
+      - -0.05491099631692498
+      - -0.515819550646869
+      - 0
+    landmarkshot: test21.lms
+    id: 28
+  - landmarkshot: test22.lms
+    image: test22.png
+    position:
+      - -0.7667069930724653
+      - -1.214323800435171
+      - 0
+    id: 29
+source_id: visual_stereo_cam_lms
