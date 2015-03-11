@@ -1,212 +1,478 @@
 features:
-  - id: 0
-    landmarkshot: Escalator_left_view.lms
-    position:
+  - position:
       - 6.741811657552364
       - 1.165761169428242
       - 0.9869999999999999
     image: Escalator_left_view.png
+    landmarkshot: Escalator_left_view.lms
+    id: 0
   - id: 1
+    landmarkshot: Escalator_right_view.lms
+    image: Escalator_right_view.png
     position:
       - 2.323298429498808
       - 1.650070667655624
       - 0
-    landmarkshot: Escalator_right_view.lms
-    image: Escalator_right_view.png
-  - position:
+  - landmarkshot: fire_extinguisher.lms
+    image: fire_extinguisher.png
+    id: 2
+    position:
       - 7.382715482415499
       - 2.086936956983932
       - 0.9869999999999999
-    id: 2
-    image: fire_extinguisher.png
-    landmarkshot: fire_extinguisher.lms
-  - image: Floorplan.png
-    landmarkshot: Floorplan.lms
-    position:
+  - position:
       - 1.687043115220075
       - 3.812169354844377
       - 0
+    landmarkshot: Floorplan.lms
     id: 3
-  - landmarkshot: Plakat_3D_info.lms
-    image: Plakat_3D_info.png
-    id: 4
+    image: Floorplan.png
+  - image: Plakat_3D_info.png
     position:
       - 2.179048017889254
       - 4.064704967168242
       - 0.9869999999999997
-  - position:
+    landmarkshot: Plakat_3D_info.lms
+    id: 4
+  - id: 5
+    position:
       - 7.475750275669368
       - 6.353012728862944
       - 0
-    image: Plakat_effirob_l.png
-    id: 5
     landmarkshot: Plakat_effirob_l.lms
-  - position:
+    image: Plakat_effirob_l.png
+  - image: Plakat_effirob_r.png
+    id: 6
+    position:
       - 7.620283805779048
       - 1.954159561525898
       - 0
     landmarkshot: Plakat_effirob_r.lms
-    image: Plakat_effirob_r.png
-    id: 6
-  - image: Plakat_robot_osaft.png
+  - landmarkshot: Plakat_robot_osaft.lms
+    id: 7
+    image: Plakat_robot_osaft.png
     position:
       - 2.677858972235206
       - 7.562730873113836
       - 0.9870000000000007
-    id: 7
-    landmarkshot: Plakat_robot_osaft.lms
-  - landmarkshot: test1.lms
+  - id: 8
+    landmarkshot: test1.lms
     image: test1.png
     position:
       - -3.715320394834893
       - -4.300708604793287
       - 0
-    id: 8
-  - id: 9
-    landmarkshot: test2.lms
-    position:
+  - position:
       - -2.320085422066005
       - -2.921919706065678
       - 0
+    landmarkshot: test2.lms
+    id: 9
     image: test2.png
-  - id: 10
+  - image: test3.png
     landmarkshot: test3.lms
-    image: test3.png
+    id: 10
     position:
       - -0.6785543656238051
       - -1.310422711956133
       - 0
   - id: 11
     landmarkshot: test4.lms
+    image: test4.png
     position:
       - 0.5387055967220693
       - 0.02512842301649343
       - 0
-    image: test4.png
-  - id: 12
-    position:
+  - position:
       - 1.195622189350316
       - 1.408573507958153
       - 0
-    image: test5.png
     landmarkshot: test5.lms
-  - image: test6.png
-    landmarkshot: test6.lms
+    id: 12
+    image: test5.png
+  - id: 13
     position:
       - 1.823687190440402
       - 5.274481002750491
       - 0
-    id: 13
-  - landmarkshot: test7.lms
-    image: test7.png
+    landmarkshot: test6.lms
+    image: test6.png
+  - image: test7.png
     id: 14
     position:
       - 2.091547519586182
       - 6.424921025116905
       - 0
+    landmarkshot: test7.lms
   - position:
       - 3.393437932704924
       - 7.59549088262991
       - 0
-    image: test8.png
-    landmarkshot: test8.lms
     id: 15
-  - id: 16
-    image: test9.png
-    landmarkshot: test9.lms
-    position:
+    landmarkshot: test8.lms
+    image: test8.png
+  - position:
       - 5.144884327965627
       - 7.790678971204496
       - 0
+    id: 16
+    image: test9.png
+    landmarkshot: test9.lms
   - id: 17
-    image: test10.png
-    landmarkshot: test10.lms
     position:
       - 6.633207951934256
       - 7.402032760414231
       - 0
-  - id: 18
+    image: test10.png
+    landmarkshot: test10.lms
+  - landmarkshot: test11.lms
+    id: 18
     image: test11.png
     position:
       - 7.696123184764419
       - 6.29030399897975
       - 0
-    landmarkshot: test11.lms
-  - position:
+  - landmarkshot: test12.lms
+    image: test12.png
+    position:
       - 8.076226629707744
       - 5.10024464917305
       - 0
-    image: test12.png
     id: 19
-    landmarkshot: test12.lms
-  - position:
+  - landmarkshot: test13.lms
+    id: 20
+    position:
       - 8.092942052636701
       - 4.022748116973046
       - 0
     image: test13.png
-    landmarkshot: test13.lms
-    id: 20
-  - landmarkshot: test14.lms
+  - image: test14.png
     position:
       - 7.904764733399612
       - 2.333516082102678
       - 0
+    landmarkshot: test14.lms
     id: 21
-    image: test14.png
-  - image: test15.png
-    landmarkshot: test15.lms
-    id: 22
+  - id: 22
+    image: test15.png
     position:
       - 7.267253645186663
       - 1.429861413000836
       - 0
-  - image: test16.png
-    id: 23
+    landmarkshot: test15.lms
+  - id: 23
     landmarkshot: test16.lms
+    image: test16.png
     position:
       - 6.393886433964198
       - 1.007687201885744
       - 0
-  - id: 24
-    landmarkshot: test17.lms
+  - landmarkshot: test17.lms
+    id: 24
+    image: test17.png
     position:
       - 5.236003287911608
       - 0.8143672992182882
       - 0
-    image: test17.png
   - landmarkshot: test18.lms
-    id: 25
-    image: test18.png
     position:
       - 4.102293575538927
       - 0.8595124702890953
       - 0
-  - position:
+    image: test18.png
+    id: 25
+  - id: 26
+    landmarkshot: test19.lms
+    image: test19.png
+    position:
       - 2.531150615293268
       - 0.8902669298836425
       - 0
-    landmarkshot: test19.lms
-    id: 26
-    image: test19.png
-  - id: 27
-    landmarkshot: test20.lms
-    image: test20.png
-    position:
+  - position:
       - 1.060101455107549
       - 0.4690429039119461
       - 0
-  - image: test21.png
+    id: 27
+    image: test20.png
+    landmarkshot: test20.lms
+  - id: 28
     position:
       - -0.05491099631692498
       - -0.515819550646869
       - 0
     landmarkshot: test21.lms
-    id: 28
+    image: test21.png
   - landmarkshot: test22.lms
+    id: 29
     image: test22.png
     position:
       - -0.7667069930724653
       - -1.214323800435171
       - 0
-    id: 29
+  - position:
+      - 1.450322634336456
+      - 0.6693961667701656
+      - 0
+    image: stairs_1.png
+    landmarkshot: stairs_1.lms
+    id: 0
+  - image: prace_door_2.png
+    id: 1
+    position:
+      - 3.000334708242162
+      - 0.9742356442629818
+      - 0
+    landmarkshot: prace_door_2.lms
+  - landmarkshot: prace_door_3.lms
+    id: 2
+    position:
+      - 2.018077679941438
+      - 0.9850566853235536
+      - 0
+    image: prace_door_3.png
+  - position:
+      - 1.371036619628065
+      - 0.7455523154577417
+      - 0
+    image: prace_door_4.png
+    landmarkshot: prace_door_4.lms
+    id: 3
+  - position:
+      - 5.756192348381081
+      - 0.9008545788689979
+      - 0
+    image: shield_1.png
+    landmarkshot: shield_1.lms
+    id: 0
+  - landmarkshot: fire_1.lms
+    id: 2
+    image: fire_1.png
+    position:
+      - 6.131386314096123
+      - 1.081865413745827
+      - 0
+  - position:
+      - 6.644132714545052
+      - 1.559965739353472
+      - 0
+    landmarkshot: effirob_1.lms
+    image: effirob_1.png
+    id: 3
+  - position:
+      - 7.768210097730129
+      - 1.563328119895758
+      - 0
+    image: effirob_2.png
+    id: 4
+    landmarkshot: effirob_2.lms
+  - landmarkshot: effirob_3.lms
+    id: 0
+    position:
+      - 7.667783670643866
+      - 2.669051099502531
+      - 0
+    image: effirob_3.png
+  - position:
+      - 6.94076539781022
+      - 8.069497231303984
+      - 0
+    landmarkshot: robot_pictures_2.lms
+    image: robot_pictures_2.png
+    id: 1
+  - image: robot_pictures_3.png
+    landmarkshot: robot_pictures_3.lms
+    position:
+      - 7.025849422509619
+      - 7.094017114661423
+      - 0
+    id: 2
+  - position:
+      - 7.517214033840965
+      - 6.085126712976533
+      - 0
+    id: 3
+    image: robot_pictures_4.png
+    landmarkshot: robot_pictures_4.lms
+  - position:
+      - 7.483564394756822
+      - 6.065050886236056
+      - 0
+    landmarkshot: robot_pictures_5.lms
+    id: 0
+    image: robot_pictures_5.png
+  - id: 1
+    landmarkshot: robot_pictures_7.lms
+    position:
+      - 1.914969673366106
+      - 2.508351895354883
+      - 0
+    image: robot_pictures_7.png
+  - position:
+      - 2.01376709769932
+      - 3.186278600201343
+      - 0
+    id: 2
+    image: robot_pictures_8.png
+    landmarkshot: robot_pictures_8.lms
+  - position:
+      - 2.250808303602583
+      - 4.643960217619949
+      - 0
+    image: robot_pictures_10.png
+    landmarkshot: robot_pictures_10.lms
+    id: 4
+  - position:
+      - 2.354314899324658
+      - 6.067473690489855
+      - 0
+    image: robot_pictures_11.png
+    landmarkshot: robot_pictures_11.lms
+    id: 5
+  - image: robot_pictures_12.png
+    landmarkshot: robot_pictures_12.lms
+    position:
+      - 1.65458972786877
+      - 4.635516897167662
+      - 0
+    id: 6
+  - landmarkshot: robot_pictures_13.lms
+    image: robot_pictures_13.png
+    id: 7
+    position:
+      - 1.421995035266399
+      - 3.875824712409075
+      - 0
+  - image: robot_pictures_15.png
+    landmarkshot: robot_pictures_15.lms
+    position:
+      - 1.284557784156754
+      - 2.461386567870457
+      - 0
+    id: 9
+  - id: 0
+    position:
+      - 2.577723469078371
+      - 6.249147173642582
+      - 0
+    landmarkshot: robot_pictures_16.lms
+    image: robot_pictures_16.png
+  - landmarkshot: robot_pictures_17.lms
+    image: robot_pictures_17.png
+    position:
+      - 1.410463268929532
+      - 6.46278956424182
+      - 0
+    id: 1
+  - landmarkshot: robot_pictures_18.lms
+    position:
+      - 1.997285627099663
+      - 7.277844891283388
+      - 0
+    image: robot_pictures_18.png
+    id: 2
+  - position:
+      - 2.265645224713813
+      - 7.389751078327485
+      - 0
+    image: robot_pictures_19.png
+    landmarkshot: robot_pictures_19.lms
+    id: 3
+  - id: 0
+    image: robot_pictures_20.png
+    position:
+      - 2.007653294278767
+      - 7.174460920685344
+      - 0
+    landmarkshot: robot_pictures_20.lms
+  - landmarkshot: effirob_5.lms
+    image: effirob_5.png
+    id: 0
+    position:
+      - 5.332679729464037
+      - 7.564614807086897
+      - 0
+  - landmarkshot: effirob_6.lms
+    id: 1
+    position:
+      - 6.391609603548401
+      - 7.177011578107894
+      - 0
+    image: effirob_6.png
+  - landmarkshot: effirob_7.lms
+    image: effirob_7.png
+    id: 2
+    position:
+      - 6.635513907432615
+      - 6.979406436135847
+      - 0
+  - id: 3
+    landmarkshot: effirob_8.lms
+    image: effirob_8.png
+    position:
+      - 7.115517195279264
+      - 7.403291532824294
+      - 0
+  - landmarkshot: effirob_9.lms
+    image: effirob_9.png
+    position:
+      - 7.744685975662694
+      - 7.614300153513843
+      - 0
+    id: 4
+  - position:
+      - 8.331624479158943
+      - 7.171830157590513
+      - 0
+    landmarkshot: effirob_10.lms
+    image: effirob_10.png
+    id: 5
+  - image: effirob_11.png
+    id: 6
+    position:
+      - 7.920532929751003
+      - 6.127714649799855
+      - 0
+    landmarkshot: effirob_11.lms
+  - position:
+      - 7.978158581364152
+      - 5.578255856663771
+      - 0
+    image: effirob_12.png
+    id: 7
+    landmarkshot: effirob_12.lms
+  - image: prace_door_5.png
+    position:
+      - 6.505726170601148
+      - 0.9206570771770171
+      - 0
+    id: 0
+    landmarkshot: prace_door_5.lms
+  - landmarkshot: prace_door_6.lms
+    image: prace_door_6.png
+    position:
+      - 6.498500477592152
+      - 0.9558870618864788
+      - 0
+    id: 1
+  - position:
+      - 2.307509994492929
+      - 1.490533594292158
+      - 0
+    image: service_1.png
+    landmarkshot: service_1.lms
+    id: 2
+  - landmarkshot: service_2.lms
+    image: service_2.png
+    id: 3
+    position:
+      - 2.161254223172364
+      - 2.375883179701431
+      - 0
+  - position:
+      - 2.517382474418572
+      - 3.004497541859295
+      - 0
+    image: service_3.png
+    landmarkshot: service_3.lms
+    id: 4
 source_id: visual_stereo_cam_lms
