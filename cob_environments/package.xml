@@ -1,0 +1,24 @@
+<package>
+  <name>cob_environments</name>
+  <version>0.5.0</version>
+  <description>This stack holds packages for IPA default environment configuration.</description>
+
+  <license>LGPL</license>
+
+  <url type="website">http://ros.org/wiki/cob_environments</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <maintainer email="fmw@ipa.fhg.de">Florian Weisshardt</maintainer>
+  <author email="fmw@ipa.fhg.de">Florian Weisshardt</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>cob_default_env_config</run_depend>
+
+
+
+
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
