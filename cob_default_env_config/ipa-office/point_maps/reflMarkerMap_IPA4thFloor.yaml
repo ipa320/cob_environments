@@ -27,3 +27,27 @@ features:
   - id: 9
     position: [9.8478594038448, 10.5881983388326, 0.0]
     description: Marker_West_423
+  - id: 10
+    position: [0.2299569822898, 1.0493845329517, 0.0]
+    description: Stairwell_South_East_Wall_Source
+  - id: 11
+    position: [0.2471393860352, 7.2664516973402, 0.0]
+    description: Stairwell_South_East_Wall_Target
+  - id: 12
+    position: [1.5182674726611, 8.5012865387816, 0.0]
+    description: Stairwell_South_West_Wall_Source
+  - id: 13
+    position: [7.7365871917351, 8.5027553825111, 0.0]
+    description: Stairwell_South_West_Wall_Target
+  - id: 14
+    position: [1.4707482811419, -0.2032488699445, 0.0]
+    description: Stairwell_North_East_Wall_Source
+  - id: 15
+    position: [7.6843475043024, -0.2142738472839, 0.0]
+    description: Stairwell_North_East_Wall_Target
+  - id: 16
+    position: [8.9803188254128, 7.2396524362813, 0.0]
+    description: Stairwell_North_West_Wall_Source
+  - id: 17
+    position: [8.9537138555287, 1.0162193343073, 0.0]
+    description: Stairwell_North_West_Wall_Target
