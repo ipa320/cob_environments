@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(cob_default_env_config)
 # Load catkin and all dependencies required for this package
 # TODO: remove all from COMPONENTS that are not catkin packages.
-find_package(catkin REQUIRED COMPONENTS roslaunch)
+find_package(catkin REQUIRED COMPONENTS roslaunch rostest)
 
 
 
@@ -32,15 +32,13 @@ find_package(catkin REQUIRED COMPONENTS roslaunch)
 ## INCLUDE_DIRS: 
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 catkin_package(
-    DEPENDS rostest
-    CATKIN_DEPENDS # TODO
-    INCLUDE_DIRS # TODO include
-    LIBRARIES # TODO
 )
 
 SET(envlist
     ipa-kitchen
     ipa-apartment
+    ipa-factory
+    empty
 )
 
 
