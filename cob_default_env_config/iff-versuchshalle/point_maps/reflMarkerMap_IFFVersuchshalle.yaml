@@ -19,7 +19,7 @@ features:
     position: [1.453, 17.615, 0.0]
     description: M5_Station2_Right
   - id: 6
-    position: [2.596, 17.282 0.0]
+    position: [2.596, 17.282, 0.0]
     description: M6_Station2_Left
   - id: 7
     position: [-1.027, 10.531, 0.0]
