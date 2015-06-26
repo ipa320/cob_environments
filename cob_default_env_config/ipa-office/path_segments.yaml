@@ -39,73 +39,88 @@ path segments:
   width: 0.5
   directed: no
   control points: [cp 1, cp 2]
+  users: [human, robot]
 - id: ps 2
   type: bezier
   width: 0.5
   directed: yes
   control points: [cp 2, cp 3, cp 5]
+  users: [human, robot]
 - id: ps 3
   type: bezier
   width: 0.5
   directed: yes
   control points: [cp 4, cp 2, cp 5]
+  users: [human, robot]
 - id: ps 4
   type: bezier
   width: 0.5
   directed: yes
   control points: [cp 4, cp 3, cp 5]
+  users: [human, robot]
 - id: ps 5
   type: bezier
   width: 0.5
   directed: yes
   control points: [cp 6, cp 4]
+  users: [human, robot]
 - id: ps 6
   type: bezier
   width: 0.5
   directed: yes
   control points: [cp 8, cp 6, cp 7]
+  users: [human, robot]
 - id: ps 7
   type: bezier
   width: 0.5
   directed: yes
   control points: [cp 9, cp 8]
+  users: [human, robot]
 - id: ps 8
   type: bezier
   width: 0.5
   directed: yes
   control points: [cp 3, cp 10]
+  users: [human, robot]
 - id: ps 9
   type: bezier
   width: 0.5
   directed: yes
   control points: [cp 10, cp 12, cp 11]
+  users: [human, robot]
 - id: ps 10
   type: bezier
   width: 0.5
   directed: yes
   control points: [cp 12, cp 13]
+  users: [human, robot]
 - id: ps 11
   type: bezier
   width: 0.5
   directed: yes
   control points: [cp 13, cp 9, cp 14]
+  users: [human, robot]
 - id: ps 12
   type: bezier
   width: 0.5
   directed: yes
   control points: [cp 13, cp 15, cp 14]
+  users: [human, robot]
 - id: ps 13
   type: bezier
   width: 0.5
   directed: yes
   control points: [cp 15, cp 9, cp 14]
+  users: [human, robot]
 - id: ps 14
   type: bezier
   width: 0.5
   directed: no
   control points: [cp 15, cp 16]
+  users: [human, robot]
 - id: ps 15
   type: bezier
   width: 0.5
   directed: no
   control points: [cp 16, cp 17]
+  users: [human, robot]
