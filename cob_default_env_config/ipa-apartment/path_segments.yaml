@@ -106,7 +106,7 @@ path segments:
     type: bezier
     width: 2.0
     directed: no
-    control points: [cp 10, cp 9, cp 11]
+    control points: [cp 10, cp 11, cp 9]
     users: [human, robot]
   - id: ps 14
     type: bezier
