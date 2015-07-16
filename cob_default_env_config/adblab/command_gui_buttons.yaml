@@ -1,0 +1,5 @@
+buttons: [[home,move,home],
+[vorRampe,move,vorRampe],
+[aufRampe,move,aufRampe],
+[abb,move,abb],
+[tischJohannes,move,tischJohannes]]

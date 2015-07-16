@@ -1,0 +1,53 @@
+source_id: "lasermarker"
+features:
+  - id: 1
+    position: [-1.9392357, -1.1130101, 0.0]
+    description: Marker_East_404
+  - id: 2
+    position: [-0.6950296, -2.3525008, 0.0]
+    description: Marker_East_403
+  - id: 3
+    position: [-4.1881062, -3.3457546, 0.0]
+    description: Marker_East_406
+  - id: 4
+    position: [-7.7222868, -6.8467680, 0.0]
+    description: Marker_East_408	
+  - id: 5
+    position: [3.1738030, -0.1552379, 0.0]
+    description: Marker_Elevator
+  - id: 6
+    position: [11.0687915, 9.3195552, 0.0]
+    description: Marker_West_424
+  - id: 7
+    position: [12.1479129, 12.8708761, 0.0]
+    description: Marker_West_425
+  - id: 8
+    position: [13.3875699, 11.6260691, 0.0]
+    description: Marker_West_426
+  - id: 9
+    position: [9.8478594038448, 10.5881983388326, 0.0]
+    description: Marker_West_423
+  - id: 10
+    position: [0.2299569822898, 1.0493845329517, 0.0]
+    description: Stairwell_South_East_Wall_Source
+  - id: 11
+    position: [0.2471393860352, 7.2664516973402, 0.0]
+    description: Stairwell_South_East_Wall_Target
+  - id: 12
+    position: [1.5182674726611, 8.5012865387816, 0.0]
+    description: Stairwell_South_West_Wall_Source
+  - id: 13
+    position: [7.7365871917351, 8.5027553825111, 0.0]
+    description: Stairwell_South_West_Wall_Target
+  - id: 14
+    position: [1.4707482811419, -0.2032488699445, 0.0]
+    description: Stairwell_North_East_Wall_Source
+  - id: 15
+    position: [7.6843475043024, -0.2142738472839, 0.0]
+    description: Stairwell_North_East_Wall_Target
+  - id: 16
+    position: [8.9803188254128, 7.2396524362813, 0.0]
+    description: Stairwell_North_West_Wall_Source
+  - id: 17
+    position: [8.9537138555287, 1.0162193343073, 0.0]
+    description: Stairwell_North_West_Wall_Target

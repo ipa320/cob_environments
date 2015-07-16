@@ -1,0 +1,20 @@
+source_id: "lasercorner"
+features:
+  - id: 1
+    pose: [-4.1881062, -3.3457546, 3.141]
+    description: 406_corner_left
+  - id: 2
+    pose: [-3.5126, -2.673, 1.571]
+    description: 406_corner_right
+  - id: 3
+    pose: [-2.6147, -1.777, 3.141]
+    description: 404_corner_left
+  - id: 4
+    pose: [-1.929, -1.107, 1.571]
+    description: 404_corner_right
+  - id: 5
+    pose: [-0.687, -2.365, 0.0]
+    description: 403_corner_left
+  - id: 6
+    pose: [-1.372, -3.024, -1.571]
+    description: 403_corner_right
