@@ -5,7 +5,6 @@ find_package(catkin REQUIRED COMPONENTS roslaunch rostest)
 
 catkin_package()
 
-
 # ipa-kitchen
 #roslaunch_add_file_check(upload_navigation_goals.launch robot_env:=ipa-kitchen)
 #roslaunch_add_file_check(upload_navigation_goals.launch ROBOT_ENV=ipa-kitchen)
@@ -24,7 +23,6 @@ catkin_package()
 #roslaunch_add_file_check(upload_object_locations.launch robot_env:=ipa-factory)
 #roslaunch_add_file_check(upload_object_locations.launch ROBOT_ENV=ipa-factory)
 
-
 set(envlist
     ipa-kitchen
     ipa-apartment
@@ -32,7 +30,7 @@ set(envlist
     empty
 )
 
-## Mark other files for installation (e.g. launch and bag files, etc.)
+### INSTALL ###
 install(FILES
   upload_navigation_goals.launch
   upload_object_locations.launch

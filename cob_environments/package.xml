@@ -15,10 +15,6 @@
   <buildtool_depend>catkin</buildtool_depend>
   <run_depend>cob_default_env_config</run_depend>
 
-
-
-
-
   <export>
     <metapackage/>
   </export>
