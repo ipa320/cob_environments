@@ -13,7 +13,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <build_depend>roslaunch</build_depend>  
+  <build_depend>roslaunch</build_depend>
   <build_depend>rostest</build_depend>
 
 </package>
