@@ -2,6 +2,15 @@
 Changelog for package cob_environments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.2 (2015-08-25)
+------------------
+* migration to package format 2
+* minor cleanup
+* Contributors: ipa-fxm
+
+0.6.1 (2015-06-17)
+------------------
+
 0.6.0 (2014-09-17)
 ------------------
 * 0.5.3

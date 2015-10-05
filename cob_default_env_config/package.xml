@@ -1,6 +1,6 @@
-<package>
+<package format="2">
   <name>cob_default_env_config</name>
-  <version>0.6.0</version>
+  <version>0.6.2</version>
   <description>This package contains configuration files for the default environments for Care-O-bot supported by IPA.</description>
 
   <license>LGPL</license>
@@ -13,12 +13,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <build_depend>roslaunch</build_depend>  
-  <build_depend>rostest</build_depend>
+  <depend>roslaunch</depend>
+  <depend>rostest</depend>
 
-  <!-- <test_depend>rostest</test_depend> -->
-
-  <export>
-
-  </export>
 </package>
