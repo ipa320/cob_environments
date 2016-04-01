@@ -2,8 +2,8 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.3 (2016-04-01)
+------------------
 * deleted adblab, agv-testenv and office-unmapped
 * leave yaml file blank
 * added dummy files for automotive_assembly_line simulation
