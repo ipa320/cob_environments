@@ -2,6 +2,9 @@
 Changelog for package cob_environments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.3 (2016-04-01)
+------------------
+
 0.6.2 (2015-08-25)
 ------------------
 * migration to package format 2

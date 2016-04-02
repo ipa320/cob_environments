@@ -2,6 +2,45 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.3 (2016-04-01)
+------------------
+* deleted adblab, agv-testenv and office-unmapped
+* leave yaml file blank
+* added dummy files for automotive_assembly_line simulation
+* fixed wrong order of some CPs
+* added users
+* moving path segment files to new syntax and name change
+* cob_default_env_config: added a first draft of a pose_map to ipa-office containing corners of doors in eastern corridor
+* cob_default_env_config: added trajectory-file for ipa_trajectory_global_planner to ipa-apartment and ipa-office
+* cob_default_env_config: added some some more refl markers to the stairwell of ipa-office
+* add a local map
+* some new local maps
+* extract new local maps
+* deleted some lines
+* local grid maps of ipa4th floor
+* line map for ipa apartment
+* deleted old agv-testenv and replaced it with new and more accurate agv-testenv
+* agv-tenstenv_more_accurate: added new grid map and updated rfid-tags from hexdec to dec
+* added new environment agv-testenv_more_accurate with rfid-map
+* edited ids of rfids according to new drivers
+* removed dummy corner map
+* updated point map after insatlling new rfid tags on ipa4th floor
+* agv-testenv: fix placement of rfids
+* edited feature source of corners
+* added dummy corner map of ipa apart for testing pose features
+* agv-testenv: adjust map and add rfids
+* agv_testenv: add rudimentary linemap
+* add agv-testenv
+* added adbdemo to navmaps
+* fix tag id
+* lightly changed positions of rfid tags after reinstalling them on the floor
+* edited rfid map and integrated new tags
+* added source_id to map files
+* added maps for ipa_navigation
+* added new high resolution map that is verified with laser tracker
+* added ipa-office
+* Contributors: AGV Test, Alexander Bubeck, Florian Mirus, Frank Slomian, Jakob Breuninger, abubeck, ipa-mig, ipa-mig-mc, ipa-srd, srd
+
 0.6.2 (2015-08-25)
 ------------------
 * cleanup
