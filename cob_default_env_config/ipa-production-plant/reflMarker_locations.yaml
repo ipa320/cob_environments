@@ -1,0 +1,44 @@
+##################################
+############ shelfs ##############
+##################################
+
+reflector_marker01:
+  model: reflector_marker
+  model_type: sdf
+  position: [ 1, 12, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker02:
+  model: reflector_marker
+  model_type: sdf
+  position: [ -6, 12, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker03:
+  model: reflector_marker
+  model_type: sdf
+  position: [ -12, 12, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker04:
+  model: reflector_marker
+  model_type: sdf
+  position: [ -19, 12, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker05:
+  model: reflector_marker
+  model_type: sdf
+  position: [ 1, -10, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker06:
+  model: reflector_marker
+  model_type: sdf
+  position: [ -6, -10, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker07:
+  model: reflector_marker
+  model_type: sdf
+  position: [ -12, -10, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker08:
+  model: reflector_marker
+  model_type: sdf
+  position: [ -19, -10, 0]
+  orientation: [ 0, 0, 0]

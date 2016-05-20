@@ -1,0 +1,9 @@
+##################################
+############ shelfs ##############
+##################################
+
+#reflector_marker01:
+#  model: reflector_marker
+#  model_type: sdf
+#  position: [ 1, 12, 0]
+#  orientation: [ 0, 0, 0]

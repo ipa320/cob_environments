@@ -1,0 +1,116 @@
+##################################
+######### machine-room ###########
+##################################
+
+# moving r2d2
+moving_object:
+  model: r2d2
+  model_type: urdf
+  position: [ 6.5, 7.5, 0]
+  orientation: [ 0, 0, -1.57]
+
+machine_01:
+  model: machine2
+  model_type: urdf
+  position: [ 32.21, 10.85, 0]
+  orientation: [ 0, 0, -1.57]
+machine_02:
+  model: machine2
+  model_type: urdf
+  position: [ 32.21, 3.85, 0]
+  orientation: [ 0, 0, -1.57]
+machine_03:
+  model: machine2
+  model_type: urdf
+  position: [ 32.21, -2.85, 0]
+  orientation: [ 0, 0, -1.57]
+machine_04:
+  model: machine3
+  model_type: urdf
+  position: [ 37.52, -8.70, 0]
+  orientation: [ 0, 0, 0]
+machine_05:
+  model: machine3
+  model_type: urdf
+  position: [ 34.52, -10.50, 0]
+  orientation: [ 0, 0, -1.57]
+machine_06:
+  model: blister_packing_machine
+  model_type: urdf
+  position: [ 5.5, 10.5, 0]
+  orientation: [ 0, 0, -1.57]
+machine_07:
+  model: blister_packing_machine
+  model_type: urdf
+  position: [ 10.5, 10.5, 0]
+  orientation: [ 0, 0, -1.57]
+machine_08:
+  model: blister_packing_machine
+  model_type: urdf
+  position: [ 15.5, 10.5, 0]
+  orientation: [ 0, 0, -1.57]
+machine_09:
+  model: machine4
+  model_type: urdf
+  position: [ 15, 0, 0]
+  orientation: [ 0, 0, 0]
+machine_10:
+  model: machine5
+  model_type: urdf
+  position: [ 10, 0, 0]
+  orientation: [ 0, 0, 0]
+machine_11:
+  model: machine4
+  model_type: urdf
+  position: [ 15, 5, 0]
+  orientation: [ 0, 0, 0]
+machine_12:
+  model: machine5
+  model_type: urdf
+  position: [ 10, 5, 0]
+  orientation: [ 0, 0, 0]
+machine_13:
+  model: machine4
+  model_type: urdf
+  position: [ 15, -5, 0]
+  orientation: [ 0, 0, 0]
+machine_14:
+  model: machine5
+  model_type: urdf
+  position: [ 10, -5, 0]
+  orientation: [ 0, 0, 0]
+machine_15:
+  model: robot_arm
+  model_type: urdf
+  position: [ 3.5, 2.5, 0]
+  orientation: [ 0, 0, 0.79]
+machine_16:
+  model: robot_arm
+  model_type: urdf
+  position: [ 3.5, -2.5, 0]
+  orientation: [ 0, 0, 0.79]
+machine_17:
+  model: robot_arm
+  model_type: urdf
+  position: [ 3.5, -7.5, 0]
+  orientation: [ 0, 0, 0.79]
+
+
+stairs_01:
+  model: stairs
+  model_type: urdf
+  position: [ 24.75, 0.75, 0]
+  orientation: [ 0, 0, -1.57]
+stairs_02:
+  model: stairs
+  model_type: urdf
+  position: [ 24.75, 7.75, 0]
+  orientation: [ 0, 0, -1.57]
+
+
+
+# machine_05:
+#   model: machine2
+#   model_type: urdf
+#   position: [ , , 0]
+#   orientation: [ 0, 0, 0]

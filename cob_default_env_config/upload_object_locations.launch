@@ -5,7 +5,12 @@
 
 	<!-- send objects locations to parameter server -->
 	<rosparam command="delete" param="/objects"/>
-	<rosparam command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/object_locations.yaml"/>
+  <!-- <rosparam command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/object_locations_warehouse.yaml"/> -->
+	<rosparam command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/object_locations_machine_room.yaml"/>
+  <rosparam command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/reflMarker_locations.yaml"/>
+  <rosparam command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/object_locations_super_market1.yaml"/>
+  <rosparam command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/object_locations_super_market2.yaml"/>
+
 
 
 </launch>
