@@ -1,0 +1,65 @@
+##################################
+############ hallway #############
+##################################
+
+# Columns 
+column_01:
+ model: column
+ model_type: urdf
+ position: [ 33.00, -15.00, 0]
+ orientation: [ 0, 0, 0]
+column_02:
+ model: column
+ model_type: urdf
+ position: [ 33.00, -20.00, 0]
+ orientation: [ 0, 0, 0]
+column_03:
+ model: column
+ model_type: urdf
+ position: [ 33.00, -25.00, 0]
+ orientation: [ 0, 0, 0]
+column_04:
+ model: column
+ model_type: urdf
+ position: [ 33.00, -30.00, 0]
+ orientation: [ 0, 0, 0]
+column_05:
+ model: column
+ model_type: urdf
+ position: [ 33.00, -35.00, 0]
+ orientation: [ 0, 0, 0]
+
+# Cabinets
+cabinet_01:
+ model: cabinet_ikea_galant
+ model_type: urdf
+ position: [ 10.56, -35.31, 0]
+ orientation: [ 0, 0, 0]
+cabinet_02:
+ model: cabinet_ikea_galant
+ model_type: urdf
+ position: [ 12.56, -35.31, 0]
+ orientation: [ 0, 0, 0]
+cabinet_03:
+ model: cabinet_ikea_galant
+ model_type: urdf
+ position: [ 14.56, -35.31, 0]
+ orientation: [ 0, 0, 0]
+
+
+# Tables
+table_01:
+ model: table_living_room
+ model_type: urdf
+ position: [ 0.0, -39.20, 0]
+ orientation: [ 0, 0, 1.57]
+table_02:
+ model: table_living_room
+ model_type: urdf
+ position: [ 2.0, -39.20, 0]
+ orientation: [ 0, 0, 1.57]
+table_03:
+ model: table_living_room
+ model_type: urdf
+ position: [ 4.0, -39.20, 0]
+ orientation: [ 0, 0, 1.57]

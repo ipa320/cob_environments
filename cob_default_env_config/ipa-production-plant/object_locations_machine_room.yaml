@@ -3,11 +3,11 @@
 ##################################
 
 # moving r2d2
-moving_object:
-  model: r2d2
-  model_type: urdf
-  position: [ 6.5, 7.5, 0]
-  orientation: [ 0, 0, -1.57]
+# moving_object:
+#   model: r2d2
+#   model_type: urdf
+#   position: [ 6.5, 7.5, 0]
+#   orientation: [ 0, 0, -1.57]
 
 machine_01:
   model: machine2

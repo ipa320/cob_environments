@@ -1,9 +1,98 @@
 ##################################
-############ shelfs ##############
+######## super-market 2 ##########
 ##################################
 
-#reflector_marker01:
-#  model: reflector_marker
-#  model_type: sdf
-#  position: [ 1, 12, 0]
-#  orientation: [ 0, 0, 0]
+# Refridgerator Line 1a
+refridgerator_01:
+ model: refridgerator
+ model_type: urdf
+ position: [ 8.20, -14.50, 0]
+ orientation: [ 0, 0, 0]
+refridgerator_02:
+ model: refridgerator
+ model_type: urdf
+ position: [ 8.30, -16.35, 0]
+ orientation: [ 0, 0, 3.14]
+super_market_shelf1_01:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ 12.14, -14.35, 0]
+ orientation: [ 0, 0, 0]
+super_market_shelf1_02:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ 12.14, -16.45, 0]
+ orientation: [ 0, 0, 0]
+
+ # Refridgerator Line 1b
+refridgerator_03:
+ model: refridgerator
+ model_type: urdf
+ position: [ 21.25, -14.50, 0]
+ orientation: [ 0, 0, 0]
+refridgerator_04:
+ model: refridgerator
+ model_type: urdf
+ position: [ 21.35, -16.35, 0]
+ orientation: [ 0, 0, 3.14]
+super_market_shelf1_03:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ 17.45, -14.35, 0]
+ orientation: [ 0, 0, 0]
+super_market_shelf1_04:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ 17.45, -16.45, 0]
+ orientation: [ 0, 0, 0]
+
+ # Refridgerator Line 2a
+refridgerator_05:
+ model: refridgerator
+ model_type: urdf
+ position: [ 8.20, -20.75, 0]
+ orientation: [ 0, 0, 0]
+refridgerator_06:
+ model: refridgerator
+ model_type: urdf
+ position: [ 8.30, -22.60, 0]
+ orientation: [ 0, 0, 3.14]
+super_market_shelf1_05:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ 12.14, -20.60, 0]
+ orientation: [ 0, 0, 0]
+super_market_shelf1_06:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ 12.14, -22.70, 0]
+ orientation: [ 0, 0, 0]
+
+# Refridgerator Line 2b
+refridgerator_07:
+ model: refridgerator
+ model_type: urdf
+ position: [ 21.25, -20.75, 0]
+ orientation: [ 0, 0, 0]
+refridgerator_08:
+ model: refridgerator
+ model_type: urdf
+ position: [ 21.35, -22.60, 0]
+ orientation: [ 0, 0, 3.14]
+super_market_shelf1_07:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ 17.45, -20.60, 0]
+ orientation: [ 0, 0, 0]
+super_market_shelf1_08:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ 17.45, -22.70, 0]
+ orientation: [ 0, 0, 0]
+
+# Casher
+casher_01:
+ model: casher
+ model_type: urdf
+ position: [ 15.10, -30.00, 0]
+ orientation: [ 0, 0, 1.57]

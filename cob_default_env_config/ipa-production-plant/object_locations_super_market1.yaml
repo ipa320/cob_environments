@@ -1,9 +1,103 @@
 ##################################
-############ shelfs ##############
+######## super-market 1 ##########
 ##################################
 
-#reflector_marker01:
-#  model: reflector_marker
-#  model_type: sdf
-#  position: [ 1, 12, 0]
-#  orientation: [ 0, 0, 0]
+# Shelf Line 1  
+super_market_shelf1_01:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ 0.00, -14.91, 0]
+ orientation: [ 0, 0, 0]
+super_market_shelf2_01:
+ model: shelf_super_market2
+ model_type: urdf
+ position: [ -4.80, -15, 0]
+ orientation: [ 0, 0, 1.57]
+super_market_shelf2_02:
+ model: shelf_super_market2
+ model_type: urdf
+ position: [ -13.33, -15, 0]
+ orientation: [ 0, 0, 1.57]
+super_market_shelf1_02:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ -17.96, -14.91, 0]
+ orientation: [ 0, 0, 0]
+
+# Shelf Line 2  
+super_market_shelf1_03:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ 0.00, -18.91, 0]
+ orientation: [ 0, 0, 0]
+super_market_shelf2_03:
+ model: shelf_super_market2
+ model_type: urdf
+ position: [ -4.80, -19, 0]
+ orientation: [ 0, 0, 1.57]
+super_market_shelf2_04:
+ model: shelf_super_market2
+ model_type: urdf
+ position: [ -13.33, -19, 0]
+ orientation: [ 0, 0, 1.57]
+super_market_shelf1_04:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ -17.96, -18.91, 0]
+ orientation: [ 0, 0, 0]
+
+# Shelf Line 3  
+super_market_shelf1_05:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ 0.00, -22.91, 0]
+ orientation: [ 0, 0, 0]
+super_market_shelf2_05:
+ model: shelf_super_market2
+ model_type: urdf
+ position: [ -4.80, -23, 0]
+ orientation: [ 0, 0, 1.57]
+super_market_shelf2_06:
+ model: shelf_super_market2
+ model_type: urdf
+ position: [ -13.33, -23, 0]
+ orientation: [ 0, 0, 1.57]
+super_market_shelf1_06:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ -17.96, -22.91, 0]
+ orientation: [ 0, 0, 0]
+
+# Shelf Line 4  
+super_market_shelf1_07:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ 0.00, -26.91, 0]
+ orientation: [ 0, 0, 0]
+super_market_shelf2_07:
+ model: shelf_super_market2
+ model_type: urdf
+ position: [ -4.80, -27, 0]
+ orientation: [ 0, 0, 1.57]
+super_market_shelf2_08:
+ model: shelf_super_market2
+ model_type: urdf
+ position: [ -13.33, -27, 0]
+ orientation: [ 0, 0, 1.57]
+super_market_shelf1_08:
+ model: shelf_super_market1
+ model_type: urdf
+ position: [ -17.96, -26.91, 0]
+ orientation: [ 0, 0, 0]
+
+# Carriage-Returns
+carriage_return_01:
+ model: carriage_return
+ model_type: urdf
+ position: [ -14.83, -31.35, 0]
+ orientation: [ 0, 0, 0]
+carriage_return_02:
+ model: carriage_return
+ model_type: urdf
+ position: [ -3.25, -31.35, 0]
+ orientation: [ 0, 0, 3.14]
