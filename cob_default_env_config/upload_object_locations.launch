@@ -2,22 +2,9 @@
 <launch>
 
 	<arg name="robot_env" default="$(optenv ROBOT_ENV !!NO_ROBOT_ENV_SET!!)"/>
-  <arg name="room_warehouse" default="false" />
-  <arg name="room_machine_room" default="true" />
-  <arg name="room_super_market1" default="false" />
-  <arg name="room_super_market2" default="false" />
-  <arg name="room_hallway" default="false" />
-  <arg name="reflector_marker" default="true" />
 
 	<!-- send objects locations to parameter server -->
 	<rosparam command="delete" param="/objects"/>
-
-  <rosparam if="$(arg room_warehouse)" command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/object_locations_warehouse.yaml"/>
-	<rosparam if="$(arg room_machine_room)" command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/object_locations_machine_room.yaml"/>
-  <rosparam if="$(arg room_super_market1)" command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/object_locations_super_market1.yaml"/>
-  <rosparam if="$(arg room_super_market2)" command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/object_locations_super_market2.yaml"/>
-  <rosparam if="$(arg room_hallway)" command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/object_locations_hallway.yaml"/>
-  <rosparam if="$(arg reflector_marker)" command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/reflMarker_locations.yaml"/>
-
+  <rosparam command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/object_locations.yaml"/>
 
 </launch>

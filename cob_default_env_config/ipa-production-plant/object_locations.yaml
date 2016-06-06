@@ -1,0 +1,1817 @@
+##################################
+######### machine-room ###########
+##################################
+
+# Specify the rooms to be spawned
+visualized-rooms:
+  # - 'machine-room'
+  # - 'warehouse'
+  # - 'super-market-1'
+  - 'super-market-2'
+  # - 'hallway'
+  # - 'reflector-marker'
+  # - none
+
+
+#########################################################################
+#################                                       #################
+#################             MACHINE-ROOM              ################# 
+#################                                       #################
+#########################################################################
+
+
+# Kanban row up 1
+kanban_01:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 5, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_02:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 6.4, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_03:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 9, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_04:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 10.4, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_05:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 13, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_06:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 14.4, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_07:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 17, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_08:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 18.4, 10, 0]
+  orientation: [ 0, 0, 0]
+
+# Kanban row up 2
+kanban_09:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 21, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_10:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 22.4, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_11:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 25, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_12:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 26.4, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_13:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 29, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_14:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 30.4, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_15:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 33, 10, 0]
+  orientation: [ 0, 0, 0]
+kanban_16:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 34.4, 10, 0]
+  orientation: [ 0, 0, 0]
+
+# Kanban row down 1
+kanban_18:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 9, -8.5, 0]
+  orientation: [ 0, 0, 3.14]
+kanban_19:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 10.4, -8.5, 0]
+  orientation: [ 0, 0, 3.14]
+kanban_20:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 11.8, -8.5, 0]
+  orientation: [ 0, 0, 3.14]
+
+# Kanban row down 2
+kanban_21:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 17.5, -8.5, 0]
+  orientation: [ 0, 0, 3.14]
+kanban_22:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 18.9, -8.5, 0]
+  orientation: [ 0, 0, 3.14]
+kanban_23:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 21.3, -8.5, 0]
+  orientation: [ 0, 0, 3.14]
+kanban_24:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 22.7, -8.5, 0]
+  orientation: [ 0, 0, 3.14]
+kanban_25:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 25.1, -8.5, 0]
+  orientation: [ 0, 0, 3.14]
+kanban_26:
+  room: machine-room
+  model: kanban
+  model_type: urdf
+  position: [ 26.5, -8.5, 0]
+  orientation: [ 0, 0, 3.14]
+
+
+# Assembly Area with robots
+assembly_area:
+  room: machine-room
+  model: assembly_area
+  model_type: urdf
+  position: [ 9.3, -1.6, 0]
+  orientation: [ 0, 0, 0]
+box_01:
+  room: machine-room
+  model: box
+  model_type: urdf
+  position: [ 5.5, 3.5, 0]
+  orientation: [ 0, 0, 0]
+robot_arm_01:
+  room: machine-room
+  model: robot_arm
+  model_type: urdf
+  position: [ 5.5, 3.5, 0.5]
+  orientation: [ 0, 0, 0.79]
+box_02:
+  room: machine-room
+  model: box
+  model_type: urdf
+  position: [ 5.5, -1.5, 0]
+  orientation: [ 0, 0, 0]
+robot_arm_02:
+  room: machine-room
+  model: robot_arm
+  model_type: urdf
+  position: [ 5.5, -1.5, 0.5]
+  orientation: [ 0, 0, 0.79]
+box_03:
+  room: machine-room
+  model: box
+  model_type: urdf
+  position: [ 9, 1.25, 0]
+  orientation: [ 0, 0, 0]
+robot_arm_03:
+  room: machine-room
+  model: robot_arm
+  model_type: urdf
+  position: [ 9, 1.25, 0.5]
+  orientation: [ 0, 0, 0]
+
+# Conveyor with Robots 1
+conveyor_01:
+  room: machine-room
+  model: conveyor
+  model_type: urdf
+  position: [ 20.5, -0.2, 0]
+  orientation: [ 0, 0, -1.57]
+robot_arm_04:
+  room: machine-room
+  model: robot_arm
+  model_type: urdf
+  position: [ 22.5, 1, 0]
+  orientation: [ 0, 0, -0.96]
+robot_arm_05:
+  room: machine-room
+  model: robot_arm
+  model_type: urdf
+  position: [ 22.5, -4, 0]
+  orientation: [ 0, 0, -0.96]
+robot_arm_06:
+  room: machine-room
+  model: robot_arm
+  model_type: urdf
+  position: [ 19.5, -1.5, 0]
+  orientation: [ 0, 0, 0.79]
+
+# Conveyor with Robots 1
+conveyor_02:
+  room: machine-room
+  model: conveyor
+  model_type: urdf
+  position: [ 28.5, -0.2, 0]
+  orientation: [ 0, 0, -1.57]
+robot_arm_07:
+  room: machine-room
+  model: robot_arm
+  model_type: urdf
+  position: [ 30.5, 1, 0]
+  orientation: [ 0, 0, -0.96]
+robot_arm_08:
+  room: machine-room
+  model: robot_arm
+  model_type: urdf
+  position: [ 30.5, -4, 0]
+  orientation: [ 0, 0, -0.96]
+robot_arm_09:
+  room: machine-room
+  model: robot_arm
+  model_type: urdf
+  position: [ 27.5, -1.5, 0]
+  orientation: [ 0, 0, 0.79]
+
+# Stairs
+stairs_01:
+  room: machine-room
+  model: stairs
+  model_type: urdf
+  position: [ 36.7, 4, 0]
+  orientation: [ 0, 0, 3.14]
+stairs_02:
+  room: machine-room
+  model: stairs
+  model_type: urdf
+  position: [ 36.4, -6, 0]
+  orientation: [ 0, 0, 0]
+
+#########################################################################
+#################                                       #################
+#################               WAREHOUSE               ################# 
+#################                                       #################
+#########################################################################
+
+##################################
+############ shelfs ##############
+##################################
+
+shelf_a1:
+  room: warehouse
+  model: shelf
+  model_type: urdf
+  position: [ -14.6, 0, 0]
+  orientation: [ 0, 0, 1.5708]
+  children:
+    pallet1:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ -5.15, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet2:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ -4.25, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet3:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ -3.35, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet4:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ -2.3, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet5:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ -1.4, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet6:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ -0.5, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet7:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 0.5, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet8:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 1.4, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet9:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 2.3, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet10:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 3.35, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet11:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 4.25, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet12:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 5.15, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+
+shelf_c1:
+  room: warehouse
+  model: shelf
+  model_type: urdf
+  position: [ -8.65, 0, 0]
+  orientation: [ 0, 0, 1.5708]
+  children:
+    gitterbox2:
+      room: warehouse
+      model: cage_box
+      model_type: urdf
+      position: [ -5.15, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+    gitterbox4:
+      room: warehouse
+      model: cage_box
+      model_type: urdf
+      position: [ -3.35, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+    gitterbox5:
+      room: warehouse
+      model: cage_box
+      model_type: urdf
+      position: [ -1.4, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+    gitterbox6:
+      room: warehouse
+      model: cage_box
+      model_type: urdf
+      position: [ -0.51, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+    pallet11:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 3.3, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet12:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 4.3, 0, 0]
+      orientation: [ 0, 0, 1.5]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+
+shelf_e1:
+  room: warehouse
+  model: shelf
+  model_type: urdf
+  position: [ -2.75, 0, 0]
+  orientation: [ 0, 0, 1.5708]
+  children:
+    pallet1:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ -4.25, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet2:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ -3.35, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet3:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ -2.35, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet4:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ -1.4, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet5:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ -0.52, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet6:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 0.52, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet7:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 1.4, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet8:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 2.32, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet9:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 3.34, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet10:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 2.34, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet11:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 4.25, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+    pallet12:
+      room: warehouse
+      model: pallet
+      model_type: urdf
+      position: [ 5.2, 0, 0]
+      orientation: [ 0, 0, 1.5708]
+      children:
+        packet1:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet2:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, -0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet3:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ 0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+        packet4:
+          room: warehouse
+          model: packet
+          model_type: urdf
+          position: [ -0.3, 0.2, 0.15]
+          orientation: [ 0, 0, 0]
+
+
+
+
+
+#########################################################################
+#################                                       #################
+#################            SUPER-MARKET 1             ################# 
+#################                                       #################
+#########################################################################
+
+
+# Shelf Line 1  
+super_market_shelf1_01:
+  room: super-market-1
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ 0.00, -14.91, 0]
+  orientation: [ 0, 0, 0]
+super_market_shelf2_01:
+  room: super-market-1
+  model: shelf_super_market2
+  model_type: urdf
+  position: [ -4.80, -15, 0]
+  orientation: [ 0, 0, 1.57]
+super_market_shelf2_02:
+  room: super-market-1
+  model: shelf_super_market2
+  model_type: urdf
+  position: [ -13.33, -15, 0]
+  orientation: [ 0, 0, 1.57]
+super_market_shelf1_02:
+  room: super-market-1
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ -17.96, -14.91, 0]
+  orientation: [ 0, 0, 0]
+
+# Shelf Line 2  
+super_market_shelf1_03:
+  room: super-market-1
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ 0.00, -18.91, 0]
+  orientation: [ 0, 0, 0]
+super_market_shelf2_03:
+  room: super-market-1
+  model: shelf_super_market2
+  model_type: urdf
+  position: [ -4.80, -19, 0]
+  orientation: [ 0, 0, 1.57]
+super_market_shelf2_04:
+  room: super-market-1
+  model: shelf_super_market2
+  model_type: urdf
+  position: [ -13.33, -19, 0]
+  orientation: [ 0, 0, 1.57]
+super_market_shelf1_04:
+  room: super-market-1
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ -17.96, -18.91, 0]
+  orientation: [ 0, 0, 0]
+
+# Shelf Line 3  
+super_market_shelf1_05:
+  room: super-market-1
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ 0.00, -22.91, 0]
+  orientation: [ 0, 0, 0]
+super_market_shelf2_05:
+  room: super-market-1
+  model: shelf_super_market2
+  model_type: urdf
+  position: [ -4.80, -23, 0]
+  orientation: [ 0, 0, 1.57]
+super_market_shelf2_06:
+  room: super-market-1
+  model: shelf_super_market2
+  model_type: urdf
+  position: [ -13.33, -23, 0]
+  orientation: [ 0, 0, 1.57]
+super_market_shelf1_06:
+  room: super-market-1
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ -17.96, -22.91, 0]
+  orientation: [ 0, 0, 0]
+
+# Shelf Line 4  
+super_market_shelf1_07:
+  room: super-market-1
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ 0.00, -26.91, 0]
+  orientation: [ 0, 0, 0]
+super_market_shelf2_07:
+  room: super-market-1
+  model: shelf_super_market2
+  model_type: urdf
+  position: [ -4.80, -27, 0]
+  orientation: [ 0, 0, 1.57]
+super_market_shelf2_08:
+  room: super-market-1
+  model: shelf_super_market2
+  model_type: urdf
+  position: [ -13.33, -27, 0]
+  orientation: [ 0, 0, 1.57]
+super_market_shelf1_08:
+  room: super-market-1
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ -17.96, -26.91, 0]
+  orientation: [ 0, 0, 0]
+
+# # Carriage-Returns
+# carriage_return_01:
+#   room: super-market-1
+#   model: carriage_return
+#   model_type: urdf
+#   position: [ -14.83, -31.35, 0]
+#   orientation: [ 0, 0, 0]
+# carriage_return_02:
+#   room: super-market-1
+#   model: carriage_return
+#   model_type: urdf
+#   position: [ -3.25, -31.35, 0]
+#   orientation: [ 0, 0, 3.14]
+
+
+
+
+
+#########################################################################
+#################                                       #################
+#################            SUPER-MARKET 2             ################# 
+#################                                       #################
+#########################################################################
+
+
+# Refridgerator Line 1a
+refridgerator_01:
+  room: super-market-2
+  model: refridgerator
+  model_type: urdf
+  position: [ 8.20, -17.50, 0]
+  orientation: [ 0, 0, 0]
+refridgerator_02:
+  room: super-market-2
+  model: refridgerator
+  model_type: urdf
+  position: [ 8.30, -19.35, 0]
+  orientation: [ 0, 0, 3.14]
+super_market_shelf1_01:
+  room: super-market-2
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ 12.14, -17.35, 0]
+  orientation: [ 0, 0, 0]
+super_market_shelf1_02:
+  room: super-market-2
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ 12.14, -19.45, 0]
+  orientation: [ 0, 0, 0]
+
+ # Refridgerator Line 1b
+refridgerator_03:
+  room: super-market-2
+  model: refridgerator
+  model_type: urdf
+  position: [ 21.25, -17.50, 0]
+  orientation: [ 0, 0, 0]
+refridgerator_04:
+  room: super-market-2
+  model: refridgerator
+  model_type: urdf
+  position: [ 21.35, -19.35, 0]
+  orientation: [ 0, 0, 3.14]
+super_market_shelf1_03:
+  room: super-market-2
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ 17.45, -17.35, 0]
+  orientation: [ 0, 0, 0]
+super_market_shelf1_04:
+  room: super-market-2
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ 17.45, -19.45, 0]
+  orientation: [ 0, 0, 0]
+
+ # Refridgerator Line 2a
+refridgerator_05:
+  room: super-market-2
+  model: refridgerator
+  model_type: urdf
+  position: [ 8.20, -26.75, 0]
+  orientation: [ 0, 0, 0]
+refridgerator_06:
+  room: super-market-2
+  model: refridgerator
+  model_type: urdf
+  position: [ 8.30, -28.60, 0]
+  orientation: [ 0, 0, 3.14]
+super_market_shelf1_05:
+  room: super-market-2
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ 12.14, -26.60, 0]
+  orientation: [ 0, 0, 0]
+super_market_shelf1_06:
+  room: super-market-2
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ 12.14, -28.70, 0]
+  orientation: [ 0, 0, 0]
+
+# Refridgerator Line 2b
+refridgerator_07:
+  room: super-market-2
+  model: refridgerator
+  model_type: urdf
+  position: [ 21.25, -26.75, 0]
+  orientation: [ 0, 0, 0]
+refridgerator_08:
+  room: super-market-2
+  model: refridgerator
+  model_type: urdf
+  position: [ 21.35, -28.60, 0]
+  orientation: [ 0, 0, 3.14]
+super_market_shelf1_07:
+  room: super-market-2
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ 17.45, -26.60, 0]
+  orientation: [ 0, 0, 0]
+super_market_shelf1_08:
+  room: super-market-2
+  model: shelf_super_market1
+  model_type: urdf
+  position: [ 17.45, -28.70, 0]
+  orientation: [ 0, 0, 0]
+
+# # Casher
+# casher_01:
+#   room: super-market-2
+#   model: casher
+#   model_type: urdf
+#   position: [ 15.10, -30.00, 0]
+#   orientation: [ 0, 0, 1.57]
+
+
+
+
+
+#########################################################################
+#################                                       #################
+#################                HALLWAY                ################# 
+#################                                       #################
+#########################################################################
+
+
+# Columns 
+column_01:
+  room: hallway
+  model: column
+  model_type: urdf
+  position: [ 33.00, -15.00, 0]
+  orientation: [ 0, 0, 0]
+column_02:
+  room: hallway
+  model: column
+  model_type: urdf
+  position: [ 33.00, -20.00, 0]
+  orientation: [ 0, 0, 0]
+column_03:
+  room: hallway
+  model: column
+  model_type: urdf
+  position: [ 33.00, -25.00, 0]
+  orientation: [ 0, 0, 0]
+column_04:
+  room: hallway
+  model: column
+  model_type: urdf
+  position: [ 33.00, -30.00, 0]
+  orientation: [ 0, 0, 0]
+column_05:
+  room: hallway
+  model: column
+  model_type: urdf
+  position: [ 33.00, -35.00, 0]
+  orientation: [ 0, 0, 0]
+
+# Cabinets
+cabinet_01:
+  room: hallway
+  model: cabinet_ikea_galant
+  model_type: urdf
+  position: [ 10.56, -35.31, 0]
+  orientation: [ 0, 0, 0]
+cabinet_02:
+  room: hallway
+  model: cabinet_ikea_galant
+  model_type: urdf
+  position: [ 12.56, -35.31, 0]
+  orientation: [ 0, 0, 0]
+cabinet_03:
+  room: hallway
+  model: cabinet_ikea_galant
+  model_type: urdf
+  position: [ 14.56, -35.31, 0]
+  orientation: [ 0, 0, 0]
+
+
+# Tables
+table_01:
+  room: hallway
+  model: table_living_room
+  model_type: urdf
+  position: [ 0.0, -39.20, 0]
+  orientation: [ 0, 0, 1.57]
+table_02:
+  room: hallway
+  model: table_living_room
+  model_type: urdf
+  position: [ 2.0, -39.20, 0]
+  orientation: [ 0, 0, 1.57]
+table_03:
+  room: hallway
+  model: table_living_room
+  model_type: urdf
+  position: [ 4.0, -39.20, 0]
+  orientation: [ 0, 0, 1.57]
+
+
+
+
+
+#########################################################################
+#################                                       #################
+#################           REFLECTOR-MARKER            ################# 
+#################                                       #################
+#########################################################################
+
+
+# Room: warehouse
+reflector_marker01:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 1.8, 12.8, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_02:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ -6, 12.8, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_03:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ -12, 12.8, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_04:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ -19.8, 12.8, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_05:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 1.8, -10.8, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_06:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ -6, -10.8, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_07:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ -12, -10.8, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_08:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ -19.8, -10.8, 0]
+  orientation: [ 0, 0, 0]
+
+# Room: machine-room
+reflector_marker_09:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 2.2, 9.2, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_10:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 2.2, 5.8, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_11:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 4.8, -1.2, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_12:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 12.32, 9.4, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_13:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 24.32, 9.4, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_14:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 35.1, 9.4, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_15:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 35.74, 2.1, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_16:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 35.74, -4.1, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_17:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 29.55, 5.57, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_18:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 29.55, -5.94, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_19:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 20.27, 5.57, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_20:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 20.27, -5.94, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_21:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 9.65, 1.65, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_22:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 2.2, -10.8, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_23:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 13.1, -10.8, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_24:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 16.4, -10.8, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_25:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 27.4, -10.8, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_26:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 30.7, -10.8, 0]
+  orientation: [ 0, 0, 0]
+
+# Room: super-market 1
+reflector_marker_27:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ -19.5, -11.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_28:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 1.5, -11.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_29:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 1.5, -21, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_30:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 1.5, -34, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_31:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ -19.5, -34, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_32:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ -19.5, -21, 0]
+  orientation: [ 0, 0, 0]
+
+# Room: super-market 2
+reflector_marker_33:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 2.5, -11.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_34:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 27, -11.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_35:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 2.5, -34.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_36:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 24, -34.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_37:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 2.5, -18.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_38:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 27, -18.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_39:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 12, -24, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_40:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 18, -24, 0]
+  orientation: [ 0, 0, 0]
+
+# Room: hallway
+reflector_marker_41:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 31, -11.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_42:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 37.5, -11.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_43:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 28, -34.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_44:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 37.5, -35, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_45:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 24, -39.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_46:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ 6, -35.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_47:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ -11, -35.5, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_48:
+  room: reflector-marker
+  model: reflector_marker
+  model_type: sdf
+  position: [ -3.5, -39.5, 0]
+  orientation: [ 0, 0, 0]
+
+
+
+
+# reflector_marker_:
+#   model: reflector_marker
+#   model_type: sdf
+#   position: [ , , 0]
+#   orientation: [ 0, 0, 0]
+
+
+
+
+# machine_05:
+#   model: machine2
+#   model_type: urdf
+#   position: [ , , 0]
+#   orientation: [ 0, 0, 0]
