@@ -123,10 +123,10 @@ features:
     position: [27, -18.5, 0]
     description: reflector_marker_38
   - id: 39
-    position: [12, -24, 0]
+    position: [12, -25.6, 0]
     description: reflector_marker_39
   - id: 40
-    position: [18, -24, 0]
+    position: [18, -25.6, 0]
     description: reflector_marker_40
 
 # Room: hallway

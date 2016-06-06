@@ -4,12 +4,12 @@
 
 # Specify the rooms to be spawned
 visualized-rooms:
-  # - 'machine-room'
-  # - 'warehouse'
-  # - 'super-market-1'
+  - 'machine-room'
+  - 'warehouse'
+  - 'super-market-1'
   - 'super-market-2'
-  # - 'hallway'
-  # - 'reflector-marker'
+  - 'hallway'
+  - 'reflector-marker'
   # - none
 
 
@@ -1739,13 +1739,13 @@ reflector_marker_39:
   room: reflector-marker
   model: reflector_marker
   model_type: sdf
-  position: [ 12, -24, 0]
+  position: [ 12, -25.6, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_40:
   room: reflector-marker
   model: reflector_marker
   model_type: sdf
-  position: [ 18, -24, 0]
+  position: [ 18, -25.6, 0]
   orientation: [ 0, 0, 0]
 
 # Room: hallway
