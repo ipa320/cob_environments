@@ -1,4 +1,4 @@
-source_id: "laserscan"
+source_id: "laserline"
 features:
   - id: 1
     source: [0.2299569822898, 1.0493845329517, 0.0]
