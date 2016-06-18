@@ -1,4 +1,4 @@
-source_id: laserscan
+source_id: laserline
 for all images:
 occupied_pixel_value: 0
 unexplored_pixel_value: 205
