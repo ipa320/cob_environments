@@ -10,6 +10,7 @@ visualized-rooms:
   - 'super-market-2'
   - 'hallway'
   - 'reflector-marker'
+  - 'reflector-marker_hallway2'
   # - none
 
 
@@ -1748,7 +1749,7 @@ reflector_marker_40:
   position: [ 18, -25.6, 0]
   orientation: [ 0, 0, 0]
 
-# Room: hallway
+# Room: hallway_1
 reflector_marker_41:
   room: reflector-marker
   model: reflector_marker
@@ -1798,6 +1799,178 @@ reflector_marker_48:
   position: [ -3.5, -39.5, 0]
   orientation: [ 0, 0, 0]
 
+
+# Room: hallway_2
+
+# west
+reflector_marker_49:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 38.0505, 8.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_50:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 38.0505, 4.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_51:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 38.0505, 0.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_52:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 38.0505, -4.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_53:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 38.0505, -8.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_54:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 38.0505, -12.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_55:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 38.0505, -16.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_56:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 38.0505, -20.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_57:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 38.0505,-24.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_58:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 38.0505, -28.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_59:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 38.0505, -32.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_60:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 38.0505, -36.0, 0]
+  orientation: [ 0, 0, 0]
+
+# east
+reflector_marker_61:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 40.9495, 10.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_62:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 40.9495, 6.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_63:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 40.9495, 2.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_64:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 40.9495, -2.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_65:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 40.9495, -6.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_66:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 40.9495, -10.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_67:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 40.9495, -14.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_68:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 40.9495, -18.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_69:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 40.9495, -22.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_70:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 40.9495, -26.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_71:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 40.9495, -30.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_72:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 40.9495, -34.0, 0]
+  orientation: [ 0, 0, 0]
+reflector_marker_73:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 40.9495, -38.0, 0]
+  orientation: [ 0, 0, 0]
+
+# north
+reflector_marker_74:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 39.5, 12.9495, 0]
+  orientation: [ 0, 0, 1.5708]
+
+# south
+reflector_marker_75:
+  room: reflector-marker_hallway2
+  model: reflector_marker_flat
+  model_type: sdf
+  position: [ 39.5, -39.9495, 0]
+  orientation: [ 0, 0, 1.5708]
 
 
 
