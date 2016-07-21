@@ -1,0 +1,146 @@
+source_id: "lasermarker"
+features:
+  - id: 0
+    position: [1.8, 12.8, 0.0]
+    description: reflector_marker_01
+  - id: 1
+    position: [-6, 12.8, 0.0]
+    description: reflector_marker_02
+  - id: 2
+    position: [-12, 12.8, 0.0]
+    description: reflector_marker_03
+  - id: 3
+    position: [-19.8, 12.8, 0.0]
+    description: reflector_marker_04
+  - id: 4
+    position: [1.8, -10.8, 0.0]
+    description: reflector_marker_05
+  - id: 5
+    position: [-6, -10.8, 0.0]
+    description: reflector_marker_06
+  - id: 6
+    position: [-12, -10.8, 0.0]
+    description: reflector_marker_07
+  - id: 7
+    position: [-19.8, -10.8, 0.0]
+    description: reflector_marker_08
+  - id: 8
+    position: [2.2, 9.2, 0.0]
+    description: reflector_marker_09
+  - id: 9
+    position: [2.2, 5.8, 0.0]
+    description: reflector_marker_10
+  - id: 10
+    position: [4.8, -1.2, 0.0]
+    description: reflector_marker_11
+  - id: 11
+    position: [12.32, 9.4, 0.0]
+    description: reflector_marker_12
+  - id: 12
+    position: [24.32, 9.4, 0.0]
+    description: reflector_marker_13
+  - id: 13
+    position: [35.1, 9.4, 0.0]
+    description: reflector_marker_14
+  - id: 14
+    position: [35.74, 2.1, 0.0]
+    description: reflector_marker_15
+  - id: 15
+    position: [35.74, -4.1, 0.0]
+    description: reflector_marker_16
+  - id: 16
+    position: [29.55, 5.57, 0.0]
+    description: reflector_marker_17
+  - id: 17
+    position: [29.55, -5.94, 0.0]
+    description: reflector_marker_18
+  - id: 18
+    position: [20.27, 5.57, 0.0]
+    description: reflector_marker_19
+  - id: 19
+    position: [20.27, -5.94, 0.0]
+    description: reflector_marker_20
+  - id: 20
+    position: [9.65, 1.65, 0.0]
+    description: reflector_marker_21
+  - id: 21
+    position: [2.2, -10.8, 0.0]
+    description: reflector_marker_22
+  - id: 22
+    position: [13.1, -10.8, 0.0]
+    description: reflector_marker_23
+  - id: 23
+    position: [16.4, -10.8, 0.0]
+    description: reflector_marker_24
+  - id: 24
+    position: [27.4, -10.8, 0.0]
+    description: reflector_marker_25
+  - id: 25
+    position: [30.7, -10.8, 0.0]
+    description: reflector_marker_26
+  - id: 26
+    position: [-19.5, -11.5, 0.0]
+    description: reflector_marker_27
+  - id: 27
+    position: [1.5, -11.5, 0.0]
+    description: reflector_marker_28
+  - id: 28
+    position: [1.5, -21, 0.0]
+    description: reflector_marker_29
+  - id: 29
+    position: [1.5, -34, 0.0]
+    description: reflector_marker_30
+  - id: 30
+    position: [-19.5, -34, 0.0]
+    description: reflector_marker_31
+  - id: 31
+    position: [-19.5, -21, 0.0]
+    description: reflector_marker_32
+  - id: 32
+    position: [2.5, -11.5, 0.0]
+    description: reflector_marker_33
+  - id: 33
+    position: [27, -11.5, 0.0]
+    description: reflector_marker_34
+  - id: 34
+    position: [2.5, -34.5, 0.0]
+    description: reflector_marker_35
+  - id: 35
+    position: [24, -34.5, 0.0]
+    description: reflector_marker_36
+  - id: 36
+    position: [2.5, -18.5, 0.0]
+    description: reflector_marker_37
+  - id: 37
+    position: [27, -18.5, 0.0]
+    description: reflector_marker_38
+  - id: 38
+    position: [12, -25.6, 0.0]
+    description: reflector_marker_39
+  - id: 39
+    position: [18, -25.6, 0.0]
+    description: reflector_marker_40
+  - id: 40
+    position: [31, -11.5, 0.0]
+    description: reflector_marker_41
+  - id: 41
+    position: [37.5, -11.5, 0.0]
+    description: reflector_marker_42
+  - id: 42
+    position: [28, -34.5, 0.0]
+    description: reflector_marker_43
+  - id: 43
+    position: [37.5, -35, 0.0]
+    description: reflector_marker_44
+  - id: 44
+    position: [24, -39.5, 0.0]
+    description: reflector_marker_45
+  - id: 45
+    position: [6, -35.5, 0.0]
+    description: reflector_marker_46
+  - id: 46
+    position: [-11, -35.5, 0.0]
+    description: reflector_marker_47
+  - id: 47
+    position: [-3.5, -39.5, 0.0]
+    description: reflector_marker_48
