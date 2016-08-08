@@ -9,7 +9,6 @@ set(envlist
   automotive-assembly-line
   empty
   ipa-apartment
-  ipa-factory
   ipa-kitchen
   ipa-office  
   ipa-production-plant
