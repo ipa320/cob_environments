@@ -1,0 +1,10 @@
+### Example group structure
+#
+# group_name_1:
+#   - object_name_1
+#   - object_name_2
+#   - object_name_3
+#
+# group_name_2:
+#   - object_name_4
+#   - object_name_5

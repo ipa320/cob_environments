@@ -6,6 +6,6 @@
 	<!-- send objects locations to parameter server -->
 	<rosparam command="delete" param="/objects"/>
 	<rosparam command="load" ns="objects" file="$(find cob_default_env_config)/$(arg robot_env)/object_locations.yaml"/>
-
+	<rosparam command="load" ns="object_groups" file="$(find cob_default_env_config)/$(arg robot_env)/object_groups.yaml"/>
 
 </launch>
