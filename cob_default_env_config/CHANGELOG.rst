@@ -49,6 +49,81 @@ Changelog for package cob_default_env_config
 * minor cleanup
 * Contributors: ipa-fxm
 
+Forthcoming
+-----------
+* delete ipa-factory
+* enable roslaunch checks
+* rename groups namespace
+* Fixed some writing errors in yaml files for object spawning
+* Converted spaces to tabs.
+* Updated object locations/groups according to new group layout and removed old room layout.
+* Merge remote-tracking branch 'origin/feature/ipa_production_plant_improvement' into feature/ipa_production_plant_final
+  Conflicts:
+  cob_default_env_config/upload_object_locations.launch
+* Converted spaces to tabs.
+* Removed refl marker from ipa-apartment folder.
+* Added object_groups.yaml file to all environments and updated upload script to upload groups
+* updated map with new hallway
+* Added new refl_markers for 2nd hallway as well as new room reflector-marker_hallway2
+* reverted line_map source_id back to laserline
+* removed uhr from navigation goals
+* changes made in ipa-apartment on robot
+* Renamed source in yaml files
+* Reset upload object locations file to old version
+* Added Point and Polygon Maps for ipa-production-plant
+* changed feature source of lines to laserline
+* Updated Map and object locations of ipa-production-plant
+* Updated structure of loading objects for ipa-production-plant
+* Updated machine room of ipa-production-plant
+* Added a map, object locations and reflector marker positions for ipa-production-plant
+* Added spawn files for each room of ipa_production_plant
+* proper yaml files for automotive-assembly and production-plant
+* dummy files for ipa_production_plant
+* 0.6.3
+* update changelog
+* deleted adblab, agv-testenv and office-unmapped
+* leave yaml file blank
+* added dummy files for automotive_assembly_line simulation
+* 0.6.2
+* update changelog
+* cleanup
+* remove trailing whitespaces
+* migration to package format 2
+* minor cleanup
+* fixed wrong order of some CPs
+* added users
+* moving path segment files to new syntax and name change
+* cob_default_env_config: added a first draft of a pose_map to ipa-office containing corners of doors in eastern corridor
+* cob_default_env_config: added trajectory-file for ipa_trajectory_global_planner to ipa-apartment and ipa-office
+* cob_default_env_config: added some some more refl markers to the stairwell of ipa-office
+* add a local map
+* some new local maps
+* extract new local maps
+* deleted some lines
+* local grid maps of ipa4th floor
+* line map for ipa apartment
+* deleted old agv-testenv and replaced it with new and more accurate agv-testenv
+* agv-tenstenv_more_accurate: added new grid map and updated rfid-tags from hexdec to dec
+* added new environment agv-testenv_more_accurate with rfid-map
+* edited ids of rfids according to new drivers
+* removed dummy corner map
+* updated point map after insatlling new rfid tags on ipa4th floor
+* agv-testenv: fix placement of rfids
+* edited feature source of corners
+* added dummy corner map of ipa apart for testing pose features
+* agv-testenv: adjust map and add rfids
+* agv_testenv: add rudimentary linemap
+* add agv-testenv
+* added adbdemo to navmaps
+* fix tag id
+* lightly changed positions of rfid tags after reinstalling them on the floor
+* edited rfid map and integrated new tags
+* added source_id to map files
+* added maps for ipa_navigation
+* added new high resolution map that is verified with laser tracker
+* added ipa-office
+* Contributors: AGV Test, Alexander Bubeck, Benjamin Maidel, Florian Mirus, Florian Weisshardt, Frank Slomian, Jakob Breuninger, abubeck, fmw-hb, ipa-fxm, ipa-mig, ipa-mig-mc, ipa-srd, ipa-srd-rd, srd, teddy
+
 0.6.1 (2015-06-17)
 ------------------
 * beautify CMakeLists
