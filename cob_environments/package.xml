@@ -1,6 +1,6 @@
 <package format="2">
   <name>cob_environments</name>
-  <version>0.6.3</version>
+  <version>0.6.4</version>
   <description>This stack holds packages for IPA default environment configuration.</description>
 
   <license>LGPL</license>

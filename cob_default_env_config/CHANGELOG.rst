@@ -49,8 +49,8 @@ Changelog for package cob_default_env_config
 * minor cleanup
 * Contributors: ipa-fxm
 
-Forthcoming
------------
+0.6.4 (2016-10-10)
+------------------
 * delete ipa-factory
 * enable roslaunch checks
 * rename groups namespace
