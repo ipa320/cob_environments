@@ -2,6 +2,38 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.4 (2016-10-10)
+------------------
+* delete ipa-factory
+* enable roslaunch checks
+* rename groups namespace
+* Fixed some writing errors in yaml files for object spawning
+* Converted spaces to tabs.
+* Updated object locations/groups according to new group layout and removed old room layout.
+* Merge remote-tracking branch 'origin/feature/ipa_production_plant_improvement' into feature/ipa_production_plant_final
+  Conflicts:
+  cob_default_env_config/upload_object_locations.launch
+* Converted spaces to tabs.
+* Removed refl marker from ipa-apartment folder.
+* Added object_groups.yaml file to all environments and updated upload script to upload groups
+* updated map with new hallway
+* Added new refl_markers for 2nd hallway as well as new room reflector-marker_hallway2
+* reverted line_map source_id back to laserline
+* removed uhr from navigation goals
+* changes made in ipa-apartment on robot
+* Renamed source in yaml files
+* Reset upload object locations file to old version
+* Added Point and Polygon Maps for ipa-production-plant
+* changed feature source of lines to laserline
+* Updated Map and object locations of ipa-production-plant
+* Updated structure of loading objects for ipa-production-plant
+* Updated machine room of ipa-production-plant
+* Added a map, object locations and reflector marker positions for ipa-production-plant
+* Added spawn files for each room of ipa_production_plant
+* proper yaml files for automotive-assembly and production-plant
+* dummy files for ipa_production_plant
+* Contributors: Benjamin Maidel, Florian Weisshardt, Frank Slomian, Jakob Breuninger, fmw-hb, ipa-fxm, ipa-mig-mc, ipa-srd, ipa-srd-rd
+
 0.6.3 (2016-04-01)
 ------------------
 * deleted adblab, agv-testenv and office-unmapped
