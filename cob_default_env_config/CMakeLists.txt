@@ -1,9 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(cob_default_env_config)
 
-find_package(catkin REQUIRED COMPONENTS roslaunch rostest)
-
-catkin_package()
+find_package(catkin REQUIRED)
 
 set(envlist
   automotive-assembly-line
@@ -14,8 +12,13 @@ set(envlist
   ipa-production-plant
 )
 
+catkin_package(
+  CFG_EXTRAS cob_default_env_config-extras.cmake
+)
+
 ### TEST ###
 if(CATKIN_ENABLE_TESTING)
+  find_package(roslaunch REQUIRED)
   foreach(env ${envlist})
     message("testing for env: ${env}")
     roslaunch_add_file_check(. robot_env:=${env})
@@ -30,7 +33,7 @@ install(FILES
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
-foreach(environ ${envlist})
-  install(DIRECTORY ${environ}/
-    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${environ})
+foreach(env ${envlist})
+  install(DIRECTORY ${env}
+    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 endforeach()
