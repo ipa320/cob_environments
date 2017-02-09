@@ -30,19 +30,31 @@ control points:
     location: [-6.1944580078125, -3.524389743804932]
     transition: []
   - id: cp 24
-    location: [-0.2962400913238525, -0.4388579726219177]
+    location: [-0.04126471281051636, -0.006592839956283569]
     transition: []
   - id: cp 25
-    location: [2.217371702194214, -1.190424084663391]
+    location: [3.338441848754883, -0.1840417981147766]
     transition: []
   - id: cp 26
-    location: [1.743431210517883, -3.752420902252197]
+    location: [3.088068008422852, -4.05320930480957]
+    transition: []
+  - id: cp 27
+    location: [5.324481964111328, -4.306166172027588]
+    transition: []
+  - id: cp 28
+    location: [2.718484163284302, -6.40144157409668]
+    transition: []
+  - id: cp 29
+    location: [2.607450723648071, -8.197271347045898]
+    transition: []
+  - id: cp 30
+    location: [4.660332679748535, -8.324094772338867]
     transition: []
   - id: cp 7
-    location: [-0.4070972800254822, -3.640948295593262]
+    location: [-0.4850718379020691, -3.5346839427948]
     transition: []
   - id: cp 8
-    location: [-3.361826837062836, -3.716673374176025]
+    location: [-3.36182689666748, -3.716673374176025]
     transition: []
 path segments:
   - id: ps 12
@@ -134,6 +146,36 @@ path segments:
     width: 1
     directed: false
     control points: [cp 7, cp 26]
+    users: [human, robot]
+  - id: ps 34
+    type: bezier
+    width: 1
+    directed: false
+    control points: [cp 26, cp 27]
+    users: [human, robot]
+  - id: ps 35
+    type: bezier
+    width: 1
+    directed: false
+    control points: [cp 26, cp 28]
+    users: [human, robot]
+  - id: ps 36
+    type: bezier
+    width: 1
+    directed: false
+    control points: [cp 28, cp 29]
+    users: [human, robot]
+  - id: ps 37
+    type: bezier
+    width: 1
+    directed: false
+    control points: [cp 29, cp 30]
+    users: [human, robot]
+  - id: ps 38
+    type: bezier
+    width: 1
+    directed: false
+    control points: [cp 25, cp 7]
     users: [human, robot]
   - id: ps 9
     type: bezier
