@@ -1,0 +1,12 @@
+
+walls:
+  model: ipa-office_walls
+  model_type: urdf
+  position: [ 0, 0, 0]
+  orientation: [ 0, 0, 0]
+
+# reflector_marker_01:
+#   model: reflector_marker
+#   model_type: urdf
+#   position: [ 0, 0, 0]
+#   orientation: [ 0, 0, 0]
