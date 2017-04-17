@@ -1,0 +1,155 @@
+source_id: "laserscan"
+features:
+  - id: 1
+    source: [-2.667, -9.559, 0.0]
+    target: [5.412, -10.051, 0.0]
+    description: Floor_East_SouthWall
+  - id: 2
+    source: [5.412, -10.051, 0.0]
+    target: [5.688, -5.513, 0.0]
+    description: Floor_East_SouthWall
+  - id: 3
+    source: [5.688, -5.513, 0.0]
+    target: [6.841, -4.467, 0.0]
+    description: Floor_East_SouthWall
+  - id: 4
+    source: [6.841, -4.467, 0.0]
+    target: [5.827, -3.336, 0.0]
+    description: Floor_East_SouthWall
+  - id: 5
+    source: [5.827, -3.336, 0.0]
+    target: [6.067, 1.346, 0.0]
+    description: Floor_East_SouthWall
+  - id: 6
+    source: [6.067, 1.346, 0.0]
+    target: [-1.772, 1.846, 0.0]
+    description: Floor_East_SouthWall
+  - id: 7
+    source: [-1.772, 1.846, 0.0]
+    target: [-1.833, 1.322, 0.0]
+    description: Floor_East_SouthWall
+  - id: 8
+    source: [-1.193, 1.090, 0.0]
+    target: [-1.424, -1.897, 0.0]
+    description: Floor_East_SouthWall
+  - id: 9
+    source: [-1.424, -1.897, 0.0]
+    target: [-2.204, -1.860, 0.0]
+    description: Floor_East_SouthWall
+  - id: 10
+    source: [-2.204, -1.860, 0.0]
+    target: [-2.276, -2.955, 0.0]
+    description: Floor_East_SouthWall
+  - id: 11
+    source: [-2.378, -4.275, 0.0]
+    target: [-2.691, -9.564, 0.0]
+    description: Floor_East_SouthWall
+  - id: 12
+    source: [-2.068, -4.819, 0.0]
+    target: [-0.951, -4.915, 0.0]
+    description: Floor_East_SouthWall
+  - id: 13
+    source: [-0.951, -4.915, 0.0]
+    target: [-0.990, -5.424, 0.0]
+    description: Floor_East_SouthWall
+  - id: 14
+    source: [-0.990, -5.424, 0.0]
+    target: [-2.168, -5.317, 0.0]
+    description: Floor_East_SouthWall
+  - id: 15
+    source: [0.215, -4.982, 0.0]
+    target: [1.365, -5.033, 0.0]
+    description: Floor_East_SouthWall
+  - id: 16
+    source: [1.365, -5.033, 0.0]
+    target: [1.328, -5.544, 0.0]
+    description: Floor_East_SouthWall
+  - id: 17
+    source: [1.328, -5.544, 0.0]
+    target: [0.217, -5.490, 0.0]
+    description: Floor_East_SouthWall
+  - id: 18
+    source: [0.217, -5.490, 0.0]
+    target: [0.215, -4.982, 0.0]
+    description: Floor_East_SouthWall
+  - id: 19
+    source: [1.512, -5.069, 0.0]
+    target: [1.870, -5.068, 0.0]
+    description: Floor_East_SouthWall
+  - id: 20
+    source: [1.870, -5.068, 0.0]
+    target: [1.882, -5.391, 0.0]
+    description: Floor_East_SouthWall
+  - id: 21
+    source: [1.882, -5.391, 0.0]
+    target: [2.628, -5.413, 0.0]
+    description: Floor_East_SouthWall
+  - id: 21
+    source: [2.630, -5.517, 0.0]
+    target: [1.885, -5.508, 0.0]
+    description: Floor_East_SouthWall
+  - id: 22
+    source: [3.985, -5.222, 0.0]
+    target: [5.099, -5.284, 0.0]
+    description: Floor_East_SouthWall
+  - id: 23
+    source: [3.985, -5.222, 0.0]
+    target: [3.965, -5.754, 0.0]
+    description: Floor_East_SouthWall
+  - id: 24
+    source: [3.965, -5.754, 0.0]
+    target: [5.081, -5.830, 0.0]
+    description: Floor_East_SouthWall
+  - id: 25
+    source: [-2.477, -5.396, 0.0]
+    target: [-4.605, -5.22, 0.0]
+    description: Floor_East_SouthWall
+  - id: 26
+    source: [-4.605, -5.22, 0.0]
+    target: [-4.576, -4.548, 0.0]
+    description: Floor_East_SouthWall
+  - id: 27
+    source: [-4.576, -4.548, 0.0]
+    target: [-6.733, -4.307, 0.0]
+    description: Floor_East_SouthWall
+  - id: 28
+    source: [-6.733, -4.307, 0.0]
+    target: [-11.638, -8.46, 0.0]
+    description: Floor_East_SouthWall
+  - id: 29
+    source: [-11.638, -8.46, 0.0]
+    target: [-13.414, -8.314, 0.0]
+    description: Floor_East_SouthWall
+  - id: 31
+    source: [-13.414, -8.314, 0.0]
+    target: [-17.469, -3.495, 0.0]
+    description: Floor_East_SouthWall
+  - id: 32
+    source: [-17.469, -3.495, 0.0]
+    target: [-17.341, -1.746, 0.0]
+    description: Floor_East_SouthWall
+  - id: 33
+    source: [-17.341, -1.746, 0.0]
+    target: [-12.382, 2.488, 0.0]
+    description: Floor_East_SouthWall
+  - id: 34
+    source: [-12.382, 2.488, 0.0]
+    target: [-12.209, 4.507, 0.0]
+    description: Floor_East_SouthWall
+  - id: 35
+    source: [-10.495, 4.451, 0.0]
+    target: [-10.707, 2.352, 0.0]
+    description: Floor_East_SouthWall
+  - id: 36
+    source: [-10.707, 2.352, 0.0]
+    target: [-6.556, -2.657, 0.0]
+    description: Floor_East_SouthWall
+  - id: 36
+    source: [-6.556, -2.657, 0.0]
+    target: [-4.413, -2.832, 0.0]
+    description: Floor_East_SouthWall
+  - id: 37
+    source: [-4.413, -2.832, 0.0]
+    target: [-4.248, -0.969, 0.0]
+    description: Floor_East_SouthWall
+
