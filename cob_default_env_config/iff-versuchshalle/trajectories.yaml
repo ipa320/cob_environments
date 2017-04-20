@@ -1,0 +1,97 @@
+---
+# List of vertices with number and x and y coordinate
+# Each vertex is defined like this:   
+#                 'name (int)': ['x-coordinate', 'y-coordinate'] 
+# For example:    
+#                 1: [1.0, 3.0]
+
+v1: [-2.943, 2.469]
+v2: [0.002, 2.33]
+v3: [1.1198, 1.100]
+v4: [6.646, 1.633]
+#v5: [-0.00113872659858, 9.20213127136]
+v6: [0.599, 9.3169]
+v7: [0.04, 16.828]
+v8: [6.176, 8.823]
+
+---
+# List of trajectories with id, vertices, type and control point if type = bezier
+# Each trajectory is defined like this:   
+#                 - id: 'name'      (this is a string that will be visualized as the name)
+#                   type: 'type'    (this can be a bezier curve or line; types: 'bezier', 'line')
+#                   directed: 'y/n' (it can be directed to go from the first listed vertex to the second, or not)
+#                   vertices:       (defining start and end point)
+#                     - 'vertex 1 name (int)'
+#                     - 'vertex 2 name (int)'
+#                   control_points: (if type = 'bezier' control points need to be listed)
+#                     - ['x-coordinate', 'y-coordinate']
+#                     - ['x-coordinate', 'y-coordinate']
+# For example:            
+#                 - id: 1
+#                   type: bezier
+#                   directed: no
+#                   vertices: 
+#                     - v3
+#                     - v4
+#                   control_points: 
+#                     - [10.0, 8.0]
+#                     - [12.0, 10.0]
+#                     - [15.0, 7.0]
+
+- id: t1
+  type: line
+  width: 2.0
+  directed: no
+  vertices: 
+    - v1
+    - v2
+
+- id: t2
+  type: line
+  width: 2.0
+  directed: no
+  vertices: 
+    - v2
+    - v3
+
+- id: t3
+  type: line
+  width: 2.0
+  directed: no
+  vertices: 
+    - v3
+    - v4
+
+- id: t4
+  type: line
+  width: 2.0
+  directed: no
+  vertices: 
+    - v4
+    - v8
+
+- id: t5
+  type: line
+  width: 2.0
+  directed: no
+  vertices: 
+    - v8
+    - v6
+
+- id: t6
+  type: line
+  width: 2.0
+  directed: no
+  vertices: 
+    - v2
+    - v6
+
+- id: t7
+  type: line
+  width: 2.0
+  directed: no
+  vertices: 
+    - v6
+    - v7
+
+

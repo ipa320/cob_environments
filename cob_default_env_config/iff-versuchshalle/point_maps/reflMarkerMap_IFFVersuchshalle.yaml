@@ -1,0 +1,44 @@
+source_id: "lasermarker"
+features:
+  - id: 0
+    position: [0.0, 0.0, 0.0]
+    description: M0_Base
+  - id: 1
+    position: [7.626, 0.608, 0.0]
+    description: M1_Labdoor
+  - id: 2
+    position: [7.607, 1.854, 0.0]
+    description: M2_Officedoor
+  - id: 3
+    position: [5.371, 7.259, 0.0]
+    description: M3_Robot_Cell_Back
+  - id: 4
+    position: [2.972, 10.212, 0.0]
+    description: M4_Old_Milling_Machine	
+  - id: 5
+    position: [1.453, 17.615, 0.0]
+    description: M5_Station2_Right
+  - id: 6
+    position: [-2.596, 17.282, 0.0]
+    description: M6_Station2_Left
+  - id: 7
+    position: [-1.027, 10.531, 0.0]
+    description: M7_Manual_Pick_and_Assembly_Station
+  - id: 8
+    position: [0.963, 6.631, 0.0]
+    description: M8_Robot_Cell_Front
+  - id: 9
+    position: [-1.379, 3.818, 0.0]
+    description: M9_Big_Machine
+  - id: 10
+    position: [-3.642, 3.096, 0.0]
+    description: M10_Station1_Right
+  - id: 11
+    position: [-5.019, -1.362, 0.0]
+    description: M11_Station1_Left
+  - id: 12
+    position: [1.521, 16.135, 0.0]
+    description: M12_Station2_additional
+# Marker   M0     M1    M2    M3   M4       M5       M6      M7     M8      M9     M10     M11
+# x       0,000 7,626 7,607 5,371 2,972   1,453    -2,596  -1,027  0,963  -1,379  -3,642  -5,019
+# y       0,000 0,608 1,854 7,259 10,212  17,615  17,282  10,531  6,631   3,818   3,096  -1,362
