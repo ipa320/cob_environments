@@ -1,0 +1,530 @@
+source_id: "ground_marking"
+features:
+  - id: 0
+    source: [5, 63.83, 0.0]
+    target: [5, 10.75, 0.0]
+    description: imark_line_ground_marking_0
+  - id: 1
+    source: [0.800001, 63.83, 0.0]
+    target: [0.8, 10.75, 0.0]
+    description: imark_line_ground_marking_1
+  - id: 2
+    source: [0.800001, 61.18, 0.0]
+    target: [5, 61.18, 0.0]
+    description: imark_line_ground_marking_2
+  - id: 3
+    source: [0.800002, 58.53, 0.0]
+    target: [5, 58.53, 0.0]
+    description: imark_line_ground_marking_3
+  - id: 4
+    source: [0.800002, 55.88, 0.0]
+    target: [5, 55.88, 0.0]
+    description: imark_line_ground_marking_4
+  - id: 5
+    source: [0.800002, 53.23, 0.0]
+    target: [5, 53.23, 0.0]
+    description: imark_line_ground_marking_5
+  - id: 6
+    source: [0.800002, 50.58, 0.0]
+    target: [5, 50.58, 0.0]
+    description: imark_line_ground_marking_6
+  - id: 7
+    source: [0.800002, 47.93, 0.0]
+    target: [5, 47.93, 0.0]
+    description: imark_line_ground_marking_7
+  - id: 8
+    source: [0.800002, 45.28, 0.0]
+    target: [5, 45.28, 0.0]
+    description: imark_line_ground_marking_8
+  - id: 9
+    source: [0.800002, 42.63, 0.0]
+    target: [5, 42.63, 0.0]
+    description: imark_line_ground_marking_9
+  - id: 10
+    source: [0.800002, 39.98, 0.0]
+    target: [5, 39.98, 0.0]
+    description: imark_line_ground_marking_10
+  - id: 11
+    source: [0.800002, 37.33, 0.0]
+    target: [5, 37.33, 0.0]
+    description: imark_line_ground_marking_11
+  - id: 12
+    source: [0.800002, 34.68, 0.0]
+    target: [5, 34.68, 0.0]
+    description: imark_line_ground_marking_12
+  - id: 13
+    source: [0.800002, 32.03, 0.0]
+    target: [5, 32.03, 0.0]
+    description: imark_line_ground_marking_13
+  - id: 14
+    source: [0.800002, 29.38, 0.0]
+    target: [5, 29.38, 0.0]
+    description: imark_line_ground_marking_14
+  - id: 15
+    source: [0.800002, 26.73, 0.0]
+    target: [5, 26.73, 0.0]
+    description: imark_line_ground_marking_15
+  - id: 16
+    source: [0.800002, 24.08, 0.0]
+    target: [5, 24.08, 0.0]
+    description: imark_line_ground_marking_16
+  - id: 17
+    source: [0.800002, 21.43, 0.0]
+    target: [5, 21.43, 0.0]
+    description: imark_line_ground_marking_17
+  - id: 18
+    source: [0.800002, 18.87, 0.0]
+    target: [5, 18.87, 0.0]
+    description: imark_line_ground_marking_18
+  - id: 19
+    source: [0.800002, 16.13, 0.0]
+    target: [5, 16.13, 0.0]
+    description: imark_line_ground_marking_19
+  - id: 20
+    source: [0.800002, 13.47, 0.0]
+    target: [5, 13.47, 0.0]
+    description: imark_line_ground_marking_20
+  - id: 21
+    source: [0.800002, 10.83, 0.0]
+    target: [5, 10.83, 0.0]
+    description: imark_line_ground_marking_21
+  - id: 22
+    source: [1, 0.8, 0.0]
+    target: [45.1, 0.800001, 0.0]
+    description: imark_line_ground_marking_22
+  - id: 23
+    source: [1, 5, 0.0]
+    target: [45.1, 5, 0.0]
+    description: imark_line_ground_marking_23
+  - id: 24
+    source: [15.7, 0.8, 0.0]
+    target: [15.7, 5, 0.0]
+    description: imark_line_ground_marking_24
+  - id: 25
+    source: [13.25, 0.8, 0.0]
+    target: [13.25, 5, 0.0]
+    description: imark_line_ground_marking_25
+  - id: 26
+    source: [10.8, 0.8, 0.0]
+    target: [10.8, 5, 0.0]
+    description: imark_line_ground_marking_26
+  - id: 27
+    source: [8.35, 0.8, 0.0]
+    target: [8.35, 5, 0.0]
+    description: imark_line_ground_marking_27
+  - id: 28
+    source: [5.9, 0.8, 0.0]
+    target: [5.9, 5, 0.0]
+    description: imark_line_ground_marking_28
+  - id: 29
+    source: [3.45, 0.8, 0.0]
+    target: [3.45, 5, 0.0]
+    description: imark_line_ground_marking_29
+  - id: 30
+    source: [1, 0.8, 0.0]
+    target: [1, 5, 0.0]
+    description: imark_line_ground_marking_30
+  - id: 31
+    source: [18.15, 0.8, 0.0]
+    target: [18.15, 5, 0.0]
+    description: imark_line_ground_marking_31
+  - id: 32
+    source: [20.6, 0.8, 0.0]
+    target: [20.6, 5, 0.0]
+    description: imark_line_ground_marking_32
+  - id: 33
+    source: [23.05, 0.799999, 0.0]
+    target: [23.05, 5, 0.0]
+    description: imark_line_ground_marking_33
+  - id: 34
+    source: [25.5, 0.8, 0.0]
+    target: [25.5, 5, 0.0]
+    description: imark_line_ground_marking_34
+  - id: 35
+    source: [27.95, 0.8, 0.0]
+    target: [27.95, 5, 0.0]
+    description: imark_line_ground_marking_35
+  - id: 36
+    source: [30.4, 0.8, 0.0]
+    target: [30.4, 5, 0.0]
+    description: imark_line_ground_marking_36
+  - id: 37
+    source: [32.85, 0.8, 0.0]
+    target: [32.85, 5, 0.0]
+    description: imark_line_ground_marking_37
+  - id: 38
+    source: [35.3, 0.8, 0.0]
+    target: [35.3, 5, 0.0]
+    description: imark_line_ground_marking_38
+  - id: 39
+    source: [37.75, 0.8, 0.0]
+    target: [37.75, 5, 0.0]
+    description: imark_line_ground_marking_39
+  - id: 40
+    source: [40.2, 0.8, 0.0]
+    target: [40.2, 5, 0.0]
+    description: imark_line_ground_marking_40
+  - id: 41
+    source: [42.65, 0.8, 0.0]
+    target: [42.65, 5, 0.0]
+    description: imark_line_ground_marking_41
+  - id: 42
+    source: [45.1, 0.8, 0.0]
+    target: [45.1, 5, 0.0]
+    description: imark_line_ground_marking_42
+  - id: 43
+    source: [15.7, 15.35, 0.0]
+    target: [15.7, 33.55, 0.0]
+    description: imark_line_ground_marking_43
+  - id: 44
+    source: [15.7, 37.05, 0.0]
+    target: [15.7, 60, 0.0]
+    description: imark_line_ground_marking_44
+  - id: 45
+    source: [10.8708, 15.35, 0.0]
+    target: [10.9, 33.55, 0.0]
+    description: imark_line_ground_marking_45
+  - id: 46
+    source: [10.9, 37.05, 0.0]
+    target: [10.9, 60, 0.0]
+    description: imark_line_ground_marking_46
+  - id: 47
+    source: [20.5, 15.35, 0.0]
+    target: [20.5, 33.55, 0.0]
+    description: imark_line_ground_marking_47
+  - id: 48
+    source: [20.5, 37.05, 0.0]
+    target: [20.5, 52.95, 0.0]
+    description: imark_line_ground_marking_48
+  - id: 49
+    source: [31.1, 15.35, 0.0]
+    target: [31.1, 33.55, 0.0]
+    description: imark_line_ground_marking_49
+  - id: 50
+    source: [31.1, 37.05, 0.0]
+    target: [31.1, 52.95, 0.0]
+    description: imark_line_ground_marking_50
+  - id: 51
+    source: [26.3, 15.35, 0.0]
+    target: [26.3, 33.55, 0.0]
+    description: imark_line_ground_marking_51
+  - id: 52
+    source: [26.3, 37.05, 0.0]
+    target: [26.3, 52.95, 0.0]
+    description: imark_line_ground_marking_52
+  - id: 53
+    source: [35.9, 37.05, 0.0]
+    target: [35.9, 52.95, 0.0]
+    description: imark_line_ground_marking_53
+  - id: 54
+    source: [35.9, 10.95, 0.0]
+    target: [35.9, 33.55, 0.0]
+    description: imark_line_ground_marking_54
+  - id: 55
+    source: [10.8708, 33.5497, 0.0]
+    target: [20.4793, 33.5497, 0.0]
+    description: imark_line_ground_marking_55
+  - id: 56
+    source: [10.8708, 30.9, 0.0]
+    target: [20.4793, 30.9, 0.0]
+    description: imark_line_ground_marking_56
+  - id: 57
+    source: [10.8708, 28.25, 0.0]
+    target: [20.4793, 28.25, 0.0]
+    description: imark_line_ground_marking_57
+  - id: 58
+    source: [10.8708, 25.6, 0.0]
+    target: [20.4793, 25.6, 0.0]
+    description: imark_line_ground_marking_58
+  - id: 59
+    source: [10.8708, 22.95, 0.0]
+    target: [20.4793, 22.95, 0.0]
+    description: imark_line_ground_marking_59
+  - id: 60
+    source: [10.8708, 20.3, 0.0]
+    target: [20.4793, 20.3, 0.0]
+    description: imark_line_ground_marking_60
+  - id: 61
+    source: [10.8708, 17.65, 0.0]
+    target: [20.4793, 17.65, 0.0]
+    description: imark_line_ground_marking_61
+  - id: 62
+    source: [10.8166, 15.35, 0.0]
+    target: [20.4793, 15.35, 0.0]
+    description: imark_line_ground_marking_62
+  - id: 63
+    source: [26.3, 33.5497, 0.0]
+    target: [35.9, 33.5497, 0.0]
+    description: imark_line_ground_marking_63
+  - id: 64
+    source: [26.3, 30.9, 0.0]
+    target: [35.9, 30.9, 0.0]
+    description: imark_line_ground_marking_64
+  - id: 65
+    source: [26.3, 28.25, 0.0]
+    target: [35.9, 28.25, 0.0]
+    description: imark_line_ground_marking_65
+  - id: 66
+    source: [26.3, 25.6, 0.0]
+    target: [35.9, 25.6, 0.0]
+    description: imark_line_ground_marking_66
+  - id: 67
+    source: [26.3, 22.95, 0.0]
+    target: [35.9, 22.95, 0.0]
+    description: imark_line_ground_marking_67
+  - id: 68
+    source: [26.3, 20.3, 0.0]
+    target: [35.9, 20.3, 0.0]
+    description: imark_line_ground_marking_68
+  - id: 69
+    source: [26.3, 17.65, 0.0]
+    target: [35.9, 17.65, 0.0]
+    description: imark_line_ground_marking_69
+  - id: 70
+    source: [26.3, 15.35, 0.0]
+    target: [35.9, 15.35, 0.0]
+    description: imark_line_ground_marking_70
+  - id: 71
+    source: [26.3, 52.95, 0.0]
+    target: [35.9, 52.95, 0.0]
+    description: imark_line_ground_marking_71
+  - id: 72
+    source: [26.3, 50.3, 0.0]
+    target: [35.9, 50.3, 0.0]
+    description: imark_line_ground_marking_72
+  - id: 73
+    source: [26.3, 47.65, 0.0]
+    target: [35.9, 47.65, 0.0]
+    description: imark_line_ground_marking_73
+  - id: 74
+    source: [26.3, 45, 0.0]
+    target: [35.9, 45, 0.0]
+    description: imark_line_ground_marking_74
+  - id: 75
+    source: [26.3, 42.35, 0.0]
+    target: [35.9, 42.35, 0.0]
+    description: imark_line_ground_marking_75
+  - id: 76
+    source: [26.3, 39.7, 0.0]
+    target: [35.9, 39.7, 0.0]
+    description: imark_line_ground_marking_76
+  - id: 77
+    source: [26.3, 37.05, 0.0]
+    target: [35.9, 37.05, 0.0]
+    description: imark_line_ground_marking_77
+  - id: 78
+    source: [10.9, 52.95, 0.0]
+    target: [20.5, 52.95, 0.0]
+    description: imark_line_ground_marking_78
+  - id: 79
+    source: [10.9, 50.3, 0.0]
+    target: [20.5, 50.3, 0.0]
+    description: imark_line_ground_marking_79
+  - id: 80
+    source: [10.9, 47.65, 0.0]
+    target: [20.5, 47.65, 0.0]
+    description: imark_line_ground_marking_80
+  - id: 81
+    source: [10.9, 45, 0.0]
+    target: [20.5, 45, 0.0]
+    description: imark_line_ground_marking_81
+  - id: 82
+    source: [10.9, 42.35, 0.0]
+    target: [20.5, 42.35, 0.0]
+    description: imark_line_ground_marking_82
+  - id: 83
+    source: [10.9, 39.7, 0.0]
+    target: [20.5, 39.7, 0.0]
+    description: imark_line_ground_marking_83
+  - id: 84
+    source: [10.9, 37.05, 0.0]
+    target: [20.5, 37.05, 0.0]
+    description: imark_line_ground_marking_84
+  - id: 85
+    source: [10.9, 55.6, 0.0]
+    target: [15.7, 55.6, 0.0]
+    description: imark_line_ground_marking_85
+  - id: 86
+    source: [10.9, 58.25, 0.0]
+    target: [15.7, 58.25, 0.0]
+    description: imark_line_ground_marking_86
+  - id: 87
+    source: [10.9, 60, 0.0]
+    target: [36, 60, 0.0]
+    description: imark_line_ground_marking_87
+  - id: 88
+    source: [21.5, 60, 0.0]
+    target: [21.5, 57.35, 0.0]
+    description: imark_line_ground_marking_88
+  - id: 89
+    source: [26.3, 60, 0.0]
+    target: [26.3, 57.35, 0.0]
+    description: imark_line_ground_marking_89
+  - id: 90
+    source: [31.1, 60, 0.0]
+    target: [31.1, 57.35, 0.0]
+    description: imark_line_ground_marking_90
+  - id: 91
+    source: [36, 60, 0.0]
+    target: [36, 57.35, 0.0]
+    description: imark_line_ground_marking_91
+  - id: 92
+    source: [42.5, 65.95, 0.0]
+    target: [42.5, 11.35, 0.0]
+    description: imark_line_ground_marking_92
+  - id: 93
+    source: [47.3, 65.95, 0.0]
+    target: [42.5, 65.95, 0.0]
+    description: imark_line_ground_marking_93
+  - id: 94
+    source: [47.3, 65.95, 0.0]
+    target: [47.3, 11.35, 0.0]
+    description: imark_line_ground_marking_94
+  - id: 95
+    source: [15.7, 57.35, 0.0]
+    target: [36, 57.35, 0.0]
+    description: imark_line_ground_marking_95
+  - id: 96
+    source: [47.3, 63.35, 0.0]
+    target: [42.5, 63.35, 0.0]
+    description: imark_line_ground_marking_96
+  - id: 97
+    source: [47.3, 60.75, 0.0]
+    target: [42.5, 60.75, 0.0]
+    description: imark_line_ground_marking_97
+  - id: 98
+    source: [47.3, 58.15, 0.0]
+    target: [42.5, 58.15, 0.0]
+    description: imark_line_ground_marking_98
+  - id: 99
+    source: [47.3, 55.55, 0.0]
+    target: [42.5, 55.55, 0.0]
+    description: imark_line_ground_marking_99
+  - id: 100
+    source: [47.3, 52.95, 0.0]
+    target: [42.5, 52.95, 0.0]
+    description: imark_line_ground_marking_100
+  - id: 101
+    source: [47.3, 50.35, 0.0]
+    target: [42.5, 50.35, 0.0]
+    description: imark_line_ground_marking_101
+  - id: 102
+    source: [47.3, 47.75, 0.0]
+    target: [42.5, 47.75, 0.0]
+    description: imark_line_ground_marking_102
+  - id: 103
+    source: [47.3, 45.15, 0.0]
+    target: [42.5, 45.15, 0.0]
+    description: imark_line_ground_marking_103
+  - id: 104
+    source: [47.3, 42.55, 0.0]
+    target: [42.5, 42.55, 0.0]
+    description: imark_line_ground_marking_104
+  - id: 105
+    source: [47.3, 39.95, 0.0]
+    target: [42.5, 39.95, 0.0]
+    description: imark_line_ground_marking_105
+  - id: 106
+    source: [47.3, 37.35, 0.0]
+    target: [42.5, 37.35, 0.0]
+    description: imark_line_ground_marking_106
+  - id: 107
+    source: [47.3, 34.75, 0.0]
+    target: [42.5, 34.75, 0.0]
+    description: imark_line_ground_marking_107
+  - id: 108
+    source: [47.3, 32.15, 0.0]
+    target: [42.5, 32.15, 0.0]
+    description: imark_line_ground_marking_108
+  - id: 109
+    source: [47.3, 50.35, 0.0]
+    target: [42.5, 50.35, 0.0]
+    description: imark_line_ground_marking_109
+  - id: 110
+    source: [47.3, 29.55, 0.0]
+    target: [42.5, 29.55, 0.0]
+    description: imark_line_ground_marking_110
+  - id: 111
+    source: [47.3, 26.95, 0.0]
+    target: [42.5, 26.95, 0.0]
+    description: imark_line_ground_marking_111
+  - id: 112
+    source: [47.3, 24.35, 0.0]
+    target: [42.5, 24.35, 0.0]
+    description: imark_line_ground_marking_112
+  - id: 113
+    source: [47.3, 21.75, 0.0]
+    target: [42.5, 21.75, 0.0]
+    description: imark_line_ground_marking_113
+  - id: 114
+    source: [47.3, 19.15, 0.0]
+    target: [42.5, 19.15, 0.0]
+    description: imark_line_ground_marking_114
+  - id: 115
+    source: [47.3, 16.55, 0.0]
+    target: [42.5, 16.55, 0.0]
+    description: imark_line_ground_marking_115
+  - id: 116
+    source: [47.3, 13.95, 0.0]
+    target: [42.5, 13.95, 0.0]
+    description: imark_line_ground_marking_116
+  - id: 117
+    source: [47.3, 11.35, 0.0]
+    target: [42.5, 11.35, 0.0]
+    description: imark_line_ground_marking_117
+  - id: 118
+    source: [5, 64.65, 0.0]
+    target: [36.5, 64.65, 0.0]
+    description: imark_line_ground_marking_118
+  - id: 119
+    source: [36.5, 64.65, 0.0]
+    target: [36.5, 66.75, 0.0]
+    description: imark_line_ground_marking_119
+  - id: 120
+    source: [34.8, 64.65, 0.0]
+    target: [34.8, 66.75, 0.0]
+    description: imark_line_ground_marking_120
+  - id: 121
+    source: [28.8, 64.65, 0.0]
+    target: [28.8, 66.75, 0.0]
+    description: imark_line_ground_marking_121
+  - id: 122
+    source: [22.8, 64.65, 0.0]
+    target: [22.8, 66.75, 0.0]
+    description: imark_line_ground_marking_122
+  - id: 123
+    source: [16.8, 64.65, 0.0]
+    target: [16.8, 66.75, 0.0]
+    description: imark_line_ground_marking_123
+  - id: 124
+    source: [10.8, 64.65, 0.0]
+    target: [10.8, 66.75, 0.0]
+    description: imark_line_ground_marking_124
+  - id: 125
+    source: [39.2, 66.75, 0.0]
+    target: [39.2, 0.2, 0.0]
+    description: imark_line_ground_marking_125
+  - id: 126
+    source: [7.94, 66.75, 0.0]
+    target: [7.94, 0.2, 0.0]
+    description: imark_line_ground_marking_126
+  - id: 127
+    source: [23.45, 66.75, 0.0]
+    target: [23.45, 60, 0.0]
+    description: imark_line_ground_marking_127
+  - id: 128
+    source: [23.45, 52.95, 0.0]
+    target: [23.45, 15.35, 0.0]
+    description: imark_line_ground_marking_128
+  - id: 129
+    source: [23.45, 10.95, 0.0]
+    target: [23.45, 0.200005, 0.0]
+    description: imark_line_ground_marking_129
+  - id: 130
+    source: [31.1, 13.125, 0.0]
+    target: [35.9, 13.125, 0.0]
+    description: imark_line_ground_marking_130
+  - id: 131
+    source: [31.1, 10.9185, 0.0]
+    target: [35.9, 10.9125, 0.0]
+    description: imark_line_ground_marking_131
