@@ -1,0 +1,6 @@
+frame_id: earth
+child_frame_id: map
+latitude: 48.741110
+longitude: 9.100016
+altitude: 74.663
+heading: 3.075
