@@ -8,9 +8,7 @@
   <url type="website">http://ros.org/wiki/cob_environments</url>
   <!-- <url type="bugtracker"></url> -->
 
-  <maintainer email="fmw@ipa.fhg.de">Florian Weisshardt</maintainer>
-  <maintainer email="nhg@ipa.fhg.de">Nadia Hammoudeh Garcia</maintainer>
-  <author email="fmw@ipa.fhg.de">Florian Weisshardt</author>
+  <maintainer email="jba@ipa.fhg.de">Jannik Abbenseth</maintainer>
 
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>cob_default_env_config</exec_depend>
