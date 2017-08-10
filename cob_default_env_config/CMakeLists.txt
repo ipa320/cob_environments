@@ -10,6 +10,8 @@ set(envlist
   ipa-kitchen
   ipa-office  
   ipa-production-plant
+  izs-campus
+  izs-carpark-top
 )
 
 catkin_package(
