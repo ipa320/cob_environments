@@ -1,4 +1,4 @@
-image: test_map.pgm
+image: map.pgm
 resolution: 0.250000
 origin: [-119.199997, -228.000000, 0.000000]
 negate: 0
