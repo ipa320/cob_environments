@@ -1,5 +1,0 @@
-source_id: "rfid"
-features:
-  - id: 0
-    position: [-6.2548, -7.0215, 0.0]
-    description: imark_point_rfid_3
