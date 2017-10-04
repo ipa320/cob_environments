@@ -301,13 +301,13 @@ features:
     pose: [-24.794, -48.4763, 0.655086]
     description: imark_pose_lasercorner_119
   - id: 100
-    pose: [-21.2405, -38.007, 2.06612]
+    pose: [-21.2405, -38.0071, -1.0472]
     description: imark_pose_lasercorner_120
   - id: 101
-    pose: [-15.2003, -39.2157, 2.08368]
+    pose: [-15.2003, -39.2157, -1.0472]
     description: imark_pose_lasercorner_121
   - id: 102
-    pose: [-14.8505, -39.2782, 0.691722]
+    pose: [-14.8505, -39.2782, -2.44346]
     description: imark_pose_lasercorner_122
   - id: 103
     pose: [-11.3793, -19.7551, 0.648343]
