@@ -2,6 +2,14 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.5 (2017-07-18)
+------------------
+* refactor config structure
+* update apartment map
+* export envlist
+* manually fix changelog
+* Contributors: ipa-fmw, ipa-fxm
+
 0.6.4 (2016-10-10)
 ------------------
 * delete ipa-factory
