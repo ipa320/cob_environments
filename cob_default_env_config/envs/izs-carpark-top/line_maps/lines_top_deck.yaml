@@ -1,0 +1,50 @@
+source_id: "laserline"
+features:
+  - id: 0
+    source: [0.200006, 0.199999, 0.0]
+    target: [48.2, 0.199999, 0.0]
+    description: imark_line_laserline_0
+  - id: 1
+    source: [48.2, 0.2, 0.0]
+    target: [48.2, 66.75, 0.0]
+    description: imark_line_laserline_1
+  - id: 2
+    source: [48.2, 66.75, 0.0]
+    target: [5, 66.75, 0.0]
+    description: imark_line_laserline_2
+  - id: 3
+    source: [5, 66.75, 0.0]
+    target: [5, 63.83, 0.0]
+    description: imark_line_laserline_3
+  - id: 4
+    source: [5, 63.83, 0.0]
+    target: [0.200001, 63.83, 0.0]
+    description: imark_line_laserline_4
+  - id: 5
+    source: [0.199999, 63.83, 0.0]
+    target: [0.199999, 0.200006, 0.0]
+    description: imark_line_laserline_5
+  - id: 6
+    source: [13.21, 10.95, 0.0]
+    target: [31.1, 10.95, 0.0]
+    description: imark_line_laserline_6
+  - id: 7
+    source: [31.1, 10.95, 0.0]
+    target: [31.1, 15.35, 0.0]
+    description: imark_line_laserline_7
+  - id: 8
+    source: [31.1, 15.35, 0.0]
+    target: [13.21, 15.35, 0.0]
+    description: imark_line_laserline_8
+  - id: 9
+    source: [15.7, 52.95, 0.0]
+    target: [36, 52.95, 0.0]
+    description: imark_line_laserline_9
+  - id: 10
+    source: [15.7, 52.95, 0.0]
+    target: [15.7, 57.35, 0.0]
+    description: imark_line_laserline_10
+  - id: 11
+    source: [15.7, 57.35, 0.0]
+    target: [36, 57.35, 0.0]
+    description: imark_line_laserline_11

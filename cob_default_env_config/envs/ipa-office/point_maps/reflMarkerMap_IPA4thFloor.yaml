@@ -1,53 +1,50 @@
 source_id: "lasermarker"
 features:
+  - id: 0
+    position: [-7.72229, -6.84677, 0.0]
+    description: imark_point_lasermarker_3
   - id: 1
-    position: [-1.9392357, -1.1130101, 0.0]
-    description: Marker_East_404
+    position: [5.82037, 45.8399, 0.0]
+    description: imark_point_lasermarker_17
   - id: 2
-    position: [-0.6950296, -2.3525008, 0.0]
-    description: Marker_East_403
+    position: [4.15575, 46.1408, 0.0]
+    description: imark_point_lasermarker_18
   - id: 3
-    position: [-4.1881062, -3.3457546, 0.0]
-    description: Marker_East_406
+    position: [-1.14035, 42.5577, 0.0]
+    description: imark_point_lasermarker_19
   - id: 4
-    position: [-7.7222868, -6.8467680, 0.0]
-    description: Marker_East_408	
+    position: [-1.43914, 40.9087, 0.0]
+    description: imark_point_lasermarker_20
   - id: 5
-    position: [3.1738030, -0.1552379, 0.0]
-    description: Marker_Elevator
+    position: [2.10637, 35.7244, 0.0]
+    description: imark_point_lasermarker_21
   - id: 6
-    position: [11.0687915, 9.3195552, 0.0]
-    description: Marker_West_424
+    position: [3.78006, 35.3423, 0.0]
+    description: imark_point_lasermarker_22
   - id: 7
-    position: [12.1479129, 12.8708761, 0.0]
-    description: Marker_West_425
+    position: [9.08818, 38.9348, 0.0]
+    description: imark_point_lasermarker_23
   - id: 8
-    position: [13.3875699, 11.6260691, 0.0]
-    description: Marker_West_426
+    position: [9.37237, 40.5741, 0.0]
+    description: imark_point_lasermarker_24
   - id: 9
-    position: [9.8478594038448, 10.5881983388326, 0.0]
-    description: Marker_West_423
+    position: [5.24656, 36.394, 0.0]
+    description: imark_point_lasermarker_25
   - id: 10
-    position: [0.2299569822898, 1.0493845329517, 0.0]
-    description: Stairwell_South_East_Wall_Source
+    position: [6.31362, 48.4786, 0.0]
+    description: imark_point_lasermarker_26
   - id: 11
-    position: [0.2471393860352, 7.2664516973402, 0.0]
-    description: Stairwell_South_East_Wall_Target
+    position: [4.52592, 48.8132, 0.0]
+    description: imark_point_lasermarker_27
   - id: 12
-    position: [1.5182674726611, 8.5012865387816, 0.0]
-    description: Stairwell_South_West_Wall_Source
+    position: [5.19898, 52.4052, 0.0]
+    description: imark_point_lasermarker_28
   - id: 13
-    position: [7.7365871917351, 8.5027553825111, 0.0]
-    description: Stairwell_South_West_Wall_Target
+    position: [6.9106, 51.9738, 0.0]
+    description: imark_point_lasermarker_29
   - id: 14
-    position: [1.4707482811419, -0.2032488699445, 0.0]
-    description: Stairwell_North_East_Wall_Source
+    position: [6.0087, 57.1169, 0.0]
+    description: imark_point_lasermarker_30
   - id: 15
-    position: [7.6843475043024, -0.2142738472839, 0.0]
-    description: Stairwell_North_East_Wall_Target
-  - id: 16
-    position: [8.9803188254128, 7.2396524362813, 0.0]
-    description: Stairwell_North_West_Wall_Source
-  - id: 17
-    position: [8.9537138555287, 1.0162193343073, 0.0]
-    description: Stairwell_North_West_Wall_Target
+    position: [7.76875, 56.8391, 0.0]
+    description: imark_point_lasermarker_31

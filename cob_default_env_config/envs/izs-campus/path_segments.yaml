@@ -1,0 +1,254 @@
+control points:
+  - id: cp 32764
+    location: [-4.567808291682847e+20, -1.484870339578774e+20]
+    transition: []
+  - id: cp 32767
+    location: [114.9565658569336, -27.95404052734375]
+    transition: []
+  - id: cp 32770
+    location: [115.098258972168, -48.07540512084961]
+    transition: []
+  - id: cp 32775
+    location: [-10.09602737426758, -70.87503051757812]
+    transition: []
+  - id: cp 32778
+    location: [-5.416990756988522, -81.88903427124023]
+    transition: []
+  - id: cp 32780
+    location: [-5.681256771087646, -90.59757232666016]
+    transition: []
+  - id: cp 32782
+    location: [9.400513648986816, -98.25424957275391]
+    transition: []
+  - id: cp 32784
+    location: [31.06143760681152, -93.32548522949219]
+    transition: []
+  - id: cp 32786
+    location: [52.55888032913208, -83.15341949462891]
+    transition: []
+  - id: cp 32790
+    location: [93.84377288818359, -74.35305786132812]
+    transition: []
+  - id: cp 32792
+    location: [103.4104995727539, -75.11643218994141]
+    transition: []
+  - id: cp 32793
+    location: [115.7772827148437, -67.63835906982422]
+    transition: []
+  - id: cp 32795
+    location: [115.5516510009766, -58.71859359741211]
+    transition: []
+  - id: cp 32798
+    location: [-1.370342487504854e+21, -4.454611370580053e+20]
+    transition: []
+  - id: cp 32799
+    location: [-4.567808291682847e+20, -1.484870456860017e+20]
+    transition: []
+  - id: cp 32801
+    location: [38.88073348999023, 4.586877822875977]
+    transition: []
+  - id: cp 32803
+    location: [-12.81451320648193, -36.36955261230469]
+    transition: []
+  - id: cp 32805
+    location: [-13.18662357330322, -8.435446739196777]
+    transition: []
+  - id: cp 32806
+    location: [-2.646855354309082, 6.47353458404541]
+    transition: []
+  - id: cp 32807
+    location: [115.5605010986328, -7.586167812347412]
+    transition: []
+  - id: cp 32808
+    location: [105.7336578369141, 4.097936630249023]
+    transition: []
+  - id: cp 32811
+    location: [-14.28327465057373, 6.418394088745117]
+    transition: []
+  - id: cp 32812
+    location: [115.9523086547852, 2.691850900650024]
+    transition: []
+  - id: cp 32813
+    location: [116.484489440918, -75.94570159912109]
+    transition: []
+  - id: cp 32814
+    location: [-6.402406692504883, -100.5420227050781]
+    transition: []
+  - id: cp 32815
+    location: [90.06878662109375, -74.17203521728516]
+    transition: []
+  - id: cp 32816
+    location: [84.25453948974609, -78.59573364257812]
+    transition: []
+  - id: cp 32817
+    location: [64.36147689819336, -83.31745910644531]
+    transition: []
+  - id: cp 32819
+    location: [77.95232391357422, -83.90396881103516]
+    transition: []
+  - id: cp 32820
+    location: [40.79462051391602, -91.29949188232422]
+    transition: []
+  - id: cp 32821
+    location: [46.48337554931641, -82.86302947998047]
+    transition: []
+  - id: cp 32822
+    location: [114.9232635498047, -38.50081634521484]
+    transition: []
+  - id: cp 32823
+    location: [115.3939514160156, -40.3871955871582]
+    transition: []
+  - id: cp 32824
+    location: [-9.583110809326168, -77.0322151184082]
+    transition: []
+  - id: cp 32825
+    location: [-5.146143913269039, -78.51017379760742]
+    transition: []
+path segments:
+  - id: ps -572442753
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32793, cp 32795]
+    users: [human, robot]
+  - id: ps -572442754
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32792, cp 32813, cp 32793]
+    users: [human, robot]
+  - id: ps -572442755
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32790, cp 32792]
+    users: [human, robot]
+  - id: ps -572442756
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32816, cp 32815, cp 32790]
+    users: [human, robot]
+  - id: ps -572442757
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32786, cp 32817]
+    users: [human, robot]
+  - id: ps -572442758
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32784, cp 32820, cp 32821, cp 32786]
+    users: [human, robot]
+  - id: ps -572442759
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32782, cp 32784]
+    users: [human, robot]
+  - id: ps -572442760
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32780, cp 32814, cp 32782]
+    users: [human, robot]
+  - id: ps -572442761
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32778, cp 32780]
+    users: [human, robot]
+  - id: ps -572442762
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32775, cp 32824, cp 32825, cp 32778]
+    users: [human, robot]
+  - id: ps -572442763
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32803, cp 32775]
+    users: [human, robot]
+  - id: ps -572442765
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32770, cp 32795]
+    users: [human, robot]
+  - id: ps -572442766
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32767, cp 32822, cp 32823, cp 32770]
+    users: [human, robot]
+  - id: ps -572442767
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32807, cp 32767]
+    users: [human, robot]
+  - id: ps 1
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32798, cp 32798, cp 32798, cp 32799, cp 32764]
+    users: [human, robot]
+  - id: ps 2
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32808, cp 32801]
+    users: [human, robot]
+  - id: ps 3
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32801, cp 32806]
+    users: [human, robot]
+  - id: ps 4
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32803, cp 32805]
+    users: [human, robot]
+  - id: ps 5
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32805, cp 32811, cp 32806]
+    users: [human, robot]
+  - id: ps 6
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32808, cp 32812, cp 32807]
+    users: [human, robot]
+  - id: ps 7
+    type: bezier
+    width: 2
+    target_velocity: -1
+    directed: false
+    control points: [cp 32817, cp 32819, cp 32816]
+    users: [human, robot]

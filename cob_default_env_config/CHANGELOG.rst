@@ -2,6 +2,58 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.6 (2018-01-07)
+------------------
+* Merge pull request `#130 <https://github.com/ipa320/cob_environments/issues/130>`_ from ipa320/indigo_release_candidate
+  Indigo release candidate
+* Merge pull request `#129 <https://github.com/ipa320/cob_environments/issues/129>`_ from ipa-srd/feature/loc_map
+  Added loc map functionality
+* added symlinks
+* Merge pull request `#128 <https://github.com/ipa320/cob_environments/issues/128>`_ from ipa-srd/feature/new_map_ipa_office
+  New map for ipa-office
+* Merge pull request `#3 <https://github.com/ipa320/cob_environments/issues/3>`_ from ipa-fke/feature/update_ps
+  Feature/update ps
+* remove rfid
+* deleted deprecated localgrids and rfid file
+* reorient few corners, missed one rfid
+* Merge pull request `#2 <https://github.com/ipa320/cob_environments/issues/2>`_ from ipa-fke/feature/update_ps
+  update ps and features
+* update ps and features
+* new map containing 4th floor of E building with transition and some parts of to D building
+* Merge pull request `#127 <https://github.com/ipa320/cob_environments/issues/127>`_ from ipa-fke/improvement/calib_map
+  Improvement/calib map
+* changed path segments & map features
+* map with calibrated laser
+* Merge pull request `#125 <https://github.com/ipa320/cob_environments/issues/125>`_ from ipa-bnm/feature/map-izs-campus
+  izs-campus env
+* Merge branch 'feature/map-izs-campus' of github.com:ipa-bnm/cob_environments into feature/map-izs-campus
+* removed unused files
+* Merge pull request `#1 <https://github.com/ipa320/cob_environments/issues/1>`_ from ipa-srd/fix/izs-campus-map
+  better map for izs-campus
+* better map for izs-campus
+* modified map
+* Merge branch 'feature/map-izs-campus' of github.com:ipa-bnm/cob_environments into feature/map-izs-campus
+* updated path segments
+* added missing object_groups.yaml to izs-carpark-top
+* added missing object_groups.yaml
+* Merge pull request `#126 <https://github.com/ipa320/cob_environments/issues/126>`_ from ipa-fxm/update_maintainer
+  update maintainer
+* added izs-campus and izs-carpark-top to CMake install list
+* updated path segments
+* update maintainer
+* initial version of izs-campus env
+* Merge pull request `#122 <https://github.com/ipa320/cob_environments/issues/122>`_ from ipa-fxm/APACHE_license
+  use license apache 2.0
+* Merge pull request `#124 <https://github.com/ipa320/cob_environments/issues/124>`_ from ipa-flg/indigo_dev
+  added path segment map to IZS carpark top
+* added path segment map to IZS carpark top
+* Merge pull request `#121 <https://github.com/ipa320/cob_environments/issues/121>`_ from ipa-jba/envs/izs-carpark-top
+  add izs-carpark-top config
+* use license apache 2.0
+* use git mv to rename the environment into lowercase
+* add izs-carpark-top config
+* Contributors: Benjamin Maidel, Felix Messmer, Jannik Abbenseth, Matthias Gruhler, Stefan Dörr, ipa-fez, ipa-fke, ipa-flg, ipa-fxm, ipa-srd, ipa-uhr-mk
+
 0.6.5 (2017-07-18)
 ------------------
 * refactor config structure

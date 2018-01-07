@@ -2,6 +2,18 @@
 Changelog for package cob_environments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.6 (2018-01-07)
+------------------
+* Merge pull request `#130 <https://github.com/ipa320/cob_environments/issues/130>`_ from ipa320/indigo_release_candidate
+  Indigo release candidate
+* Merge pull request `#126 <https://github.com/ipa320/cob_environments/issues/126>`_ from ipa-fxm/update_maintainer
+  update maintainer
+* update maintainer
+* Merge pull request `#122 <https://github.com/ipa320/cob_environments/issues/122>`_ from ipa-fxm/APACHE_license
+  use license apache 2.0
+* use license apache 2.0
+* Contributors: Felix Messmer, Jannik Abbenseth, ipa-fxm, ipa-uhr-mk
+
 0.6.5 (2017-07-18)
 ------------------
 * manually fix changelog
