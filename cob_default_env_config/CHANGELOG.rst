@@ -2,8 +2,8 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.7 (2019-03-14)
+------------------
 * Merge pull request `#132 <https://github.com/ipa320/cob_environments/issues/132>`_ from fmessmer/nav_command_buttons
   add nav and command buttons to all envs
 * add nav and command buttons to all envs
