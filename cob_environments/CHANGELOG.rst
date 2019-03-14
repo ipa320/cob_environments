@@ -2,6 +2,9 @@
 Changelog for package cob_environments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.7 (2019-03-14)
+------------------
+
 0.6.6 (2018-01-07)
 ------------------
 * Merge pull request `#130 <https://github.com/ipa320/cob_environments/issues/130>`_ from ipa320/indigo_release_candidate

@@ -2,6 +2,13 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.7 (2019-03-14)
+------------------
+* Merge pull request `#132 <https://github.com/ipa320/cob_environments/issues/132>`_ from fmessmer/nav_command_buttons
+  add nav and command buttons to all envs
+* add nav and command buttons to all envs
+* Contributors: Felix Messmer, fmessmer
+
 0.6.6 (2018-01-07)
 ------------------
 * Merge pull request `#130 <https://github.com/ipa320/cob_environments/issues/130>`_ from ipa320/indigo_release_candidate
