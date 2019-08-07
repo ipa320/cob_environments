@@ -2,6 +2,9 @@
 Changelog for package cob_environments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.6.9 (2019-08-06)
 ------------------
 
