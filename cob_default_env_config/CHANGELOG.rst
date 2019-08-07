@@ -2,6 +2,13 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.10 (2019-08-07)
+-------------------
+* Merge pull request `#134 <https://github.com/ipa320/cob_environments/issues/134>`_ from floweisshardt/feature/spawn_with_explicit_package_and_type
+  adapt to new yaml layout of spawn_object script
+* adapt to new yaml layout of spawn_object script
+* Contributors: Felix Messmer, floweisshardt
+
 0.6.9 (2019-08-06)
 ------------------
 

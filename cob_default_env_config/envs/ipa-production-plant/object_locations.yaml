@@ -7,228 +7,186 @@
 
 # Kanban row up 1
 kanban_01:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 5, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_02:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 6.4, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_03:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 9, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_04:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 10.4, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_05:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 13, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_06:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 14.4, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_07:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 17, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_08:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 18.4, 10, 0]
   orientation: [ 0, 0, 0]
 
 # Kanban row up 2
 kanban_09:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 21, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_10:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 22.4, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_11:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 25, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_12:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 26.4, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_13:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 29, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_14:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 30.4, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_15:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 33, 10, 0]
   orientation: [ 0, 0, 0]
 kanban_16:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 34.4, 10, 0]
   orientation: [ 0, 0, 0]
 
 # Kanban row down 1
 kanban_18:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 9, -8.5, 0]
   orientation: [ 0, 0, 3.14]
 kanban_19:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 10.4, -8.5, 0]
   orientation: [ 0, 0, 3.14]
 kanban_20:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 11.8, -8.5, 0]
   orientation: [ 0, 0, 3.14]
 
 # Kanban row down 2
 kanban_21:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 17.5, -8.5, 0]
   orientation: [ 0, 0, 3.14]
 kanban_22:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 18.9, -8.5, 0]
   orientation: [ 0, 0, 3.14]
 kanban_23:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 21.3, -8.5, 0]
   orientation: [ 0, 0, 3.14]
 kanban_24:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 22.7, -8.5, 0]
   orientation: [ 0, 0, 3.14]
 kanban_25:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 25.1, -8.5, 0]
   orientation: [ 0, 0, 3.14]
 kanban_26:
-  model: kanban
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kanban.urdf
   position: [ 26.5, -8.5, 0]
   orientation: [ 0, 0, 3.14]
 
 
 # Assembly Area with robots
 assembly_area:
-  model: assembly_area
-  model_type: urdf
+  model: cob_gazebo_objects/objects/assembly_area.urdf
   position: [ 9.3, -1.6, 0]
   orientation: [ 0, 0, 0]
 box_01:
-  model: box
-  model_type: urdf
+  model: cob_gazebo_objects/objects/box.urdf
   position: [ 5.5, 3.5, 0]
   orientation: [ 0, 0, 0]
 robot_arm_01:
-  model: robot_arm
-  model_type: urdf
+  model: cob_gazebo_objects/objects/robot_arm.urdf
   position: [ 5.5, 3.5, 0.5]
   orientation: [ 0, 0, 0.79]
 box_02:
-  model: box
-  model_type: urdf
+  model: cob_gazebo_objects/objects/box.urdf
   position: [ 5.5, -1.5, 0]
   orientation: [ 0, 0, 0]
 robot_arm_02:
-  model: robot_arm
-  model_type: urdf
+  model: cob_gazebo_objects/objects/robot_arm.urdf
   position: [ 5.5, -1.5, 0.5]
   orientation: [ 0, 0, 0.79]
 box_03:
-  model: box
-  model_type: urdf
+  model: cob_gazebo_objects/objects/box.urdf
   position: [ 9, 1.25, 0]
   orientation: [ 0, 0, 0]
 robot_arm_03:
-  model: robot_arm
-  model_type: urdf
+  model: cob_gazebo_objects/objects/robot_arm.urdf
   position: [ 9, 1.25, 0.5]
   orientation: [ 0, 0, 0]
 
 # Conveyor with Robots 1
 conveyor_01:
-  model: conveyor
-  model_type: urdf
+  model: cob_gazebo_objects/objects/conveyor.urdf
   position: [ 20.5, -0.2, 0]
   orientation: [ 0, 0, -1.57]
 robot_arm_04:
-  model: robot_arm
-  model_type: urdf
+  model: cob_gazebo_objects/objects/robot_arm.urdf
   position: [ 22.5, 1, 0]
   orientation: [ 0, 0, -0.96]
 robot_arm_05:
-  model: robot_arm
-  model_type: urdf
+  model: cob_gazebo_objects/objects/robot_arm.urdf
   position: [ 22.5, -4, 0]
   orientation: [ 0, 0, -0.96]
 robot_arm_06:
-  model: robot_arm
-  model_type: urdf
+  model: cob_gazebo_objects/objects/robot_arm.urdf
   position: [ 19.5, -1.5, 0]
   orientation: [ 0, 0, 0.79]
 
 # Conveyor with Robots 1
 conveyor_02:
-  model: conveyor
-  model_type: urdf
+  model: cob_gazebo_objects/objects/conveyor.urdf
   position: [ 28.5, -0.2, 0]
   orientation: [ 0, 0, -1.57]
 robot_arm_07:
-  model: robot_arm
-  model_type: urdf
+  model: cob_gazebo_objects/objects/robot_arm.urdf
   position: [ 30.5, 1, 0]
   orientation: [ 0, 0, -0.96]
 robot_arm_08:
-  model: robot_arm
-  model_type: urdf
+  model: cob_gazebo_objects/objects/robot_arm.urdf
   position: [ 30.5, -4, 0]
   orientation: [ 0, 0, -0.96]
 robot_arm_09:
-  model: robot_arm
-  model_type: urdf
+  model: cob_gazebo_objects/objects/robot_arm.urdf
   position: [ 27.5, -1.5, 0]
   orientation: [ 0, 0, 0.79]
 
 # Stairs
 stairs_01:
-  model: stairs
-  model_type: urdf
+  model: cob_gazebo_objects/objects/stairs.urdf
   position: [ 36.7, 4, 0]
   orientation: [ 0, 0, 3.14]
 stairs_02:
-  model: stairs
-  model_type: urdf
+  model: cob_gazebo_objects/objects/stairs.urdf
   position: [ 36.4, -6, 0]
   orientation: [ 0, 0, 0]
 
@@ -243,719 +201,582 @@ stairs_02:
 ##################################
 
 shelf_a1:
-  model: shelf
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf.urdf
   position: [ -14.6, 0, 0]
   orientation: [ 0, 0, 1.5708]
   children:
     pallet1:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ -5.15, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet2:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ -4.25, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet3:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ -3.35, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet4:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ -2.3, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet5:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ -1.4, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet6:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ -0.5, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet7:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 0.5, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet8:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 1.4, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet9:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 2.3, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet10:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 3.35, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet11:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 4.25, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet12:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 5.15, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
 
 shelf_c1:
-  model: shelf
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf.urdf
   position: [ -8.65, 0, 0]
   orientation: [ 0, 0, 1.5708]
   children:
     gitterbox2:
-      model: cage_box
-      model_type: urdf
+      model: cob_gazebo_objects/objects/cage_box.urdf
       position: [ -5.15, 0, 0]
       orientation: [ 0, 0, 1.5708]
     gitterbox4:
-      model: cage_box
-      model_type: urdf
+      model: cob_gazebo_objects/objects/cage_box.urdf
       position: [ -3.35, 0, 0]
       orientation: [ 0, 0, 1.5708]
     gitterbox5:
-      model: cage_box
-      model_type: urdf
+      model: cob_gazebo_objects/objects/cage_box.urdf
       position: [ -1.4, 0, 0]
       orientation: [ 0, 0, 1.5708]
     gitterbox6:
-      model: cage_box
-      model_type: urdf
+      model: cob_gazebo_objects/objects/cage_box.urdf
       position: [ -0.51, 0, 0]
       orientation: [ 0, 0, 1.5708]
     pallet11:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 3.3, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet12:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 4.3, 0, 0]
       orientation: [ 0, 0, 1.5]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
 
 shelf_e1:
-  model: shelf
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf.urdf
   position: [ -2.75, 0, 0]
   orientation: [ 0, 0, 1.5708]
   children:
     pallet1:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ -4.25, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet2:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ -3.35, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet3:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ -2.35, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet4:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ -1.4, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet5:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ -0.52, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet6:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 0.52, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet7:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 1.4, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet8:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 2.32, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet9:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 3.34, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet10:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 2.34, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet11:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 4.25, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
     pallet12:
-      model: pallet
-      model_type: urdf
+      model: cob_gazebo_objects/objects/pallet.urdf
       position: [ 5.2, 0, 0]
       orientation: [ 0, 0, 1.5708]
       children:
         packet1:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet2:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, -0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet3:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ 0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
         packet4:
-          model: packet
-          model_type: urdf
+          model: cob_gazebo_objects/objects/packet.urdf
           position: [ -0.3, 0.2, 0.15]
           orientation: [ 0, 0, 0]
 
@@ -972,89 +793,73 @@ shelf_e1:
 
 # Shelf Line 1  
 super_market_shelf1_01:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ 0.00, -14.91, 0]
   orientation: [ 0, 0, 0]
 super_market_shelf2_01:
-  model: shelf_super_market2
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market2.urdf
   position: [ -4.80, -15, 0]
   orientation: [ 0, 0, 1.57]
 super_market_shelf2_02:
-  model: shelf_super_market2
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market2.urdf
   position: [ -13.33, -15, 0]
   orientation: [ 0, 0, 1.57]
 super_market_shelf1_02:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ -17.96, -14.91, 0]
   orientation: [ 0, 0, 0]
 
 # Shelf Line 2  
 super_market_shelf1_03:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ 0.00, -18.91, 0]
   orientation: [ 0, 0, 0]
 super_market_shelf2_03:
-  model: shelf_super_market2
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market2.urdf
   position: [ -4.80, -19, 0]
   orientation: [ 0, 0, 1.57]
 super_market_shelf2_04:
-  model: shelf_super_market2
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market2.urdf
   position: [ -13.33, -19, 0]
   orientation: [ 0, 0, 1.57]
 super_market_shelf1_04:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ -17.96, -18.91, 0]
   orientation: [ 0, 0, 0]
 
 # Shelf Line 3  
 super_market_shelf1_05:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ 0.00, -22.91, 0]
   orientation: [ 0, 0, 0]
 super_market_shelf2_05:
-  model: shelf_super_market2
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market2.urdf
   position: [ -4.80, -23, 0]
   orientation: [ 0, 0, 1.57]
 super_market_shelf2_06:
-  model: shelf_super_market2
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market2.urdf
   position: [ -13.33, -23, 0]
   orientation: [ 0, 0, 1.57]
 super_market_shelf1_06:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ -17.96, -22.91, 0]
   orientation: [ 0, 0, 0]
 
 # Shelf Line 4  
 super_market_shelf1_07:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ 0.00, -26.91, 0]
   orientation: [ 0, 0, 0]
 super_market_shelf2_07:
-  model: shelf_super_market2
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market2.urdf
   position: [ -4.80, -27, 0]
   orientation: [ 0, 0, 1.57]
 super_market_shelf2_08:
-  model: shelf_super_market2
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market2.urdf
   position: [ -13.33, -27, 0]
   orientation: [ 0, 0, 1.57]
 super_market_shelf1_08:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ -17.96, -26.91, 0]
   orientation: [ 0, 0, 0]
 
@@ -1071,89 +876,73 @@ super_market_shelf1_08:
 
 # Refridgerator Line 1a
 refridgerator_01:
-  model: refridgerator
-  model_type: urdf
+  model: cob_gazebo_objects/objects/refridgerator.urdf
   position: [ 8.20, -17.50, 0]
   orientation: [ 0, 0, 0]
 refridgerator_02:
-  model: refridgerator
-  model_type: urdf
+  model: cob_gazebo_objects/objects/refridgerator.urdf
   position: [ 8.30, -19.35, 0]
   orientation: [ 0, 0, 3.14]
 super_market_shelf1_01:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ 12.14, -17.35, 0]
   orientation: [ 0, 0, 0]
 super_market_shelf1_02:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ 12.14, -19.45, 0]
   orientation: [ 0, 0, 0]
 
  # Refridgerator Line 1b
 refridgerator_03:
-  model: refridgerator
-  model_type: urdf
+  model: cob_gazebo_objects/objects/refridgerator.urdf
   position: [ 21.25, -17.50, 0]
   orientation: [ 0, 0, 0]
 refridgerator_04:
-  model: refridgerator
-  model_type: urdf
+  model: cob_gazebo_objects/objects/refridgerator.urdf
   position: [ 21.35, -19.35, 0]
   orientation: [ 0, 0, 3.14]
 super_market_shelf1_03:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ 17.45, -17.35, 0]
   orientation: [ 0, 0, 0]
 super_market_shelf1_04:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ 17.45, -19.45, 0]
   orientation: [ 0, 0, 0]
 
  # Refridgerator Line 2a
 refridgerator_05:
-  model: refridgerator
-  model_type: urdf
+  model: cob_gazebo_objects/objects/refridgerator.urdf
   position: [ 8.20, -26.75, 0]
   orientation: [ 0, 0, 0]
 refridgerator_06:
-  model: refridgerator
-  model_type: urdf
+  model: cob_gazebo_objects/objects/refridgerator.urdf
   position: [ 8.30, -28.60, 0]
   orientation: [ 0, 0, 3.14]
 super_market_shelf1_05:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ 12.14, -26.60, 0]
   orientation: [ 0, 0, 0]
 super_market_shelf1_06:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ 12.14, -28.70, 0]
   orientation: [ 0, 0, 0]
 
 # Refridgerator Line 2b
 refridgerator_07:
-  model: refridgerator
-  model_type: urdf
+  model: cob_gazebo_objects/objects/refridgerator.urdf
   position: [ 21.25, -26.75, 0]
   orientation: [ 0, 0, 0]
 refridgerator_08:
-  model: refridgerator
-  model_type: urdf
+  model: cob_gazebo_objects/objects/refridgerator.urdf
   position: [ 21.35, -28.60, 0]
   orientation: [ 0, 0, 3.14]
 super_market_shelf1_07:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ 17.45, -26.60, 0]
   orientation: [ 0, 0, 0]
 super_market_shelf1_08:
-  model: shelf_super_market1
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_super_market1.urdf
   position: [ 17.45, -28.70, 0]
   orientation: [ 0, 0, 0]
 
@@ -1170,63 +959,52 @@ super_market_shelf1_08:
 
 # Columns 
 column_01:
-  model: column
-  model_type: urdf
+  model: cob_gazebo_objects/objects/column.urdf
   position: [ 33.00, -15.00, 0]
   orientation: [ 0, 0, 0]
 column_02:
-  model: column
-  model_type: urdf
+  model: cob_gazebo_objects/objects/column.urdf
   position: [ 33.00, -20.00, 0]
   orientation: [ 0, 0, 0]
 column_03:
-  model: column
-  model_type: urdf
+  model: cob_gazebo_objects/objects/column.urdf
   position: [ 33.00, -25.00, 0]
   orientation: [ 0, 0, 0]
 column_04:
-  model: column
-  model_type: urdf
+  model: cob_gazebo_objects/objects/column.urdf
   position: [ 33.00, -30.00, 0]
   orientation: [ 0, 0, 0]
 column_05:
-  model: column
-  model_type: urdf
+  model: cob_gazebo_objects/objects/column.urdf
   position: [ 33.00, -35.00, 0]
   orientation: [ 0, 0, 0]
 
 # Cabinets
 cabinet_01:
-  model: cabinet_ikea_galant
-  model_type: urdf
+  model: cob_gazebo_objects/objects/cabinet_ikea_galant.urdf
   position: [ 10.56, -35.31, 0]
   orientation: [ 0, 0, 0]
 cabinet_02:
-  model: cabinet_ikea_galant
-  model_type: urdf
+  model: cob_gazebo_objects/objects/cabinet_ikea_galant.urdf
   position: [ 12.56, -35.31, 0]
   orientation: [ 0, 0, 0]
 cabinet_03:
-  model: cabinet_ikea_galant
-  model_type: urdf
+  model: cob_gazebo_objects/objects/cabinet_ikea_galant.urdf
   position: [ 14.56, -35.31, 0]
   orientation: [ 0, 0, 0]
 
 
 # Tables
 table_01:
-  model: table_living_room
-  model_type: urdf
+  model: cob_gazebo_objects/objects/table_living_room.urdf
   position: [ 0.0, -39.20, 0]
   orientation: [ 0, 0, 1.57]
 table_02:
-  model: table_living_room
-  model_type: urdf
+  model: cob_gazebo_objects/objects/table_living_room.urdf
   position: [ 2.0, -39.20, 0]
   orientation: [ 0, 0, 1.57]
 table_03:
-  model: table_living_room
-  model_type: urdf
+  model: cob_gazebo_objects/objects/table_living_room.urdf
   position: [ 4.0, -39.20, 0]
   orientation: [ 0, 0, 1.57]
 
@@ -1243,251 +1021,203 @@ table_03:
 
 # Room: warehouse
 reflector_marker_01:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 1.8, 12.8, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_02:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ -6, 12.8, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_03:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ -12, 12.8, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_04:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ -19.8, 12.8, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_05:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 1.8, -10.8, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_06:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ -6, -10.8, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_07:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ -12, -10.8, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_08:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ -19.8, -10.8, 0]
   orientation: [ 0, 0, 0]
 
 # Room: machine-room
 reflector_marker_09:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 2.2, 9.2, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_10:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 2.2, 5.8, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_11:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 4.8, -1.2, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_12:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 12.32, 9.4, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_13:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 24.32, 9.4, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_14:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 35.1, 9.4, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_15:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 35.74, 2.1, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_16:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 35.74, -4.1, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_17:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 29.55, 5.57, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_18:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 29.55, -5.94, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_19:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 20.27, 5.57, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_20:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 20.27, -5.94, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_21:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 9.65, 1.65, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_22:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 2.2, -10.8, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_23:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 13.1, -10.8, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_24:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 16.4, -10.8, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_25:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 27.4, -10.8, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_26:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 30.7, -10.8, 0]
   orientation: [ 0, 0, 0]
 
 # Room: super-market 1
 reflector_marker_27:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ -19.5, -11.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_28:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 1.5, -11.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_29:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 1.5, -21, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_30:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 1.5, -34, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_31:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ -19.5, -34, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_32:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ -19.5, -21, 0]
   orientation: [ 0, 0, 0]
 
 # Room: super-market 2
 reflector_marker_33:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 2.5, -11.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_34:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 27, -11.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_35:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 2.5, -34.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_36:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 24, -34.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_37:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 2.5, -18.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_38:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 27, -18.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_39:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 12, -25.6, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_40:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 18, -25.6, 0]
   orientation: [ 0, 0, 0]
 
 # Room: hallway_1
 reflector_marker_41:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 31, -11.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_42:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 37.5, -11.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_43:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 28, -34.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_44:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 37.5, -35, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_45:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 24, -39.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_46:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ 6, -35.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_47:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ -11, -35.5, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_48:
-  model: reflector_marker
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker.sdf
   position: [ -3.5, -39.5, 0]
   orientation: [ 0, 0, 0]
 
@@ -1496,143 +1226,116 @@ reflector_marker_48:
 
 # west
 reflector_marker_49:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 38.0505, 8.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_50:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 38.0505, 4.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_51:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 38.0505, 0.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_52:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 38.0505, -4.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_53:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 38.0505, -8.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_54:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 38.0505, -12.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_55:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 38.0505, -16.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_56:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 38.0505, -20.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_57:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 38.0505,-24.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_58:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 38.0505, -28.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_59:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 38.0505, -32.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_60:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 38.0505, -36.0, 0]
   orientation: [ 0, 0, 0]
 
 # east
 reflector_marker_61:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 40.9495, 10.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_62:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 40.9495, 6.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_63:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 40.9495, 2.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_64:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 40.9495, -2.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_65:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 40.9495, -6.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_66:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 40.9495, -10.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_67:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 40.9495, -14.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_68:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 40.9495, -18.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_69:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 40.9495, -22.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_70:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 40.9495, -26.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_71:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 40.9495, -30.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_72:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 40.9495, -34.0, 0]
   orientation: [ 0, 0, 0]
 reflector_marker_73:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 40.9495, -38.0, 0]
   orientation: [ 0, 0, 0]
 
 # north
 reflector_marker_74:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 39.5, 12.9495, 0]
   orientation: [ 0, 0, 1.5708]
 
 # south
 reflector_marker_75:
-  model: reflector_marker_flat
-  model_type: sdf
+  model: cob_gazebo_objects/objects/reflector_marker_flat.sdf
   position: [ 39.5, -39.9495, 0]
   orientation: [ 0, 0, 1.5708]

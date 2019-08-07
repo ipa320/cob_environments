@@ -1,5 +1,4 @@
 milk1:
-  model: milk
-  model_type: urdf
+  model: cob_gazebo_objects/objects/milk.urdf
   position: [-1.5, -0.5, 1.02]
   orientation: [0, 0, 0]

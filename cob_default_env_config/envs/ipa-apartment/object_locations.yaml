@@ -3,44 +3,37 @@
 ##################################
 
 salt:
-  model: salt
-  model_type: urdf
+  model: cob_gazebo_objects/objects/salt.urdf
   position: [ -1.5, -1.0, 0.9 ]
   orientation: [0, 0, 1.570796]
 
 tomato_soup:
-  model: tomato_soup
-  model_type: urdf
+  model: cob_gazebo_objects/objects/tomato_soup.urdf
   position: [-1.5, -0.2, 0.9]
   orientation: [0, 0, 1.570796]
 
 zwieback:
-  model: zwieback
-  model_type: urdf
+  model: cob_gazebo_objects/objects/zwieback.urdf
   position: [-1.5, -0.7, 0.9]
   orientation: [0, 0, 1.570796]
 
 tomato_sauce:
-  model: tomato_sauce
-  model_type: urdf
+  model: cob_gazebo_objects/objects/tomato_sauce.urdf
   position: [-1.7, -1.1, 0.9]
   orientation: [0, 0, 1.570796]
 
 basmati_rice:
-  model: basmati_rice
-  model_type: urdf
+  model: cob_gazebo_objects/objects/basmati_rice.urdf
   position: [1.9, -1.6, 0.8]
   orientation: [0, -1.570796, 3.5]
 
 corn_flakes_package:
-  model: corn_flakes_package
-  model_type: urdf
+  model: cob_gazebo_objects/objects/corn_flakes_package.urdf
   position: [-1.55, -0.51, 1.05]
   orientation: [0, 0, 0.4]
 
 spaghetti:
-  model: spaghetti
-  model_type: urdf
+  model: cob_gazebo_objects/objects/spaghetti.urdf
   position: [-1.85, 0.61, 1.49]
   orientation: [0, 0, 0]
 
@@ -49,20 +42,17 @@ spaghetti:
 ##################################
 
 orange_juice_hohesc:
-  model: orange_juice_hohesc
-  model_type: urdf
+  model: cob_gazebo_objects/objects/orange_juice_hohesc.urdf
   position: [1.3, -1.3, 0.8]
   orientation: [0, 1.570796, 0]
 
 green_tea:
-  model: green_tea
-  model_type: urdf
+  model: cob_gazebo_objects/objects/green_tea.urdf
   position: [1.5, -1.3, 0.8]
   orientation: [0, 1.570796, 0.9]
 
 milk:
-  model: milk
-  model_type: urdf
+  model: cob_gazebo_objects/objects/milk.urdf
   position: [-1.4, -0.5, 0.9]
   orientation: [0, 0, 0]
 
@@ -73,126 +63,106 @@ milk:
 ##Kitchen
 
 cabinet:
-  model: cabinet
-  model_type: urdf.xacro
+  model: cob_gazebo_objects/objects/cabinet.urdf.xacro
   position: [0,1.35,0]
   orientation: [0, 0, 0]
 
 cabinet_diamondback:
-  model: cabinet_diamondback
-  model_type: urdf
+  model: cob_gazebo_objects/objects/cabinet_diamondback.urdf
   position: [-0.6, 1.47, 0.00]
   orientation: [0, 0, -1.570796327]
 
 couch:
-  model: couch
-  model_type: urdf.xacro
+  model: cob_gazebo_objects/objects/couch.urdf.xacro
   position: [3.6,0.6,0]
   orientation: [0, 0,-1.57079]
 
 cabinet_ikea_galant:
-  model: cabinet_ikea_galant
-  model_type: urdf
+  model: cob_gazebo_objects/objects/cabinet_ikea_galant.urdf
   position: [1.30, 1.38, 0.00]
   orientation: [0, 0, 0]
 
 chair_ikea_borje:
-  model: chair_ikea_borje
-  model_type: urdf
+  model: cob_gazebo_objects/objects/chair_ikea_borje.urdf
   position: [1.5, -0.8, 0.00]
   orientation: [0, 0, 0]
 
 chair_ikea_borje2:
-  model: chair_ikea_borje
-  model_type: urdf
+  model: cob_gazebo_objects/objects/chair_ikea_borje.urdf
   position: [1.5, -2, 0.00]
   orientation: [0, 0, 3.141592654]
 
 table_ikea_bjursta:
-  model: table_ikea_bjursta
-  model_type: urdf.xacro
+  model: cob_gazebo_objects/objects/table_ikea_bjursta.urdf.xacro
   position: [1.5,-1.4, 0]
   orientation: [0, 0, 1.570796]
 
 bookcase:
-  model: bookcase
-  model_type: urdf.xacro
+  model: cob_gazebo_objects/objects/bookcase.urdf.xacro
   position: [3.95, -1.8, 0]
   orientation: [0, 0, 0]
 
 ## Living room
 
 table_living_room:
-  model: table_living_room
-  model_type: urdf
+  model: cob_gazebo_objects/objects/table_living_room.urdf
   position: [-5.46, 2.51, 0.00]
   orientation: [0, 0, -2.35619449]
 
 table_tv:
-  model: table_tv
-  model_type: urdf
+  model: cob_gazebo_objects/objects/table_tv.urdf
   position: [-6.695, 1.445, 0.00]
   orientation: [0, 0, -0.785398164]
 
 tv_samsung:
-  model: tv_samsung
-  model_type: urdf
+  model: cob_gazebo_objects/objects/tv_samsung.urdf
   position: [-6.775, 1.365, 0.57]
   orientation: [0, 0, 2.35619449]
 
 shelf_white:
-  model: shelf_white
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_white.urdf
   position: [-8.05, 2.81, 0]
   orientation: [0, 0, 0.785398164]
 
 cabinet_living_room:
-  model: cabinet_living_room
-  model_type: urdf
+  model: cob_gazebo_objects/objects/cabinet_living_room.urdf
   position: [-7.65, 5.44, 0.00]
   orientation: [0, 0, 0]
 
 table_bedside:
-  model: table_bedside
-  model_type: urdf
+  model: cob_gazebo_objects/objects/table_bedside.urdf
   position: [-3.43, 2.55, 0.00]
   orientation: [0, 0, 0.785398164]
 
 couch2:
-  model: couch
-  model_type: urdf.xacro
+  model: cob_gazebo_objects/objects/couch.urdf.xacro
   position: [-4.72, 3.22, 0]
   orientation: [0, 0, -0.785398164]
 
 ## Bedroom
 
 bed:
-  model: bed
-  model_type: urdf
+  model: cob_gazebo_objects/objects/bed.urdf
   position: [-7.52, 11.84, 0.0]
   orientation: [0, 0, 0]
 
 cabinet_ikea_malm_small:
-  model: cabinet_ikea_malm_small
-  model_type: urdf
+  model: cob_gazebo_objects/objects/cabinet_ikea_malm_small.urdf
   position: [-6.76, 12.53, 0.0]
   orientation: [0, 0, -1.570796327]
 
 chair_wicker:
-  model: chair_wicker
-  model_type: urdf
+  model: cob_gazebo_objects/objects/chair_wicker.urdf
   position: [-10.25, 13.24, 0.00]
   orientation: [0, 0, 0.45]
 
 cabinet_ikea_malm_big:
-  model: cabinet_ikea_malm_big
-  model_type: urdf
+  model: cob_gazebo_objects/objects/cabinet_ikea_malm_big.urdf
   position: [-8.77, 13.64, 0.00]
   orientation: [0, 0, 3.141592654]
 
 shelf_white2:
-  model: shelf_white
-  model_type: urdf
+  model: cob_gazebo_objects/objects/shelf_white.urdf
   position: [-9.42, 11.65, 0]
   orientation: [0, 0, 1.570796327]
 
@@ -201,152 +171,127 @@ shelf_white2:
 ##################################
 
 plant_pot_purple:
-  model: plant_pot_purple
-  model_type: urdf
+  model: cob_gazebo_objects/objects/plant_pot_purple.urdf
   position: [-1.85, -0.61, 1.46]
   orientation: [0, 0, 0]
 
 plant_pot_purple2:
-  model: plant_pot_purple
-  model_type: urdf
+  model: cob_gazebo_objects/objects/plant_pot_purple.urdf
   position: [1, 1.85, 0.9]
   orientation: [0, 0, 0]
 
 plant_floor_big:
-  model: plant_floor_big
-  model_type: urdf
+  model: cob_gazebo_objects/objects/plant_floor_big.urdf
   position: [-6.5, 5.26, 0.0]
   orientation: [0, 0, 0]
 
 plant_floor_small:
-  model: plant_floor_small
-  model_type: urdf
+  model: cob_gazebo_objects/objects/plant_floor_small.urdf
   position: [-6.10, 4.86, 0.0]
   orientation: [0, 0, 0]
 
 plant_pot_white:
-  model: plant_pot_white
-  model_type: urdf
+  model: cob_gazebo_objects/objects/plant_pot_white.urdf
   position: [3.95, -1.8, 0.85]
   orientation: [0, 0, 3.141592654]
 
 plant_flower_white:
-  model: plant_flower_white
-  model_type: urdf
+  model: cob_gazebo_objects/objects/plant_flower_white.urdf
   position: [-8.64, 13.51, 0.78]
   orientation: [0, 0, 0]
 
 candle_thin:
-  model: candle_thin
-  model_type: urdf
+  model: cob_gazebo_objects/objects/candle_thin.urdf
   position: [-8.0, 5.4, 0.82]
   orientation: [0, 0, 3.141592654]
 
 clock_living_room:
-  model: clock_living_room
-  model_type: urdf
+  model: cob_gazebo_objects/objects/clock_living_room.urdf
   position: [-9.05, 5.16, 1.00]
   orientation: [0, 0, 0]
 
 candle_thick_holder:
-  model: candle_thick_holder
-  model_type: urdf
+  model: cob_gazebo_objects/objects/candle_thick_holder.urdf
   position: [-3.43, 2.55, 0.45]
   orientation: [0, 0, 0.785398164]
 
 candle_thick:
-  model: candle_thick
-  model_type: urdf
+  model: cob_gazebo_objects/objects/candle_thick.urdf
   position: [-3.43, 2.55, 0.655]
   orientation: [0, 0, 0.785398164]
 
 lamp_ikea_arstid:
-  model: lamp_ikea_arstid
-  model_type: urdf
+  model: cob_gazebo_objects/objects/lamp_ikea_arstid.urdf
   position: [-6.76, 12.53, 0.55]
   orientation: [0, 0, 0]
 
 book_romantiker:
-  model: book_romantiker
-  model_type: urdf
+  model: cob_gazebo_objects/objects/book_romantiker.urdf
   position: [-9.51, 11.54, 1]
   orientation: [0, 0, 3.141592654]
 
 book_gardening:
-  model: book_gardening
-  model_type: urdf
+  model: cob_gazebo_objects/objects/book_gardening.urdf
   position: [-9.449, 11.545, 0.97]
   orientation: [0, 0, 3.141592654]
 
 book_heilkrauter:
-  model: book_heilkrauter
-  model_type: urdf
+  model: cob_gazebo_objects/objects/book_heilkrauter.urdf
   position: [-9.305, 11.54, 0.89]
   orientation: [0, -1.570796, 3.141592654]
 
 book_pferdewitze:
-  model: book_pferdewitze
-  model_type: urdf
+  model: cob_gazebo_objects/objects/book_pferdewitze.urdf
   position: [-9.31, 11.54, 0.92]
   orientation: [0, -1.570796, 3.141592654]
 
 book_journal_brown:
-  model: book_journal_brown
-  model_type: urdf
+  model: cob_gazebo_objects/objects/book_journal_brown.urdf
   position: [-9.03, 13.69, 0.81]
   orientation: [0, -1.570796, -1.570796327]
 
 book_set_buecherschau:
-  model: book_set_buecherschau
-  model_type: urdf
+  model: cob_gazebo_objects/objects/book_set_buecherschau.urdf
   position: [-8.27, 2.81, 0.98]
   orientation: [0, 0, -2.35619449]
 
 book_emancipation:
-  model: book_emancipation
-  model_type: urdf
+  model: cob_gazebo_objects/objects/book_emancipation.urdf
   position: [-7.12, 5.38, 0.84]
   orientation: [4.2, -1.570796, 0]
 
 box_wicker:
-  model: box_wicker
-  model_type: urdf
+  model: cob_gazebo_objects/objects/box_wicker.urdf
   position: [-9.695, 11.65, 0.945]
   orientation: [0, 0, 0]
 
 box_wood:
-  model: box_wood
-  model_type: urdf
+  model: cob_gazebo_objects/objects/box_wood.urdf
   position: [-8.7, 13.71, 0.852]
   orientation: [0, 0, -1.570796327]
 
 medicine_panodil:
-  model: medicine_panodil
-  model_type: urdf
+  model: cob_gazebo_objects/objects/medicine_panodil.urdf
   position: [-8.44, 13.45, 0.78]
   orientation: [0, 0, -1.570796327]
 
 medicine_prospan:
-  model: medicine_prospan
-  model_type: urdf
+  model: cob_gazebo_objects/objects/medicine_prospan.urdf
   position: [-6.91, 12.66, 0.61]
   orientation: [0, 0, 0]
 
 picture_family:
-  model: picture_family
-  model_type: urdf
+  model: cob_gazebo_objects/objects/picture_family.urdf
   position: [-9.11, 11.6, 0.87]
   orientation: [0, 0, 1.570796327]
 
 picture_bodegon:
-  model: picture_bodegon
-  model_type: urdf
+  model: cob_gazebo_objects/objects/picture_bodegon.urdf
   position: [-7.70, 11.31, 1.7]
   orientation: [0, 0, 0]
 
 blanket_colored:
-  model: blanket_colored
-  model_type: urdf
+  model: cob_gazebo_objects/objects/blanket_colored.urdf
   position: [-9.59, 11.62, 0.65]
   orientation: [0, 0, 1.570796327]
 
@@ -355,19 +300,16 @@ blanket_colored:
 ##################################
 
 plastic_wrap:
-  model: plastic_wrap
-  model_type: urdf
+  model: cob_gazebo_objects/objects/plastic_wrap.urdf
   position: [-1.85, -1.31, 1.48]
   orientation: [0, 0, 0]
 
 kitekat:
-  model: kitekat
-  model_type: urdf
+  model: cob_gazebo_objects/objects/kitekat.urdf
   position: [-1.85, -0.3, 1]
   orientation: [0, 0, 3.141592654]
 
 cb_9x6:
-  model: cb_9x6
-  model_type: urdf
+  model: cob_gazebo_objects/objects/cb_9x6.urdf
   position: [-0.7, -0.1, 1]
   orientation: [1.56, 0, 1.56]
