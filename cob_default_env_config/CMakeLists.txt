@@ -15,7 +15,7 @@ set(envlist
 )
 
 catkin_package(
-  CFG_EXTRAS cob_default_env_config-extras.cmake
+  CFG_EXTRAS ${PROJECT_NAME}-extras.cmake
 )
 
 ### TEST ###
