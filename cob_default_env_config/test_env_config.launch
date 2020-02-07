@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+	<arg name="robot_env" default="$(optenv ROBOT_ENV !!NO_ROBOT_ENV_SET!!)"/>
+
+	<!-- test mandatory files for navigation -->
+	<rosparam command="load" ns="nirvana" file="$(find cob_default_env_config)/envs/$(arg robot_env)/map.yaml"/>
+	<rosparam command="load" ns="nirvana" file="$(find cob_default_env_config)/envs/$(arg robot_env)/loc_map.yaml"/>
+	
+	<!-- disabled due to non-default file naming conventions -->
+	<!--rosparam command="load" ns="nirvana" file="$(find cob_default_env_config)/envs/$(arg robot_env)/line_maps/laserline.yaml"/>
+	<rosparam command="load" ns="nirvana" file="$(find cob_default_env_config)/envs/$(arg robot_env)/point_maps/lasermarker.yaml"/>
+	<rosparam command="load" ns="nirvana" file="$(find cob_default_env_config)/envs/$(arg robot_env)/polygon_maps/restriction_polygon.yaml"/>
+	<rosparam command="load" ns="nirvana" file="$(find cob_default_env_config)/envs/$(arg robot_env)/pose_maps/lasercorner.yaml"/>
+	<rosparam command="load" ns="nirvana" file="$(find cob_default_env_config)/envs/$(arg robot_env)/path_segments.yaml"/-->
+
+</launch>
