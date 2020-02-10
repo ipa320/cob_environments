@@ -4,7 +4,7 @@ project(cob_default_env_config)
 find_package(catkin REQUIRED)
 
 set(envlist
-  automotive-assembly-line
+  #automotive-assembly-line
   empty
   ipa-apartment
   ipa-kitchen
