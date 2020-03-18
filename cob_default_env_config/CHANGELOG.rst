@@ -2,8 +2,8 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.11 (2020-03-18)
+-------------------
 * Merge pull request `#140 <https://github.com/ipa320/cob_environments/issues/140>`_ from fmessmer/add_launch_checks
   add launch check for mandatory nav config files
 * no longer support automotive-assembly-line
