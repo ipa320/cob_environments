@@ -2,6 +2,18 @@
 Changelog for package cob_default_env_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.11 (2020-03-18)
+-------------------
+* Merge pull request `#140 <https://github.com/ipa320/cob_environments/issues/140>`_ from fmessmer/add_launch_checks
+  add launch check for mandatory nav config files
+* no longer support automotive-assembly-line
+* add mandatory files to empty
+* add launch check for mandatory nav config files
+* Merge pull request `#138 <https://github.com/ipa320/cob_environments/issues/138>`_ from fmessmer/ci_updates
+  [travis] ci updates
+* catkin_lint fixes
+* Contributors: Felix Messmer, fmessmer
+
 0.6.10 (2019-08-07)
 -------------------
 * Merge pull request `#134 <https://github.com/ipa320/cob_environments/issues/134>`_ from floweisshardt/feature/spawn_with_explicit_package_and_type
