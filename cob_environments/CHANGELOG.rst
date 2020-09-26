@@ -2,8 +2,8 @@
 Changelog for package cob_environments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.12 (2020-09-26)
+-------------------
 * Merge pull request `#141 <https://github.com/ipa320/cob_environments/issues/141>`_ from fmessmer/test_noetic
   test noetic
 * Bump CMake version to avoid CMP0048 warning
